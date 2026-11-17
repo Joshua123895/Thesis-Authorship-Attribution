@@ -1,9 +1,0 @@
-transformers
-torch
-scikit-learn
-pandas
-numpy
-nltk
-tqdm
-langdetect
-pyarrow

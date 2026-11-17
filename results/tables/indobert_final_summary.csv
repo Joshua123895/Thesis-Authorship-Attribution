@@ -1,0 +1,2 @@
+model,epochs,n_seeds,acc_mean,acc_std_across_seeds,acc_std_across_folds,f1_mean,f1_std_across_seeds,f1_std_across_folds
+IndoBERT,20,3,14.666666666666666,0.7637626158259733,4.589467538666579,9.291029341029342,0.6738203071550241,3.9984381166920655

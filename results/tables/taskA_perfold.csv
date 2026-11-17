@@ -1,0 +1,33 @@
+scheme,config,fold,acc,macro_f1
+leave-one-topic-out,length only,Lifestyle,2.0,0.5
+leave-one-topic-out,length only,Olahraga,4.0,0.65
+leave-one-topic-out,length only,Politik,4.0,2.5
+leave-one-topic-out,length only,Teknologi,2.0,0.2
+leave-one-topic-out,stylometric only,Lifestyle,4.0,4.0
+leave-one-topic-out,stylometric only,Olahraga,2.0,0.8
+leave-one-topic-out,stylometric only,Politik,6.0,4.8
+leave-one-topic-out,stylometric only,Teknologi,8.0,6.333333333333332
+leave-one-topic-out,char n-gram 2-4,Lifestyle,20.0,15.933333333333334
+leave-one-topic-out,char n-gram 2-4,Olahraga,32.0,24.133333333333333
+leave-one-topic-out,char n-gram 2-4,Politik,18.0,10.685470085470085
+leave-one-topic-out,char n-gram 2-4,Teknologi,26.0,19.71111111111111
+leave-one-topic-out,char + stylometric,Lifestyle,20.0,15.933333333333334
+leave-one-topic-out,char + stylometric,Olahraga,32.0,24.666666666666664
+leave-one-topic-out,char + stylometric,Politik,18.0,10.71111111111111
+leave-one-topic-out,char + stylometric,Teknologi,28.000000000000004,22.11111111111111
+random split,length only,fold1,2.0,0.4
+random split,length only,fold2,0.0,0.0
+random split,length only,fold3,6.0,2.7777777777777777
+random split,length only,fold4,4.0,0.8636363636363636
+random split,stylometric only,fold1,6.0,3.6666666666666665
+random split,stylometric only,fold2,8.0,6.0
+random split,stylometric only,fold3,10.0,7.333333333333333
+random split,stylometric only,fold4,2.0,2.0
+random split,char n-gram 2-4,fold1,4.0,3.3333333333333335
+random split,char n-gram 2-4,fold2,4.0,4.0
+random split,char n-gram 2-4,fold3,0.0,0.0
+random split,char n-gram 2-4,fold4,6.0,4.0
+random split,char + stylometric,fold1,4.0,3.3333333333333335
+random split,char + stylometric,fold2,4.0,4.0
+random split,char + stylometric,fold3,0.0,0.0
+random split,char + stylometric,fold4,6.0,4.0

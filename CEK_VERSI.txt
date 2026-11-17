@@ -1,0 +1,16 @@
+Kalau src/corpus.py TIDAK ADA di folder src/, berarti kamu memakai ZIP yang lama.
+Versi ini (v2) harus punya 10 file di src/:
+
+  build_corpus.py
+  config.py
+  corpus.py        <-- ini yang baru, perbaikan error pyarrow
+  features.py
+  run_all.py
+  run_indobert.py
+  run_mechanism.py
+  run_taskA.py
+  run_taskB.py
+  splits.py
+
+Data mentah sudah disertakan di data/raw/ (4 file Excel).
+data/processed/ dan results/ sengaja dikosongkan supaya diproses dari nol.

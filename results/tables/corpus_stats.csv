@@ -1,0 +1,5 @@
+tahap,unit,jumlah,penulis,median_kata
+baris dibaca dari 40 sheet,baris,2202,,
+jawaban mentah (baris tanpa teks dibuang),jawaban,2162,59.0,17.0
+hanya siswa lengkap 4 topik,jawaban,1988,50.0,17.0
+setelah agregasi,dokumen,200,50.0,200.0

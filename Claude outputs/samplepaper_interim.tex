@@ -1,0 +1,269 @@
+%% CI2A 2027 (UKDW Yogyakarta) - IEEE conference format.
+%% Page budget: 6 pages included in registration, 8 absolute maximum
+%% (INR 500 per page for pages 7 and 8).
+%% Compile with IEEEtran.cls (built in to Overleaf: use the
+%% "IEEE Conference Proceedings" template, or upload IEEEtran.cls).
+
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\usepackage{cite}
+\usepackage{array}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric,arrows.meta,positioning,fit,calc}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\setlength{\textfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\dbltextfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\intextsep}{8pt plus 2pt minus 2pt}
+\setlength{\abovecaptionskip}{4pt}
+
+\begin{document}
+
+\title{Quantifying the Effect of Document Construction\\on Authorship Attribution Accuracy in\\Indonesian Student Examination Answers}
+
+\author{%
+\footnotesize
+\begin{tabular}{@{}>{\centering}p{0.49\textwidth}@{}
+                   >{\centering}p{0.49\textwidth}@{}}
+{\normalsize 1\textsuperscript{st} Clara Jessica}\\
+\textit{Computer Science Department, School of Computer Science}\\
+\textit{Bina Nusantara University}\\
+Jakarta, Indonesia\\
+clara.jessica003@binus.ac.id &
+{\normalsize 2\textsuperscript{nd} Jeffkins Andrew Likadinata}\\
+\textit{Computer Science Department, School of Computer Science}\\
+\textit{Bina Nusantara University}\\
+Jakarta, Indonesia\\
+jeffkins.likadinata@binus.ac.id \tabularnewline
+\rule{0pt}{4.5ex}{\normalsize 3\textsuperscript{rd} Joshua Michael Irwanto}\\
+\textit{Computer Science Department, School of Computer Science}\\
+\textit{Bina Nusantara University}\\
+Jakarta, Indonesia\\
+joshua.irwanto@binus.ac.id &
+{\normalsize 4\textsuperscript{th} Henry Lucky}\\
+\textit{Computer Science Department, School of Computer Science}\\
+\textit{Bina Nusantara University}\\
+Jakarta, Indonesia\\
+henry.lucky@binus.edu
+\end{tabular}}
+
+\maketitle
+
+\begin{abstract}
+Authorship attribution is usually evaluated by pooling each author's documents and splitting them at random, which leaves training and test documents on much the same subjects, so the reported score mixes authorial style with subject matter. This paper measures that effect on Indonesian examination writing, where it is stronger because every student answers the same questions, so content is shared across students and not only within one student's own work. Using a public corpus of online essay examination answers (50 students, 4 topics, 40 questions, 1988 answers), the questions are assigned at random to four topic-balanced groups, each document is formed from one student's answers to one group, and one whole group is held out per fold, so the test questions are absent from every candidate's training data while the two partitions keep nearly the same topic composition. With every hyperparameter chosen by nested validation, character n-grams with a linear support vector machine reach 28.0 per cent accuracy against a 2.0 per cent chance level (28.6 $\pm$ 2.8 over five random groupings), a 244-feature stylometric block alone reaches 16.5 per cent, and a fine-tuned IndoBERT reaches 40.3 per cent. The construction decides the result: shuffling each student's answers into chunks independently of other students reduces the same character n-gram system to 2.2 per cent, and holding out whole topics lowers it to 22.5 per cent. The contribution is a protocol and a measurement rather than a new model, showing that for examination data the document and fold construction must be reported for an attribution score to be interpretable.
+\end{abstract}
+
+\begin{IEEEkeywords}
+authorship attribution, topic control, held-out questions, Indonesian, stylometry, evaluation protocol
+\end{IEEEkeywords}
+
+\section{Introduction}
+
+Authorship attribution (AA) is the computational problem of inferring who wrote a text from recurring linguistic, stylistic and structural patterns in it, and is applied to literary works, scientific papers, online communication and source code \cite{Bogomolov2021,He2024,Huang2024}. Academic integrity is one reason it matters in practice: a submitted answer can be entirely original and still not be the student's own work, leaving no overlapping text for plagiarism software to find, since such software detects similarity rather than establishing authorship \cite{Pratiwi2021,He2024,Tyo2022}. Detecting such a ghostwritten submission must begin from the writing itself. That motivates attribution research, but two questions have to be kept apart. Attribution asks which of a known set of candidates wrote a text. Asking whether one named person wrote it, when the true writer need not be a candidate at all, is a separate problem and is not addressed here. The corpus used here is an ordinary examination with no ghostwriting in it, and what is measured throughout is attribution accuracy over a fixed set of 50 candidates, which, as work on responsible use argues, should inform a human decision maker rather than stand as proof \cite{Saxena2025}.
+
+The accuracies reported in prior research are high, and they are usually obtained in one experimental configuration: the documents of each author are pooled and then split at random into training and test sets. Because authors tend to write repeatedly on the same subjects, a test document is then likely to have a training companion on the same subject by the same author, so a model can identify the author from topical vocabulary instead of style. This is documented rather than hypothetical. Attribution is markedly harder when training and test documents differ in topic or genre, a form of domain shift \cite{Barlas2021}. Author representations learned from text encode what an author writes about as well as how they write, so a high score cannot be credited to style alone \cite{Wegmann2022,Terreau2021}. A pairing of author with topic that differs between training and test can mislead a classifier rather than merely weaken it \cite{Altakrori2021}.
+
+Examination answers make topical overlap impossible to ignore. Every student answers the same questions, so the same content turns up in several students' answers and again across the answers of any one student. Whether a split separates those overlaps or keeps them together changes the score. The direction is not the one prior research leads one to expect. Where an author writes on subjects nobody else covers, an uncontrolled split flatters a model, because topical vocabulary points at the right author. Where every candidate answers the same questions, it does the reverse: shared content points at the wrong candidates \cite{Altakrori2021}, so the uncontrolled design depresses the score instead of raising it. Topic is interference here, not a shortcut.
+
+This design is termed topic-controlled. It keeps the topic composition of the training and test partitions nearly equal while making the individual questions disjoint between them, so every candidate has the same topics on both sides of the split and topic cannot count as evidence for one candidate over another. The candidate set is fixed and the true author is always among the candidates. The open-set case, in which the writer may not be a candidate at all, is not evaluated here \cite{Huang2024,Tyo2022}.
+
+Indonesian AA has been studied mainly on social media posts and news articles, using classical machine learning, recurrent networks and transformer models, with IndoBERT reported ahead of the alternatives \cite{Saputra2023,Saputra2024,Muliono2023,Putra2022,Shaw2025}. These studies share one evaluation convention: documents are pooled by author and split at random, and how subject matter is distributed between the two partitions is neither controlled nor reported. None of them works on examination writing, where the shared-question structure makes that distribution the dominant factor rather than a secondary one. The reported Indonesian accuracies therefore cannot be read as measurements of style, because how much of each one comes from subject matter is unknown.
+
+This paper sets out to answer three questions about Indonesian examination writing. First, how accurately can a student be identified from examination answers when the questions in the test set appear in no candidate's training data and the topic composition of the training and test partitions is held nearly equal? Second, how much of the measured accuracy belongs to the construction of the documents and folds rather than to the model? This question is answered by rebuilding the documents without that control and running an identical system on them. Third, does the advantage reported for IndoBERT over feature-based models on Indonesian text survive once the content shared between candidates has been controlled?
+
+The contribution is thus a protocol and a measurement rather than a new model: a document and fold construction for examination data that keeps question content balanced across candidates, Indonesian attribution accuracy under it over repeated random groupings, a measurement of what happens when the construction is not controlled, and a comparison of a linear stylometric system with a fine-tuned transformer on folds neither can exploit.
+
+\section{Related Work}
+
+\subsection{Feature-Based and Neural Attribution}
+
+Early attribution systems use stylistic features such as word choice, sentence length, punctuation and sentence structure, which recur across an author's texts and work well with classifiers such as support vector machines. Deep learning has not settled the field: on matched stylometric data, conventional classifiers outperform LSTM- and CNN-based models, particularly on small, highly structured sets \cite{Sayoud2025}. Combining feature types helps more than any single type \cite{Suljic2024}, and attribution scales to thousands of candidates given enough text per author \cite{Bauersfeld2023}.
+
+Later work learns author representations directly from text with transformer models \cite{Wang2023}. Whether those representations encode style or content is disputed: an evaluation framework built to test this finds that simpler sentence embedding models can capture stylistic variation better than transformer-based author embeddings do \cite{Terreau2021}. Surveys of the area name generalisation to new kinds of text as a standing limitation, together with explainability and dependence on the training data \cite{Huang2024,Habib2025}.
+
+\subsection{Topic as a Confounder in Attribution}
+
+The features that identify an author within a corpus are partly topical, which makes attribution sensitive to domain shift: when training and test documents differ in genre or topic, accuracy falls well below the same-genre, same-topic case, and transfer learning is used to recover part of the difference \cite{Barlas2021}. Probing studies show that author representations carry subject matter as well as style, and that a model evaluated only where training and test share topics is rewarded for encoding that subject matter \cite{Wegmann2022,Wang2023,Terreau2021}. The topic confusion task makes the consequence explicit: when the pairing between authors and topics differs between training and test, classifiers that score well under a random split can fall below chance, because topical evidence now points at the wrong author \cite{Altakrori2021}.
+
+The same pattern holds beyond topic, notably over time: source code attribution methods effective on fixed test sets degrade on time-varying data \cite{Bogomolov2021}, and style evolution has to be modelled for performance to hold \cite{Li2024}. The question is the same in each case: how much of a reported score depends on the test set resembling the training set in some way unrelated to the author?
+
+The evaluation setup, and not only the model, therefore changes conclusions. Under VALLA, a standardised collection of data and procedures, n-gram models outperform transformers on most attribution tasks, transformers leading only as text per author increases \cite{Tyo2022}, and the same methods across diverse corpora give substantially different results \cite{Murauer2021}. A reported accuracy is as much a property of a protocol as of a method, which is the premise of the experiments reported here.
+
+\subsection{Authorship Attribution in Indonesian}
+
+Indonesian attribution research is comparatively small and concentrated on social media posts and news articles. It applies classical machine learning, recurrent networks and transformer models, and reports IndoBERT ahead of the alternatives \cite{Saputra2023,Saputra2024,Muliono2023,Putra2022,Shaw2025}. Related work on statement extraction in Indonesian journalism uses the same model families and attributes statements without modelling writing style \cite{Yohanes2024}, while research on academic plagiarism in Indonesia addresses textual similarity and policy rather than original text produced by a third party \cite{Pratiwi2021}. This research is closed-set classification on curated corpora, so the open-set case is largely unexamined, and small corpora are a recurring constraint, addressed in other languages with generative augmentation \cite{Silva2023} and one-shot use of large language models \cite{Hu2024}. It also inherits the same evaluation convention: documents are pooled by author and split at random, with no control over how subject matter divides between the partitions.
+
+Examination answers are a case where that omission is decisive rather than incidental. All candidates write to the same prompts, so the same content appears in different authors' documents and not only within one author's own, and the grouping of answers into documents decides whether that content helps attribution, hinders it, or is neutral. Indonesian student essays have been studied for telling human writing from machine writing with IndoBERT and linguistic features \cite{Adani2025}, which is a different task from identifying the student. No Indonesian attribution study appears to report a result under a construction that controls this, and none works on examination writing. This paper supplies such a construction and the measurement that goes with it.
+
+\section{Method}
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=\textwidth]{workflow-v4.jpeg}
+\caption{Evaluation pipeline. Each student's answers to one question group form a document, and each fold holds out one whole group.}
+\label{fig:pipeline}
+\end{figure*}
+
+\subsection{Dataset}
+
+Fig.~\ref{fig:pipeline} summarises the pipeline. The data set is the Indonesian Query Answering Dataset for Online Essay Test System from Mendeley Data \cite{Rahutomo2018}, containing answers to an online essay examination arranged by topic. It was not released for authorship research and is used here for its structure: every student answers the same ten questions on each of four topics, so the questions and topics a document contains can be controlled. The student identifier is the author label, and reference answers and scores are not used.
+
+\subsection{Document Construction}
+
+One answer is too short for a stable stylistic profile, so answers are grouped into longer documents, attribution accuracy depending strongly on the amount of text per author \cite{Tyo2022,Bauersfeld2023}. The 40 questions are randomly assigned to four groups of ten, stratified by topic, so every group holds two or three questions per topic. A document is one student's answers to one group, joined in topic and question order, so each student contributes four documents and almost every document mixes all four topics. A document holds ten answers as a rule, and between 7 and 11 where a question was skipped or a row was duplicated. The assignment is repeated with five seeds.
+
+\subsection{Shared Questions as a Confounder}
+
+Because all students answer the same questions, answers to one question resemble each other in content whoever wrote them. A simpler construction, shuffling each student's answers within topic and dealing them into four chunks independently of other students, does not control this. A student's test chunk then contains answers to questions absent from that student's own training chunks, while most other students have answers to those questions in training. Content similarity then points to the wrong candidates. This is the arrangement the topic confusion task builds on purpose~\cite{Altakrori2021}, reproduced here at the level of individual questions. Grouping the questions identically for all students removes that mismatch: the held-out questions appear in no student's training data, every candidate is equally unfamiliar with them, and training and test have nearly the same topic composition. The per-student shuffle is run as a comparison.
+
+\subsection{Shared Text across Students}
+
+Many questions ask for factual recall, so some answers are identical between students, either because they use a common phrase or because they come from the same online source. Ignoring punctuation and case, 188 of the 1988 retained answers (9.5 per cent) match another student's answer to the same question word for word, 32 reproduce the model answer and 3 repeat the question. The rate ranges from 4.8 per cent in \textit{Lifestyle} to 15.4 per cent in \textit{Teknologi}. Duplicated passages carry no information about who wrote them, a validity issue of the kind described for plagiarised source code~\cite{Bogomolov2021}. Under the question-group construction such text cannot match a test answer to another student's training answer, because the question is held out for everyone, but it still dilutes the stylistic content of the documents that contain it. These answers are not filtered out.
+
+Preprocessing is deliberately minimal: leading and trailing spaces are stripped from every answer and the answers of a document are joined with a single space. Capitalisation and punctuation are preserved, and no stemming, lemmatisation or affix stripping is applied, even though affixation is productive in Indonesian. Each of those operations removes low-level regularity that distinguishes one writer from another.
+
+\subsection{Evaluation Protocol}
+
+Evaluation uses four-fold cross-validation over the random question groups. Fold $k$ holds out group $k$ as the test set (50 documents, one per student) and the remaining three groups form the training set (150 documents). Each group is held out exactly once. The model is therefore tested on questions it has not seen, and on the same questions for every candidate at once. Because the groups are stratified by topic, the four subject areas appear in nearly the same proportions on both sides of every split, so the questions differ between training and test while the topics do not. The main figures use one fixed grouping (seed 42), repeated with four further random groupings (seeds 1--4). The TF--IDF vocabulary and weights and the stylometric scaling are fitted on each fold's training partition only. Every hyperparameter is chosen by nested validation: with group $k$ held out, group $k+1$ (modulo 4) validates values trained on the other two groups, the best (ties to the smaller value) is refitted on all three, and the test group is never used for selection.
+
+\subsection{Feature Representation}
+
+The main representation is character n-grams ($n = 2, 3, 4$), taken within word boundaries (padded with a space), weighted with sublinear term frequency--inverse document frequency (TF--IDF) and kept if they occur in at least two training documents. They are extracted without lowercasing so that capitalisation is kept as evidence. Character n-grams are preferred to word n-grams because they capture punctuation, affixation patterns and spelling preferences at once, and degrade gracefully on short, informal text such as examination answers \cite{Suljic2024,Tyo2022}.
+
+A second, smaller block of 244 stylometric features covers word and sentence length statistics, the moving-average type--token ratio over 50-token windows, which unlike the plain ratio does not fall with document length, the share of words occurring once, the share of uppercase characters and digits, the relative frequencies of 13 punctuation marks, and those of 223 Indonesian function words compiled by grammatical category rather than from a stopword list. Function words are used because they are content-independent and so not topic biased \cite{He2024}. Every count is normalised by document length, so a student who simply writes more is not given a different profile.
+
+The two blocks are concatenated rather than ensembled. The stylometric block is standardised to zero mean and unit variance on the training partition, L2 normalised, multiplied by a weight $w$ and attached to the TF--IDF block. $w$ is chosen by nested validation from $\{0.01, 0.05, 0.1, 0.5, 1\}$ jointly with $C$.
+
+\subsection{Classifier}
+
+Classification uses a linear support vector machine (LinearSVC) with the regularisation parameter $C$ chosen by nested validation from $\{0.1, 1, 10, 100\}$, one model per fold, suited to the high-dimensional sparse representation. A matched comparison on stylometric tasks favoured conventional classifiers over deep learning \cite{Sayoud2025}. The headline measure is attribution accuracy, with macro-averaged F1 alongside it, reported as the mean and standard deviation over the four folds. Systems are compared with McNemar's test over their paired predictions for all 200 documents, each tested once across the four folds (exact form when fewer than 25 differ).
+
+\subsection{Baselines and Robustness Checks}
+
+Three controls, run under the same protocol, establish what the measured performance is worth, since the same method can score very differently from one corpus to another \cite{Murauer2021}. \textit{Chance} is uniform guessing among the 50 candidate authors, two per cent. \textit{Length only} gives the classifier nothing but the word count of each document, showing how much apparent attribution comes from length alone. \textit{Stylometric only} is the stylometric block without the character n-grams, isolating the contribution of the interpretable features.
+
+Two further runs use the same features, classifier and fold sizes. In the \textit{per-student shuffle}, each student's answers are shuffled within topic and dealt into four chunks independently of other students, and the chunks are split into four folds stratified by author, repeated over five random shuffles. This is the construction that leaves the shared questions uncontrolled. In the \textit{topic held-out} run, a document is one student's answers to one topic (200 documents) and each fold holds out one whole topic. In the \textit{single-answer} run, every answer is its own document (1988 documents) under the main question-group folds, to show what grouping answers into documents adds.
+
+In a \textit{topic-feature ablation}, the character n-grams are ranked within each training partition by their analysis-of-variance F statistic against topic over the individual training answers, and the top 25, 50 or 75 per cent are removed before attribution.
+
+\subsection{Transformer Comparison}
+
+Finally, IndoBERT (\texttt{indobert-base-p1}) is fine-tuned for authorship classification on exactly the same folds, documents and held-out question groups, using AdamW, a learning rate of $2 \times 10^{-5}$, a batch size of 8 and inputs truncated at 512 tokens. It is trained for 20 epochs with three training seeds (42, 1 and 2). The epoch budget was fixed by an earlier sweep over 5 to 40 epochs that selected on held-out scores, so unlike the support vector machine settings it is not chosen by nested validation and may slightly favour IndoBERT. Prior Indonesian work reports IndoBERT ahead of recurrent and TF--IDF baselines under random splits \cite{Saputra2023,Saputra2024}. Whether that holds once content overlap is controlled is the third research question.
+
+\section{Results}
+
+\subsection{Corpus}
+
+Before filtering, the corpus has 2162 answers by 59 students, median 17 words per answer. Students who did not answer all four topics are dropped, leaving 50 students and 1988 answers. The question-group construction gives 200 documents, 4 per author, with a median of 197.5 words (range 59--953). Of these, 199 contain answers from all four topics. Feature-based models were run on a CPU and IndoBERT on an NVIDIA GeForce GTX 1660 Ti, with random seeds fixed throughout.
+
+\subsection{Attribution}
+
+\begin{table}[!t]
+\caption{Attribution under the question-group protocol, support vector machine settings chosen by nested validation. Accuracy and macro-F1 (\%) for the main grouping (seed 42), mean $\pm$ SD over 4 folds. The last column is accuracy over five random groupings, mean $\pm$ sample SD across groupings (range). The last row adds the stylometric block to the character $n$-grams. IndoBERT is the mean over three training seeds, with the fold SD averaged over seeds.}
+\label{tab:main}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lccc@{}}
+\hline
+Configuration & Accuracy & Macro-F1 & Accuracy, 5 groupings \\
+\hline
+Chance             & 2.0 & --- & --- \\
+Length only        & 5.0 $\pm$ 1.0 & 2.8 $\pm$ 1.0 & 5.0 $\pm$ 0.6 (4.0--5.5) \\
+Stylometric only   & 16.5 $\pm$ 4.6 & 12.2 $\pm$ 4.1 & 14.9 $\pm$ 3.5 (11.0--20.0) \\
+IndoBERT           & \textbf{40.3 $\pm$ 6.4} & \textbf{32.6 $\pm$ 6.8} & --- \\
+Char $n$-gram      & 28.0 $\pm$ 3.7 & 20.4 $\pm$ 3.1 & 28.6 $\pm$ 2.8 (26.0--33.0) \\
+\quad + stylometric & 27.5 $\pm$ 4.6 & 20.3 $\pm$ 3.3 & 28.5 $\pm$ 2.2 (26.0--31.5) \\
+\hline
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:main} reports all configurations. Length explains little. Although the students write at very different lengths, the length-only classifier reaches 5.0 per cent, three points above chance and no more than the fold-to-fold variation. The interpretable features alone reach 16.5 per cent, eight times chance, so with topic and questions balanced across candidates, function words, punctuation and length statistics carry real authorial signal. The character n-gram model reaches 28.0 per cent, fourteen times chance. Adding the stylometric block gives 27.5 per cent: the two models classify only three of the 200 documents differently (McNemar exact $p = 1.00$), so the combination adds nothing measurable.
+
+The result does not depend on which questions fall together: over five random groupings the character n-gram model averages 28.6 per cent, and both character n-gram configurations lead the length and stylometric controls in every grouping. The stylometric block varies more, from 11.0 to 20.0 per cent, as expected of a few hundred dense features estimated from about 200 words.
+
+\subsection{Robustness}
+
+The per-student shuffle uses the same features, classifier and fold sizes and differs only in how answers are grouped into documents. With it, the character n-gram model falls to 2.2 per cent averaged over five random shuffles (range 2.0 to 2.5), indistinguishable from chance. The stylometric block alone does not collapse: over the same shuffles it reaches 13.4 $\pm$ 3.2 per cent (8.5 to 17.0), and the combined model, whose selected weight shifts towards that block, 9.3 per cent. The failure is confined to the content-bearing representation.
+
+With single answers as documents (median 17 words) the model reaches 11.8 $\pm$ 3.1 per cent under the main folds, so grouping about ten answers together raises accuracy from 11.8 to 28.0 per cent. The first rate is measured over 1988 answers and the second over 200 documents.
+
+\subsection{Topics Held Out}
+
+\begin{table}[!t]
+\caption{Accuracy (\%) under the three constructions, each with 200 documents, 50 candidates and folds of 150 training and 50 test documents. Main grouping or shuffle (seed 42), mean $\pm$ SD over 4 folds.}
+\label{tab:conditions}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lcc@{}}
+\hline
+Construction & Stylometric & Char $n$-gram \\
+\hline
+Question groups      & 16.5 $\pm$ 4.6 & 28.0 $\pm$ 3.7 \\
+Per-student shuffle  & 8.5 $\pm$ 1.7  & 2.5 $\pm$ 1.7  \\
+Topics held out      & 6.0 $\pm$ 3.2  & 22.5 $\pm$ 3.8 \\
+\hline
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:conditions} sets the three constructions side by side. Holding out whole topics lowers the character n-gram model from 28.0 to 22.5 per cent and the stylometric block from 16.5 to 6.0 per cent, so part of what both capture under the question groups is how a student writes about a particular topic.
+
+Removing the most topic-specific quarter and half of the character n-grams raises accuracy under the per-student shuffle from 2.2 to 12.7 and 14.1 per cent (five shuffles), but lowers it with topics held out from 22.5 to 19.0 and 14.0. Under the question groups the quarter raises it from 28.6 to 31.5 (five groupings) and half lowers it to 20.9.
+
+\subsection{Transformer Comparison}
+
+Over three training seeds IndoBERT reaches 40.3 per cent accuracy and 32.6 per cent macro-F1, against 28.0 and 20.4 for the character n-gram model. The seeds differ noticeably: mean accuracy is 42.5, 43.5 and 35.0 per cent for seeds 42, 1 and 2, and the weakest single fold reaches only 22.0 per cent. IndoBERT leads on all four folds. It has not yet been run under the other two constructions.
+
+\section{Discussion}
+
+\subsection{Why the Document Construction Matters}
+
+The question-group construction and the per-student shuffle use the same answers, features and classifier and differ only in whether answers to a question stay on the same side of the split for everyone. They differ by about 26 accuracy points, averaged over five runs each. The per-student shuffle is no strawman. Pooling an author's material and splitting it at random is the usual convention, and on examination answers that convention is exactly this shuffle. Its effect runs opposite to the usual account of topic leakage, under which a random split inflates the score \cite{Wegmann2022,Altakrori2021}. That account assumes each author has subjects of their own. In an examination every candidate writes on every subject instead, so shared content points at the wrong candidates and the uncontrolled split understates attribution. The ablation supports this, lifting the shuffled model from chance to 14 per cent. Whether the content misleads through similarity to other students' answers or through which questions each student's training documents contain is not distinguished here. For examination data, then, how documents are built is part of the evaluation and should be reported with it.
+
+\subsection{Comparison with Prior Work}
+
+Earlier findings~\cite{Tyo2022} show n-gram models outperforming transformers on most attribution tasks, transformers leading only as words per author increase. At a median of about 800 words per author this corpus sits near the low end of that range, yet under the question groups IndoBERT leads by some twelve accuracy points. Indonesian studies reporting IndoBERT ahead of TF--IDF baselines \cite{Saputra2023,Saputra2024} used random splits without content control. Whether the lead survives with whole topics held out, where the character n-grams fall from 28.0 to 22.5 per cent, is not yet tested for IndoBERT, so it cannot yet be credited to style rather than to topic. Two qualifications apply: IndoBERT varies more between seeds than the deterministic linear model, and its epoch budget was selected on held-out scores.
+
+\subsection{Threats to Validity}
+
+\textbf{Genre and setting.} Examination answers are brief, timed and constrained by the question, and training and test documents come from the same sitting and the same four topics, with only the questions held out. The results cannot be extrapolated to longer writing without retesting, and an applied case may differ from a student's known writing in occasion, topic and genre at once \cite{Barlas2021}, so the accuracies here are closer to a best case than to a deployment estimate.
+
+\textbf{Corpus size.} There are few documents per author and four folds. Fold-to-fold spreads range from $\pm$1.0 to $\pm$6.4 accuracy points, the largest for IndoBERT, so differences between systems are tested with McNemar's test over paired document predictions rather than read from fold means.
+
+\textbf{Shared text.} About one answer in ten matches another student's answer to the same question. Such text cannot link a test document to a training one here, but it weakens the tie between a document and its author label.
+
+\textbf{Author identity.} The label assumes an identifier denotes the same person across all four workbooks, which the dataset does not state. Unreliable identities are a known problem in attribution corpora \cite{Bogomolov2021}.
+
+\textbf{Closed candidate set.} The task assumes the author of interest is one of the 50 candidates. The open-set case, where the writer may never have appeared in training, is not evaluated here and would be harder. Grouping authors by style without labels \cite{Bertocco2023} is one route to it.
+
+\textbf{Topic held constant.} In the main construction the questions differ between training and test but the four topics do not, so it measures attribution with topic removed as a confounder, not attribution on unseen topics. The topic held-out run measures the latter \cite{Altakrori2021,Barlas2021} and gives lower accuracy for the feature-based models (Table~\ref{tab:conditions}). With four topics it rests on four folds, one per topic, and cannot be repeated over random groupings.
+
+\subsection{Conclusion}
+
+This study measured Indonesian authorship attribution on examination answers with topic and question content controlled. At 40.3 per cent for the best model on 50 candidates, the accuracies are far from sufficient for any applied use and none is claimed. What the study establishes is methodological: on examination data the construction of documents and folds moves the measured accuracy between chance and roughly thirty per cent while the model is held fixed, so it has to be controlled and reported for an attribution result to be interpretable. Evaluating the open-set case, in which the writer of a submission need not be one of the candidates, is the next step and requires data in which that case occurs.
+
+\section*{Author Contributions}
+\textbf{Clara Jessica:} conceptualisation, project administration, writing --- original draft, writing --- review and editing.
+\textbf{Jeffkins Andrew Likadinata:} data curation, investigation, visualisation, writing --- original draft.
+\textbf{Joshua Michael Irwanto:} methodology, software, formal analysis, validation, writing --- original draft.
+\textbf{Henry Lucky:} supervision, writing --- review and editing.
+
+\section*{Data Availability}
+The corpus is publicly available from Mendeley Data \cite{Rahutomo2018}, and no new data were generated. Code is available from the corresponding author on reasonable request.
+
+\section*{AI Usage Declaration}
+We certify that we wrote this manuscript ourselves and take sole responsibility
+for its content. During its preparation, we used Claude (Anthropic) solely to
+check grammar and reviewed every change it suggested. No generative AI tool was
+used to generate research data, results, references, figures or images.
+
+\bibliographystyle{IEEEtran}
+\bibliography{mybibliography}
+
+\end{document}

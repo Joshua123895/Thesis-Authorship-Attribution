@@ -1,0 +1,80 @@
+START 09/10/2026 21:39:52,87 
+python: .venv\Scripts\python.exe 
+torch 2.6.0+cu124 transformers 5.8.1 cuda True NVIDIA GeForce GTX 1660 Ti
+device: cuda
+=== seed 42 ===
+  fold grp1
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 25567.19it/s]
+      epoch 20  loss 0.3068   acc  48.0  macroF1  41.5
+  fold grp2
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 16759.36it/s]
+      epoch 20  loss 0.2926   acc  32.0  macroF1  23.7
+  fold grp3
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 10725.47it/s]
+      epoch 20  loss 0.2875   acc  50.0  macroF1  42.8
+  fold grp4
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 18036.70it/s]
+      epoch 20  loss 0.2749   acc  40.0  macroF1  28.9
+=== seed 1 ===
+  fold grp1
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 18743.91it/s]
+      epoch 20  loss 0.2655   acc  44.0  macroF1  37.5
+  fold grp2
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 18773.43it/s]
+START 10/10/2026 10:33:15,92 
+python: .venv\Scripts\python.exe 
+torch 2.6.0+cu124 transformers 5.8.1 cuda True NVIDIA GeForce GTX 1660 Ti
+device: cuda
+=== seed 42 ===
+  fold grp1
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 30750.71it/s]
+      epoch 20  loss 0.3068   acc  48.0  macroF1  41.5
+  fold grp2
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 4783.52it/s]
+      epoch 20  loss 0.2926   acc  32.0  macroF1  23.7
+  fold grp3
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 19517.06it/s]
+      epoch 20  loss 0.2875   acc  50.0  macroF1  42.8
+  fold grp4
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 18528.38it/s]
+      epoch 20  loss 0.2749   acc  40.0  macroF1  28.9
+=== seed 1 ===
+  fold grp1
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 19527.10it/s]
+      epoch 20  loss 0.2655   acc  44.0  macroF1  37.5
+  fold grp2
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 24574.31it/s]
+      epoch 20  loss 0.2880   acc  38.0  macroF1  30.2
+  fold grp3
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 7469.59it/s]
+      epoch 20  loss 0.3658   acc  50.0  macroF1  41.8
+  fold grp4
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 10410.69it/s]
+      epoch 20  loss 0.3847   acc  42.0  macroF1  35.5
+=== seed 2 ===
+  fold grp1
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 16789.70it/s]
+      epoch 20  loss 0.2593   acc  40.0  macroF1  33.9
+  fold grp2
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 7053.00it/s]
+      epoch 20  loss 0.2552   acc  36.0  macroF1  28.7
+  fold grp3
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 5355.64it/s]
+      epoch 20  loss 0.2592   acc  42.0  macroF1  32.9
+  fold grp4
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 19685.53it/s]
+      epoch 20  loss 0.2618   acc  22.0  macroF1  13.4
+
+IndoBERT acc 40.3 (seed ¡À4.6, fold ¡À7.4)   macroF1 32.6 (seed ¡À4.7, fold ¡À7.9)
+
+       char_ngram_f1  indobert_f1    winner
+fold                                      
+grp1           22.5         37.6  IndoBERT
+grp2           14.6         27.5  IndoBERT
+grp3           25.4         39.2  IndoBERT
+grp4           21.0         25.9  IndoBERT
+
+char n-gram menang di 0 dari 4 fold
+EXIT 0 10/10/2026 14:35:38,07 

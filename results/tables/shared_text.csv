@@ -1,0 +1,9 @@
+ukuran,nilai
+jawaban dipakai,1988.0
+jawaban identik dgn jawaban siswa lain (soal sama),188.0
+persen jawaban kembar,9.5
+teks jawaban berbeda yang dipakai >=2 siswa,64.0
+dokumen (siswa x topik),200.0
+dokumen dengan >=1 jawaban kembar,92.0
+jawaban identik dgn kunci jawaban,32.0
+jawaban identik dgn teks soal,3.0

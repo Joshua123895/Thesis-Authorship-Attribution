@@ -1,0 +1,11 @@
+comparison,condition,seed,setting,n,acc_a,acc_b,both_right,b_a_only,c_b_only,both_wrong,exact,statistic,p
+char vs char+stylo,question groups,42,"paper now (C=1, w=0.1, TTR)",200,28.000000000000004,28.999999999999996,56,0,2,142,True,0.0,0.5
+char vs char+stylo,question groups,42,"nested C/w, MATTR",200,28.000000000000004,27.500000000000004,54,2,1,143,True,1.0,1.0
+char vs char+stylo,question groups,1,"paper now (C=1, w=0.1, TTR)",200,27.0,26.5,53,1,0,146,True,0.0,1.0
+char vs char+stylo,question groups,1,"nested C/w, MATTR",200,26.5,31.5,45,8,18,129,False,3.1153846153846154,0.07755616674366539
+char vs char+stylo,question groups,2,"paper now (C=1, w=0.1, TTR)",200,28.499999999999996,28.499999999999996,57,0,0,143,True,0.0,1.0
+char vs char+stylo,question groups,2,"nested C/w, MATTR",200,26.0,26.0,44,8,8,140,True,8.0,1.0
+char vs char+stylo,question groups,3,"paper now (C=1, w=0.1, TTR)",200,34.0,33.5,67,1,0,132,True,0.0,1.0
+char vs char+stylo,question groups,3,"nested C/w, MATTR",200,33.0,30.0,54,12,6,128,True,6.0,0.237884521484375
+char vs char+stylo,question groups,4,"paper now (C=1, w=0.1, TTR)",200,29.5,31.0,59,0,3,138,True,0.0,0.25
+char vs char+stylo,question groups,4,"nested C/w, MATTR",200,29.5,27.500000000000004,53,6,2,139,True,2.0,0.2890625

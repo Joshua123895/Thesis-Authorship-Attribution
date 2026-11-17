@@ -1,0 +1,441 @@
+condition,seed,config,features,tuning,fold,C,weight,val_acc,acc,macro_f1
+question groups,42.0,stylometric only,ttr,fixed,grp1,1.0,,,20.0,13.571428571428571
+question groups,42.0,stylometric only,ttr,fixed,grp2,1.0,,,14.000000000000002,9.98181818181818
+question groups,42.0,stylometric only,ttr,fixed,grp3,1.0,,,16.0,14.800000000000002
+question groups,42.0,stylometric only,ttr,fixed,grp4,1.0,,,14.000000000000002,9.8
+question groups,42.0,char n-gram 2-4,-,fixed,grp1,1.0,,,32.0,22.545787545787544
+question groups,42.0,char n-gram 2-4,-,fixed,grp2,1.0,,,20.0,14.553246753246754
+question groups,42.0,char n-gram 2-4,-,fixed,grp3,1.0,,,32.0,25.385714285714283
+question groups,42.0,char n-gram 2-4,-,fixed,grp4,1.0,,,28.000000000000004,20.98181818181818
+question groups,42.0,char + stylometric,ttr,fixed,grp1,1.0,0.1,,32.0,22.545787545787544
+question groups,42.0,char + stylometric,ttr,fixed,grp2,1.0,0.1,,20.0,14.69047619047619
+question groups,42.0,char + stylometric,ttr,fixed,grp3,1.0,0.1,,32.0,25.257142857142856
+question groups,42.0,char + stylometric,ttr,fixed,grp4,1.0,0.1,,32.0,25.981818181818177
+question groups,42.0,stylometric only,mattr,fixed,grp1,1.0,,,22.0,15.571428571428573
+question groups,42.0,stylometric only,mattr,fixed,grp2,1.0,,,14.000000000000002,9.97391304347826
+question groups,42.0,stylometric only,mattr,fixed,grp3,1.0,,,16.0,14.800000000000002
+question groups,42.0,stylometric only,mattr,fixed,grp4,1.0,,,14.000000000000002,9.8
+question groups,42.0,char + stylometric,mattr,fixed,grp1,1.0,0.1,,32.0,22.545787545787544
+question groups,42.0,char + stylometric,mattr,fixed,grp2,1.0,0.1,,20.0,14.69047619047619
+question groups,42.0,char + stylometric,mattr,fixed,grp3,1.0,0.1,,32.0,25.257142857142856
+question groups,42.0,char + stylometric,mattr,fixed,grp4,1.0,0.1,,32.0,25.981818181818177
+question groups,42.0,stylometric only,ttr,nested,grp1,0.1,,12.0,24.0,17.904761904761905
+question groups,42.0,stylometric only,ttr,nested,grp2,10.0,,16.0,12.0,7.533333333333333
+question groups,42.0,stylometric only,ttr,nested,grp3,0.1,,6.0,16.0,14.333333333333332
+question groups,42.0,stylometric only,ttr,nested,grp4,0.1,,10.0,14.000000000000002,9.133333333333333
+question groups,42.0,char n-gram 2-4,-,nested,grp1,100.0,,30.0,30.0,22.488095238095237
+question groups,42.0,char n-gram 2-4,-,nested,grp2,0.1,,28.000000000000004,22.0,15.288095238095236
+question groups,42.0,char n-gram 2-4,-,nested,grp3,10.0,,24.0,32.0,23.20952380952381
+question groups,42.0,char n-gram 2-4,-,nested,grp4,0.1,,26.0,28.000000000000004,20.666666666666664
+question groups,42.0,char + stylometric,ttr,nested,grp1,100.0,0.01,30.0,30.0,22.488095238095237
+question groups,42.0,char + stylometric,ttr,nested,grp2,1.0,0.1,30.0,20.0,14.69047619047619
+question groups,42.0,char + stylometric,ttr,nested,grp3,10.0,0.01,24.0,32.0,23.20952380952381
+question groups,42.0,char + stylometric,ttr,nested,grp4,0.1,0.01,26.0,28.000000000000004,20.666666666666664
+question groups,42.0,stylometric only,mattr,nested,grp1,0.1,,12.0,24.0,17.904761904761905
+question groups,42.0,stylometric only,mattr,nested,grp2,10.0,,16.0,12.0,7.533333333333333
+question groups,42.0,stylometric only,mattr,nested,grp3,0.1,,6.0,16.0,14.333333333333332
+question groups,42.0,stylometric only,mattr,nested,grp4,0.1,,10.0,14.000000000000002,9.133333333333333
+question groups,42.0,char + stylometric,mattr,nested,grp1,100.0,0.01,30.0,30.0,22.488095238095237
+question groups,42.0,char + stylometric,mattr,nested,grp2,1.0,0.1,30.0,20.0,14.69047619047619
+question groups,42.0,char + stylometric,mattr,nested,grp3,10.0,0.01,24.0,32.0,23.20952380952381
+question groups,42.0,char + stylometric,mattr,nested,grp4,0.1,0.01,26.0,28.000000000000004,20.666666666666664
+question groups,1.0,stylometric only,ttr,fixed,grp1,1.0,,,24.0,18.133333333333333
+question groups,1.0,stylometric only,ttr,fixed,grp2,1.0,,,22.0,15.8
+question groups,1.0,stylometric only,ttr,fixed,grp3,1.0,,,20.0,16.238095238095237
+question groups,1.0,stylometric only,ttr,fixed,grp4,1.0,,,16.0,13.904761904761905
+question groups,1.0,char n-gram 2-4,-,fixed,grp1,1.0,,,22.0,16.37142857142857
+question groups,1.0,char n-gram 2-4,-,fixed,grp2,1.0,,,32.0,23.2
+question groups,1.0,char n-gram 2-4,-,fixed,grp3,1.0,,,36.0,27.844444444444445
+question groups,1.0,char n-gram 2-4,-,fixed,grp4,1.0,,,18.0,11.107692307692307
+question groups,1.0,char + stylometric,ttr,fixed,grp1,1.0,0.1,,22.0,16.37142857142857
+question groups,1.0,char + stylometric,ttr,fixed,grp2,1.0,0.1,,32.0,24.496969696969696
+question groups,1.0,char + stylometric,ttr,fixed,grp3,1.0,0.1,,36.0,27.9
+question groups,1.0,char + stylometric,ttr,fixed,grp4,1.0,0.1,,16.0,10.466666666666665
+question groups,1.0,stylometric only,mattr,fixed,grp1,1.0,,,24.0,18.133333333333333
+question groups,1.0,stylometric only,mattr,fixed,grp2,1.0,,,24.0,17.810526315789474
+question groups,1.0,stylometric only,mattr,fixed,grp3,1.0,,,20.0,16.238095238095237
+question groups,1.0,stylometric only,mattr,fixed,grp4,1.0,,,16.0,13.777777777777779
+question groups,1.0,char + stylometric,mattr,fixed,grp1,1.0,0.1,,22.0,16.37142857142857
+question groups,1.0,char + stylometric,mattr,fixed,grp2,1.0,0.1,,32.0,24.496969696969696
+question groups,1.0,char + stylometric,mattr,fixed,grp3,1.0,0.1,,36.0,27.9
+question groups,1.0,char + stylometric,mattr,fixed,grp4,1.0,0.1,,16.0,10.466666666666665
+question groups,1.0,stylometric only,ttr,nested,grp1,10.0,,22.0,20.0,14.000000000000002
+question groups,1.0,stylometric only,ttr,nested,grp2,0.1,,14.000000000000002,20.0,13.323809523809524
+question groups,1.0,stylometric only,ttr,nested,grp3,0.1,,6.0,18.0,14.499999999999998
+question groups,1.0,stylometric only,ttr,nested,grp4,0.1,,16.0,18.0,14.666666666666664
+question groups,1.0,char n-gram 2-4,-,nested,grp1,0.1,,32.0,20.0,13.974358974358973
+question groups,1.0,char n-gram 2-4,-,nested,grp2,10.0,,16.0,32.0,24.17142857142857
+question groups,1.0,char n-gram 2-4,-,nested,grp3,1.0,,20.0,36.0,27.844444444444445
+question groups,1.0,char n-gram 2-4,-,nested,grp4,1.0,,22.0,18.0,11.107692307692307
+question groups,1.0,char + stylometric,ttr,nested,grp1,0.1,0.5,36.0,32.0,22.799999999999997
+question groups,1.0,char + stylometric,ttr,nested,grp2,10.0,0.5,22.0,34.0,25.506493506493506
+question groups,1.0,char + stylometric,ttr,nested,grp3,100.0,0.05,22.0,34.0,26.68253968253968
+question groups,1.0,char + stylometric,ttr,nested,grp4,10.0,0.5,28.000000000000004,22.0,18.704761904761902
+question groups,1.0,stylometric only,mattr,nested,grp1,1.0,,18.0,24.0,18.133333333333333
+question groups,1.0,stylometric only,mattr,nested,grp2,0.1,,14.000000000000002,20.0,13.515151515151516
+question groups,1.0,stylometric only,mattr,nested,grp3,0.1,,6.0,18.0,14.499999999999998
+question groups,1.0,stylometric only,mattr,nested,grp4,0.1,,16.0,18.0,14.666666666666664
+question groups,1.0,char + stylometric,mattr,nested,grp1,0.1,0.5,36.0,32.0,22.799999999999997
+question groups,1.0,char + stylometric,mattr,nested,grp2,10.0,0.5,22.0,38.0,29.542857142857144
+question groups,1.0,char + stylometric,mattr,nested,grp3,100.0,0.05,22.0,34.0,26.68253968253968
+question groups,1.0,char + stylometric,mattr,nested,grp4,1.0,0.5,28.000000000000004,22.0,17.904761904761905
+question groups,2.0,stylometric only,ttr,fixed,grp1,1.0,,,14.000000000000002,10.833333333333332
+question groups,2.0,stylometric only,ttr,fixed,grp2,1.0,,,6.0,3.6666666666666665
+question groups,2.0,stylometric only,ttr,fixed,grp3,1.0,,,18.0,13.266666666666666
+question groups,2.0,stylometric only,ttr,fixed,grp4,1.0,,,14.000000000000002,9.6
+question groups,2.0,char n-gram 2-4,-,fixed,grp1,1.0,,,26.0,17.942857142857143
+question groups,2.0,char n-gram 2-4,-,fixed,grp2,1.0,,,28.000000000000004,19.868398268398266
+question groups,2.0,char n-gram 2-4,-,fixed,grp3,1.0,,,32.0,23.701960784313727
+question groups,2.0,char n-gram 2-4,-,fixed,grp4,1.0,,,28.000000000000004,22.633333333333333
+question groups,2.0,char + stylometric,ttr,fixed,grp1,1.0,0.1,,26.0,18.538095238095238
+question groups,2.0,char + stylometric,ttr,fixed,grp2,1.0,0.1,,28.000000000000004,19.868398268398266
+question groups,2.0,char + stylometric,ttr,fixed,grp3,1.0,0.1,,32.0,24.03529411764706
+question groups,2.0,char + stylometric,ttr,fixed,grp4,1.0,0.1,,28.000000000000004,22.633333333333333
+question groups,2.0,stylometric only,mattr,fixed,grp1,1.0,,,14.000000000000002,10.238095238095237
+question groups,2.0,stylometric only,mattr,fixed,grp2,1.0,,,6.0,3.6666666666666665
+question groups,2.0,stylometric only,mattr,fixed,grp3,1.0,,,18.0,13.266666666666666
+question groups,2.0,stylometric only,mattr,fixed,grp4,1.0,,,14.000000000000002,9.6
+question groups,2.0,char + stylometric,mattr,fixed,grp1,1.0,0.1,,26.0,18.538095238095238
+question groups,2.0,char + stylometric,mattr,fixed,grp2,1.0,0.1,,28.000000000000004,19.868398268398266
+question groups,2.0,char + stylometric,mattr,fixed,grp3,1.0,0.1,,32.0,24.03529411764706
+question groups,2.0,char + stylometric,mattr,fixed,grp4,1.0,0.1,,28.000000000000004,22.704761904761902
+question groups,2.0,stylometric only,ttr,nested,grp1,0.1,,10.0,14.000000000000002,10.333333333333332
+question groups,2.0,stylometric only,ttr,nested,grp2,10.0,,12.0,6.0,3.4666666666666663
+question groups,2.0,stylometric only,ttr,nested,grp3,0.1,,8.0,16.0,10.733333333333333
+question groups,2.0,stylometric only,ttr,nested,grp4,0.1,,8.0,14.000000000000002,9.799999999999999
+question groups,2.0,char n-gram 2-4,-,nested,grp1,0.1,,24.0,22.0,14.3
+question groups,2.0,char n-gram 2-4,-,nested,grp2,1.0,,22.0,28.000000000000004,19.868398268398266
+question groups,2.0,char n-gram 2-4,-,nested,grp3,0.1,,24.0,26.0,17.635294117647057
+question groups,2.0,char n-gram 2-4,-,nested,grp4,1.0,,20.0,28.000000000000004,22.633333333333333
+question groups,2.0,char + stylometric,ttr,nested,grp1,0.1,0.01,24.0,22.0,14.3
+question groups,2.0,char + stylometric,ttr,nested,grp2,1.0,0.5,28.000000000000004,24.0,18.599999999999998
+question groups,2.0,char + stylometric,ttr,nested,grp3,0.1,0.01,24.0,26.0,17.635294117647057
+question groups,2.0,char + stylometric,ttr,nested,grp4,0.1,0.5,22.0,30.0,24.93333333333333
+question groups,2.0,stylometric only,mattr,nested,grp1,0.1,,10.0,14.000000000000002,10.333333333333332
+question groups,2.0,stylometric only,mattr,nested,grp2,10.0,,12.0,6.0,3.666666666666666
+question groups,2.0,stylometric only,mattr,nested,grp3,0.1,,8.0,16.0,10.733333333333333
+question groups,2.0,stylometric only,mattr,nested,grp4,0.1,,8.0,16.0,11.133333333333333
+question groups,2.0,char + stylometric,mattr,nested,grp1,0.1,0.01,24.0,22.0,14.3
+question groups,2.0,char + stylometric,mattr,nested,grp2,0.1,0.5,28.000000000000004,28.000000000000004,22.307692307692303
+question groups,2.0,char + stylometric,mattr,nested,grp3,0.1,0.01,24.0,26.0,17.635294117647057
+question groups,2.0,char + stylometric,mattr,nested,grp4,0.1,0.5,22.0,28.000000000000004,23.133333333333333
+question groups,3.0,stylometric only,ttr,fixed,grp1,1.0,,,14.000000000000002,9.133333333333333
+question groups,3.0,stylometric only,ttr,fixed,grp2,1.0,,,10.0,10.0
+question groups,3.0,stylometric only,ttr,fixed,grp3,1.0,,,12.0,7.881481481481481
+question groups,3.0,stylometric only,ttr,fixed,grp4,1.0,,,8.0,4.777777777777778
+question groups,3.0,char n-gram 2-4,-,fixed,grp1,1.0,,,36.0,30.571428571428573
+question groups,3.0,char n-gram 2-4,-,fixed,grp2,1.0,,,32.0,24.523809523809522
+question groups,3.0,char n-gram 2-4,-,fixed,grp3,1.0,,,28.000000000000004,17.887301587301586
+question groups,3.0,char n-gram 2-4,-,fixed,grp4,1.0,,,40.0,29.133333333333333
+question groups,3.0,char + stylometric,ttr,fixed,grp1,1.0,0.1,,36.0,30.609523809523807
+question groups,3.0,char + stylometric,ttr,fixed,grp2,1.0,0.1,,32.0,24.523809523809522
+question groups,3.0,char + stylometric,ttr,fixed,grp3,1.0,0.1,,28.000000000000004,18.08730158730159
+question groups,3.0,char + stylometric,ttr,fixed,grp4,1.0,0.1,,38.0,27.46666666666667
+question groups,3.0,stylometric only,mattr,fixed,grp1,1.0,,,14.000000000000002,9.0
+question groups,3.0,stylometric only,mattr,fixed,grp2,1.0,,,8.0,8.0
+question groups,3.0,stylometric only,mattr,fixed,grp3,1.0,,,12.0,7.8871794871794885
+question groups,3.0,stylometric only,mattr,fixed,grp4,1.0,,,8.0,4.633333333333333
+question groups,3.0,char + stylometric,mattr,fixed,grp1,1.0,0.1,,36.0,30.609523809523807
+question groups,3.0,char + stylometric,mattr,fixed,grp2,1.0,0.1,,32.0,24.523809523809522
+question groups,3.0,char + stylometric,mattr,fixed,grp3,1.0,0.1,,28.000000000000004,18.08730158730159
+question groups,3.0,char + stylometric,mattr,fixed,grp4,1.0,0.1,,38.0,27.46666666666667
+question groups,3.0,stylometric only,ttr,nested,grp1,0.1,,12.0,16.0,11.0
+question groups,3.0,stylometric only,ttr,nested,grp2,0.1,,12.0,10.0,10.0
+question groups,3.0,stylometric only,ttr,nested,grp3,0.1,,6.0,12.0,7.8508158508158505
+question groups,3.0,stylometric only,ttr,nested,grp4,10.0,,14.000000000000002,8.0,4.904761904761905
+question groups,3.0,char n-gram 2-4,-,nested,grp1,1.0,,28.000000000000004,36.0,30.571428571428573
+question groups,3.0,char n-gram 2-4,-,nested,grp2,1.0,,24.0,32.0,24.523809523809522
+question groups,3.0,char n-gram 2-4,-,nested,grp3,1.0,,32.0,28.000000000000004,17.887301587301586
+question groups,3.0,char n-gram 2-4,-,nested,grp4,100.0,,32.0,36.0,26.06666666666667
+question groups,3.0,char + stylometric,ttr,nested,grp1,0.1,0.05,28.000000000000004,32.0,26.5
+question groups,3.0,char + stylometric,ttr,nested,grp2,0.1,0.5,26.0,24.0,21.333333333333332
+question groups,3.0,char + stylometric,ttr,nested,grp3,10.0,0.1,34.0,30.0,20.306493506493503
+question groups,3.0,char + stylometric,ttr,nested,grp4,10.0,0.5,32.0,36.0,29.5
+question groups,3.0,stylometric only,mattr,nested,grp1,0.1,,12.0,18.0,12.333333333333332
+question groups,3.0,stylometric only,mattr,nested,grp2,0.1,,12.0,8.0,7.333333333333333
+question groups,3.0,stylometric only,mattr,nested,grp3,0.1,,6.0,10.0,5.8508158508158505
+question groups,3.0,stylometric only,mattr,nested,grp4,10.0,,14.000000000000002,8.0,4.704761904761904
+question groups,3.0,char + stylometric,mattr,nested,grp1,0.1,0.05,28.000000000000004,32.0,26.5
+question groups,3.0,char + stylometric,mattr,nested,grp2,0.1,0.5,26.0,24.0,21.333333333333332
+question groups,3.0,char + stylometric,mattr,nested,grp3,10.0,0.1,34.0,30.0,20.306493506493503
+question groups,3.0,char + stylometric,mattr,nested,grp4,10.0,0.5,32.0,34.0,27.244444444444444
+question groups,4.0,stylometric only,ttr,fixed,grp1,1.0,,,32.0,25.33333333333333
+question groups,4.0,stylometric only,ttr,fixed,grp2,1.0,,,12.0,8.445623342175066
+question groups,4.0,stylometric only,ttr,fixed,grp3,1.0,,,10.0,7.666666666666666
+question groups,4.0,stylometric only,ttr,fixed,grp4,1.0,,,4.0,3.0
+question groups,4.0,char n-gram 2-4,-,fixed,grp1,1.0,,,36.0,28.438095238095233
+question groups,4.0,char n-gram 2-4,-,fixed,grp2,1.0,,,14.000000000000002,10.105263157894736
+question groups,4.0,char n-gram 2-4,-,fixed,grp3,1.0,,,30.0,22.447619047619046
+question groups,4.0,char n-gram 2-4,-,fixed,grp4,1.0,,,38.0,31.488888888888887
+question groups,4.0,char + stylometric,ttr,fixed,grp1,1.0,0.1,,38.0,29.771428571428572
+question groups,4.0,char + stylometric,ttr,fixed,grp2,1.0,0.1,,14.000000000000002,10.105263157894736
+question groups,4.0,char + stylometric,ttr,fixed,grp3,1.0,0.1,,34.0,26.566666666666666
+question groups,4.0,char + stylometric,ttr,fixed,grp4,1.0,0.1,,38.0,31.488888888888887
+question groups,4.0,stylometric only,mattr,fixed,grp1,1.0,,,26.0,21.0
+question groups,4.0,stylometric only,mattr,fixed,grp2,1.0,,,12.0,8.441025641025641
+question groups,4.0,stylometric only,mattr,fixed,grp3,1.0,,,10.0,7.666666666666666
+question groups,4.0,stylometric only,mattr,fixed,grp4,1.0,,,4.0,3.0
+question groups,4.0,char + stylometric,mattr,fixed,grp1,1.0,0.1,,38.0,29.771428571428572
+question groups,4.0,char + stylometric,mattr,fixed,grp2,1.0,0.1,,14.000000000000002,10.105263157894736
+question groups,4.0,char + stylometric,mattr,fixed,grp3,1.0,0.1,,34.0,26.566666666666666
+question groups,4.0,char + stylometric,mattr,fixed,grp4,1.0,0.1,,38.0,31.488888888888887
+question groups,4.0,stylometric only,ttr,nested,grp1,10.0,,6.0,26.0,20.8
+question groups,4.0,stylometric only,ttr,nested,grp2,0.1,,10.0,12.0,8.445623342175066
+question groups,4.0,stylometric only,ttr,nested,grp3,0.1,,8.0,12.0,9.0
+question groups,4.0,stylometric only,ttr,nested,grp4,1.0,,12.0,4.0,3.0
+question groups,4.0,char n-gram 2-4,-,nested,grp1,0.1,,26.0,34.0,26.13333333333333
+question groups,4.0,char n-gram 2-4,-,nested,grp2,1.0,,38.0,14.000000000000002,10.105263157894736
+question groups,4.0,char n-gram 2-4,-,nested,grp3,100.0,,30.0,34.0,26.253968253968253
+question groups,4.0,char n-gram 2-4,-,nested,grp4,0.1,,20.0,36.0,29.648484848484852
+question groups,4.0,char + stylometric,ttr,nested,grp1,0.1,0.01,26.0,34.0,26.13333333333333
+question groups,4.0,char + stylometric,ttr,nested,grp2,1.0,0.01,38.0,14.000000000000002,10.105263157894736
+question groups,4.0,char + stylometric,ttr,nested,grp3,100.0,0.01,30.0,34.0,26.253968253968253
+question groups,4.0,char + stylometric,ttr,nested,grp4,0.1,0.5,28.000000000000004,28.000000000000004,22.555555555555554
+question groups,4.0,stylometric only,mattr,nested,grp1,0.1,,4.0,28.000000000000004,23.666666666666668
+question groups,4.0,stylometric only,mattr,nested,grp2,0.1,,10.0,12.0,8.445623342175066
+question groups,4.0,stylometric only,mattr,nested,grp3,0.1,,8.0,12.0,9.0
+question groups,4.0,stylometric only,mattr,nested,grp4,1.0,,12.0,4.0,3.0
+question groups,4.0,char + stylometric,mattr,nested,grp1,0.1,0.01,26.0,34.0,26.13333333333333
+question groups,4.0,char + stylometric,mattr,nested,grp2,1.0,0.01,38.0,14.000000000000002,10.105263157894736
+question groups,4.0,char + stylometric,mattr,nested,grp3,100.0,0.01,30.0,34.0,26.253968253968253
+question groups,4.0,char + stylometric,mattr,nested,grp4,0.1,0.5,28.000000000000004,28.000000000000004,22.555555555555554
+shuffle,42.0,stylometric only,ttr,fixed,fold1,1.0,,,6.0,6.0
+shuffle,42.0,stylometric only,ttr,fixed,fold2,1.0,,,10.0,7.000000000000001
+shuffle,42.0,stylometric only,ttr,fixed,fold3,1.0,,,8.0,7.333333333333333
+shuffle,42.0,stylometric only,ttr,fixed,fold4,1.0,,,10.0,6.666666666666667
+shuffle,42.0,char n-gram 2-4,-,fixed,fold1,1.0,,,2.0,1.3333333333333333
+shuffle,42.0,char n-gram 2-4,-,fixed,fold2,1.0,,,6.0,4.666666666666666
+shuffle,42.0,char n-gram 2-4,-,fixed,fold3,1.0,,,0.0,0.0
+shuffle,42.0,char n-gram 2-4,-,fixed,fold4,1.0,,,4.0,3.3333333333333335
+shuffle,42.0,char + stylometric,ttr,fixed,fold1,1.0,0.1,,2.0,1.3333333333333333
+shuffle,42.0,char + stylometric,ttr,fixed,fold2,1.0,0.1,,6.0,4.666666666666666
+shuffle,42.0,char + stylometric,ttr,fixed,fold3,1.0,0.1,,0.0,0.0
+shuffle,42.0,char + stylometric,ttr,fixed,fold4,1.0,0.1,,4.0,3.3333333333333335
+shuffle,42.0,stylometric only,mattr,fixed,fold1,1.0,,,6.0,6.0
+shuffle,42.0,stylometric only,mattr,fixed,fold2,1.0,,,10.0,7.000000000000001
+shuffle,42.0,stylometric only,mattr,fixed,fold3,1.0,,,8.0,7.000000000000001
+shuffle,42.0,stylometric only,mattr,fixed,fold4,1.0,,,10.0,6.466666666666667
+shuffle,42.0,char + stylometric,mattr,fixed,fold1,1.0,0.1,,2.0,1.3333333333333333
+shuffle,42.0,char + stylometric,mattr,fixed,fold2,1.0,0.1,,6.0,4.666666666666666
+shuffle,42.0,char + stylometric,mattr,fixed,fold3,1.0,0.1,,0.0,0.0
+shuffle,42.0,char + stylometric,mattr,fixed,fold4,1.0,0.1,,4.0,3.3333333333333335
+shuffle,42.0,stylometric only,ttr,nested,fold1,10.0,,6.0,4.0,4.0
+shuffle,42.0,stylometric only,ttr,nested,fold2,1.0,,12.0,10.0,7.000000000000001
+shuffle,42.0,stylometric only,ttr,nested,fold3,10.0,,12.0,6.0,5.333333333333333
+shuffle,42.0,stylometric only,ttr,nested,fold4,1.0,,14.000000000000002,10.0,6.666666666666667
+shuffle,42.0,char n-gram 2-4,-,nested,fold1,0.1,,2.0,2.0,1.0
+shuffle,42.0,char n-gram 2-4,-,nested,fold2,0.1,,0.0,4.0,2.8
+shuffle,42.0,char n-gram 2-4,-,nested,fold3,10.0,,4.0,0.0,0.0
+shuffle,42.0,char n-gram 2-4,-,nested,fold4,0.1,,2.0,4.0,3.3333333333333335
+shuffle,42.0,char + stylometric,ttr,nested,fold1,0.1,0.5,6.0,2.0,2.0
+shuffle,42.0,char + stylometric,ttr,nested,fold2,0.1,1.0,6.0,10.0,6.999999999999999
+shuffle,42.0,char + stylometric,ttr,nested,fold3,0.1,1.0,10.0,8.0,6.666666666666667
+shuffle,42.0,char + stylometric,ttr,nested,fold4,1.0,1.0,8.0,10.0,7.666666666666666
+shuffle,42.0,stylometric only,mattr,nested,fold1,10.0,,8.0,6.0,5.333333333333333
+shuffle,42.0,stylometric only,mattr,nested,fold2,1.0,,12.0,10.0,7.000000000000001
+shuffle,42.0,stylometric only,mattr,nested,fold3,1.0,,12.0,8.0,7.000000000000001
+shuffle,42.0,stylometric only,mattr,nested,fold4,1.0,,12.0,10.0,6.466666666666667
+shuffle,42.0,char + stylometric,mattr,nested,fold1,0.1,0.5,6.0,4.0,3.3333333333333335
+shuffle,42.0,char + stylometric,mattr,nested,fold2,0.1,1.0,6.0,10.0,6.999999999999999
+shuffle,42.0,char + stylometric,mattr,nested,fold3,0.1,1.0,10.0,8.0,6.666666666666667
+shuffle,42.0,char + stylometric,mattr,nested,fold4,1.0,1.0,10.0,10.0,7.666666666666666
+shuffle,1.0,stylometric only,ttr,fixed,fold1,1.0,,,10.0,7.333333333333333
+shuffle,1.0,stylometric only,ttr,fixed,fold2,1.0,,,10.0,9.0
+shuffle,1.0,stylometric only,ttr,fixed,fold3,1.0,,,18.0,13.666666666666663
+shuffle,1.0,stylometric only,ttr,fixed,fold4,1.0,,,14.000000000000002,12.666666666666664
+shuffle,1.0,char n-gram 2-4,-,fixed,fold1,1.0,,,4.0,2.0
+shuffle,1.0,char n-gram 2-4,-,fixed,fold2,1.0,,,0.0,0.0
+shuffle,1.0,char n-gram 2-4,-,fixed,fold3,1.0,,,4.0,3.3333333333333335
+shuffle,1.0,char n-gram 2-4,-,fixed,fold4,1.0,,,2.0,2.0
+shuffle,1.0,char + stylometric,ttr,fixed,fold1,1.0,0.1,,4.0,2.0
+shuffle,1.0,char + stylometric,ttr,fixed,fold2,1.0,0.1,,0.0,0.0
+shuffle,1.0,char + stylometric,ttr,fixed,fold3,1.0,0.1,,4.0,3.3333333333333335
+shuffle,1.0,char + stylometric,ttr,fixed,fold4,1.0,0.1,,2.0,2.0
+shuffle,1.0,stylometric only,mattr,fixed,fold1,1.0,,,8.0,6.333333333333332
+shuffle,1.0,stylometric only,mattr,fixed,fold2,1.0,,,10.0,9.0
+shuffle,1.0,stylometric only,mattr,fixed,fold3,1.0,,,18.0,13.666666666666663
+shuffle,1.0,stylometric only,mattr,fixed,fold4,1.0,,,14.000000000000002,12.0
+shuffle,1.0,char + stylometric,mattr,fixed,fold1,1.0,0.1,,4.0,2.0
+shuffle,1.0,char + stylometric,mattr,fixed,fold2,1.0,0.1,,0.0,0.0
+shuffle,1.0,char + stylometric,mattr,fixed,fold3,1.0,0.1,,4.0,3.3333333333333335
+shuffle,1.0,char + stylometric,mattr,fixed,fold4,1.0,0.1,,2.0,2.0
+shuffle,1.0,stylometric only,ttr,nested,fold1,0.1,,14.000000000000002,12.0,8.466666666666665
+shuffle,1.0,stylometric only,ttr,nested,fold2,0.1,,6.0,10.0,8.333333333333334
+shuffle,1.0,stylometric only,ttr,nested,fold3,0.1,,10.0,14.000000000000002,11.666666666666666
+shuffle,1.0,stylometric only,ttr,nested,fold4,0.1,,6.0,14.000000000000002,11.333333333333332
+shuffle,1.0,char n-gram 2-4,-,nested,fold1,0.1,,0.0,4.0,2.0
+shuffle,1.0,char n-gram 2-4,-,nested,fold2,10.0,,2.0,0.0,0.0
+shuffle,1.0,char n-gram 2-4,-,nested,fold3,0.1,,0.0,2.0,2.0
+shuffle,1.0,char n-gram 2-4,-,nested,fold4,0.1,,4.0,2.0,2.0
+shuffle,1.0,char + stylometric,ttr,nested,fold1,0.1,1.0,8.0,8.0,7.333333333333333
+shuffle,1.0,char + stylometric,ttr,nested,fold2,0.1,0.5,4.0,4.0,3.3333333333333335
+shuffle,1.0,char + stylometric,ttr,nested,fold3,0.1,1.0,10.0,8.0,4.999999999999999
+shuffle,1.0,char + stylometric,ttr,nested,fold4,0.1,0.01,4.0,2.0,2.0
+shuffle,1.0,stylometric only,mattr,nested,fold1,0.1,,12.0,12.0,8.466666666666665
+shuffle,1.0,stylometric only,mattr,nested,fold2,0.1,,8.0,8.0,7.000000000000001
+shuffle,1.0,stylometric only,mattr,nested,fold3,0.1,,10.0,14.000000000000002,11.666666666666666
+shuffle,1.0,stylometric only,mattr,nested,fold4,0.1,,4.0,16.0,12.666666666666664
+shuffle,1.0,char + stylometric,mattr,nested,fold1,0.1,1.0,6.0,8.0,7.333333333333333
+shuffle,1.0,char + stylometric,mattr,nested,fold2,0.1,0.5,4.0,4.0,3.3333333333333335
+shuffle,1.0,char + stylometric,mattr,nested,fold3,0.1,1.0,10.0,10.0,6.999999999999999
+shuffle,1.0,char + stylometric,mattr,nested,fold4,0.1,0.01,4.0,2.0,2.0
+shuffle,2.0,stylometric only,ttr,fixed,fold1,1.0,,,16.0,13.238095238095237
+shuffle,2.0,stylometric only,ttr,fixed,fold2,1.0,,,10.0,9.333333333333332
+shuffle,2.0,stylometric only,ttr,fixed,fold3,1.0,,,16.0,12.333333333333332
+shuffle,2.0,stylometric only,ttr,fixed,fold4,1.0,,,18.0,14.799999999999999
+shuffle,2.0,char n-gram 2-4,-,fixed,fold1,1.0,,,2.0,1.3333333333333333
+shuffle,2.0,char n-gram 2-4,-,fixed,fold2,1.0,,,0.0,0.0
+shuffle,2.0,char n-gram 2-4,-,fixed,fold3,1.0,,,2.0,1.3333333333333333
+shuffle,2.0,char n-gram 2-4,-,fixed,fold4,1.0,,,4.0,2.6666666666666665
+shuffle,2.0,char + stylometric,ttr,fixed,fold1,1.0,0.1,,2.0,1.3333333333333333
+shuffle,2.0,char + stylometric,ttr,fixed,fold2,1.0,0.1,,0.0,0.0
+shuffle,2.0,char + stylometric,ttr,fixed,fold3,1.0,0.1,,2.0,1.3333333333333333
+shuffle,2.0,char + stylometric,ttr,fixed,fold4,1.0,0.1,,4.0,2.6666666666666665
+shuffle,2.0,stylometric only,mattr,fixed,fold1,1.0,,,16.0,13.238095238095237
+shuffle,2.0,stylometric only,mattr,fixed,fold2,1.0,,,10.0,9.0
+shuffle,2.0,stylometric only,mattr,fixed,fold3,1.0,,,16.0,12.133333333333333
+shuffle,2.0,stylometric only,mattr,fixed,fold4,1.0,,,14.000000000000002,11.666666666666666
+shuffle,2.0,char + stylometric,mattr,fixed,fold1,1.0,0.1,,2.0,1.3333333333333333
+shuffle,2.0,char + stylometric,mattr,fixed,fold2,1.0,0.1,,0.0,0.0
+shuffle,2.0,char + stylometric,mattr,fixed,fold3,1.0,0.1,,2.0,1.3333333333333333
+shuffle,2.0,char + stylometric,mattr,fixed,fold4,1.0,0.1,,4.0,2.6666666666666665
+shuffle,2.0,stylometric only,ttr,nested,fold1,0.1,,8.0,18.0,15.333333333333332
+shuffle,2.0,stylometric only,ttr,nested,fold2,1.0,,14.000000000000002,10.0,9.333333333333332
+shuffle,2.0,stylometric only,ttr,nested,fold3,100.0,,14.000000000000002,14.000000000000002,11.333333333333332
+shuffle,2.0,stylometric only,ttr,nested,fold4,0.1,,14.000000000000002,20.0,16.666666666666664
+shuffle,2.0,char n-gram 2-4,-,nested,fold1,1.0,,4.0,2.0,1.3333333333333333
+shuffle,2.0,char n-gram 2-4,-,nested,fold2,0.1,,0.0,2.0,2.0
+shuffle,2.0,char n-gram 2-4,-,nested,fold3,0.1,,4.0,2.0,1.3333333333333333
+shuffle,2.0,char n-gram 2-4,-,nested,fold4,0.1,,0.0,4.0,2.6666666666666665
+shuffle,2.0,char + stylometric,ttr,nested,fold1,0.1,1.0,10.0,10.0,8.333333333333332
+shuffle,2.0,char + stylometric,ttr,nested,fold2,0.1,1.0,12.0,12.0,10.133333333333333
+shuffle,2.0,char + stylometric,ttr,nested,fold3,1.0,1.0,10.0,16.0,14.666666666666666
+shuffle,2.0,char + stylometric,ttr,nested,fold4,0.1,1.0,6.0,18.0,14.000000000000002
+shuffle,2.0,stylometric only,mattr,nested,fold1,0.1,,8.0,20.0,16.666666666666664
+shuffle,2.0,stylometric only,mattr,nested,fold2,1.0,,14.000000000000002,10.0,9.0
+shuffle,2.0,stylometric only,mattr,nested,fold3,0.1,,14.000000000000002,18.0,15.0
+shuffle,2.0,stylometric only,mattr,nested,fold4,0.1,,14.000000000000002,20.0,16.799999999999997
+shuffle,2.0,char + stylometric,mattr,nested,fold1,0.1,1.0,10.0,8.0,6.333333333333332
+shuffle,2.0,char + stylometric,mattr,nested,fold2,0.1,1.0,12.0,12.0,10.133333333333333
+shuffle,2.0,char + stylometric,mattr,nested,fold3,10.0,1.0,10.0,16.0,14.666666666666666
+shuffle,2.0,char + stylometric,mattr,nested,fold4,0.1,1.0,6.0,18.0,14.000000000000002
+shuffle,3.0,stylometric only,ttr,fixed,fold1,1.0,,,14.000000000000002,10.799999999999999
+shuffle,3.0,stylometric only,ttr,fixed,fold2,1.0,,,10.0,8.333333333333332
+shuffle,3.0,stylometric only,ttr,fixed,fold3,1.0,,,16.0,11.333333333333332
+shuffle,3.0,stylometric only,ttr,fixed,fold4,1.0,,,10.0,7.666666666666666
+shuffle,3.0,char n-gram 2-4,-,fixed,fold1,1.0,,,4.0,2.1333333333333333
+shuffle,3.0,char n-gram 2-4,-,fixed,fold2,1.0,,,2.0,2.0
+shuffle,3.0,char n-gram 2-4,-,fixed,fold3,1.0,,,4.0,3.0
+shuffle,3.0,char n-gram 2-4,-,fixed,fold4,1.0,,,2.0,0.8
+shuffle,3.0,char + stylometric,ttr,fixed,fold1,1.0,0.1,,4.0,2.1333333333333333
+shuffle,3.0,char + stylometric,ttr,fixed,fold2,1.0,0.1,,2.0,2.0
+shuffle,3.0,char + stylometric,ttr,fixed,fold3,1.0,0.1,,4.0,3.3333333333333335
+shuffle,3.0,char + stylometric,ttr,fixed,fold4,1.0,0.1,,2.0,1.0
+shuffle,3.0,stylometric only,mattr,fixed,fold1,1.0,,,16.0,12.799999999999997
+shuffle,3.0,stylometric only,mattr,fixed,fold2,1.0,,,10.0,8.333333333333332
+shuffle,3.0,stylometric only,mattr,fixed,fold3,1.0,,,18.0,14.000000000000002
+shuffle,3.0,stylometric only,mattr,fixed,fold4,1.0,,,12.0,8.666666666666666
+shuffle,3.0,char + stylometric,mattr,fixed,fold1,1.0,0.1,,4.0,2.1333333333333333
+shuffle,3.0,char + stylometric,mattr,fixed,fold2,1.0,0.1,,2.0,2.0
+shuffle,3.0,char + stylometric,mattr,fixed,fold3,1.0,0.1,,4.0,3.3333333333333335
+shuffle,3.0,char + stylometric,mattr,fixed,fold4,1.0,0.1,,2.0,1.0
+shuffle,3.0,stylometric only,ttr,nested,fold1,0.1,,10.0,18.0,14.133333333333331
+shuffle,3.0,stylometric only,ttr,nested,fold2,0.1,,12.0,10.0,7.999999999999999
+shuffle,3.0,stylometric only,ttr,nested,fold3,10.0,,8.0,18.0,14.666666666666664
+shuffle,3.0,stylometric only,ttr,nested,fold4,1.0,,12.0,10.0,7.666666666666666
+shuffle,3.0,char n-gram 2-4,-,nested,fold1,0.1,,2.0,2.0,0.6666666666666666
+shuffle,3.0,char n-gram 2-4,-,nested,fold2,0.1,,2.0,2.0,2.0
+shuffle,3.0,char n-gram 2-4,-,nested,fold3,0.1,,2.0,2.0,1.0
+shuffle,3.0,char n-gram 2-4,-,nested,fold4,0.1,,2.0,2.0,0.6666666666666666
+shuffle,3.0,char + stylometric,ttr,nested,fold1,10.0,1.0,8.0,6.0,4.133333333333333
+shuffle,3.0,char + stylometric,ttr,nested,fold2,0.1,1.0,8.0,8.0,7.333333333333333
+shuffle,3.0,char + stylometric,ttr,nested,fold3,0.1,1.0,4.0,12.0,7.2666666666666675
+shuffle,3.0,char + stylometric,ttr,nested,fold4,0.1,0.5,8.0,6.0,4.133333333333333
+shuffle,3.0,stylometric only,mattr,nested,fold1,0.1,,10.0,20.0,16.799999999999997
+shuffle,3.0,stylometric only,mattr,nested,fold2,0.1,,10.0,10.0,7.999999999999999
+shuffle,3.0,stylometric only,mattr,nested,fold3,0.1,,6.0,18.0,13.799999999999999
+shuffle,3.0,stylometric only,mattr,nested,fold4,1.0,,12.0,12.0,8.666666666666666
+shuffle,3.0,char + stylometric,mattr,nested,fold1,0.1,1.0,6.0,8.0,6.133333333333333
+shuffle,3.0,char + stylometric,mattr,nested,fold2,0.1,1.0,8.0,8.0,7.333333333333333
+shuffle,3.0,char + stylometric,mattr,nested,fold3,0.1,1.0,4.0,12.0,7.933333333333333
+shuffle,3.0,char + stylometric,mattr,nested,fold4,0.1,0.5,10.0,6.0,4.133333333333333
+shuffle,4.0,stylometric only,ttr,fixed,fold1,1.0,,,12.0,9.333333333333332
+shuffle,4.0,stylometric only,ttr,fixed,fold2,1.0,,,8.0,6.333333333333332
+shuffle,4.0,stylometric only,ttr,fixed,fold3,1.0,,,14.000000000000002,11.0
+shuffle,4.0,stylometric only,ttr,fixed,fold4,1.0,,,18.0,15.333333333333332
+shuffle,4.0,char n-gram 2-4,-,fixed,fold1,1.0,,,4.0,3.3333333333333335
+shuffle,4.0,char n-gram 2-4,-,fixed,fold2,1.0,,,0.0,0.0
+shuffle,4.0,char n-gram 2-4,-,fixed,fold3,1.0,,,0.0,0.0
+shuffle,4.0,char n-gram 2-4,-,fixed,fold4,1.0,,,2.0,1.3333333333333333
+shuffle,4.0,char + stylometric,ttr,fixed,fold1,1.0,0.1,,4.0,3.3333333333333335
+shuffle,4.0,char + stylometric,ttr,fixed,fold2,1.0,0.1,,0.0,0.0
+shuffle,4.0,char + stylometric,ttr,fixed,fold3,1.0,0.1,,2.0,1.0
+shuffle,4.0,char + stylometric,ttr,fixed,fold4,1.0,0.1,,2.0,2.0
+shuffle,4.0,stylometric only,mattr,fixed,fold1,1.0,,,12.0,9.333333333333332
+shuffle,4.0,stylometric only,mattr,fixed,fold2,1.0,,,8.0,6.333333333333332
+shuffle,4.0,stylometric only,mattr,fixed,fold3,1.0,,,10.0,7.666666666666666
+shuffle,4.0,stylometric only,mattr,fixed,fold4,1.0,,,14.000000000000002,10.0
+shuffle,4.0,char + stylometric,mattr,fixed,fold1,1.0,0.1,,4.0,3.3333333333333335
+shuffle,4.0,char + stylometric,mattr,fixed,fold2,1.0,0.1,,0.0,0.0
+shuffle,4.0,char + stylometric,mattr,fixed,fold3,1.0,0.1,,2.0,1.0
+shuffle,4.0,char + stylometric,mattr,fixed,fold4,1.0,0.1,,2.0,2.0
+shuffle,4.0,stylometric only,ttr,nested,fold1,0.1,,10.0,16.0,12.333333333333332
+shuffle,4.0,stylometric only,ttr,nested,fold2,1.0,,18.0,8.0,6.333333333333332
+shuffle,4.0,stylometric only,ttr,nested,fold3,1.0,,12.0,14.000000000000002,11.0
+shuffle,4.0,stylometric only,ttr,nested,fold4,0.1,,8.0,16.0,11.8
+shuffle,4.0,char n-gram 2-4,-,nested,fold1,1.0,,4.0,4.0,3.3333333333333335
+shuffle,4.0,char n-gram 2-4,-,nested,fold2,10.0,,6.0,0.0,0.0
+shuffle,4.0,char n-gram 2-4,-,nested,fold3,0.1,,4.0,2.0,1.0
+shuffle,4.0,char n-gram 2-4,-,nested,fold4,0.1,,4.0,2.0,1.3333333333333333
+shuffle,4.0,char + stylometric,ttr,nested,fold1,0.1,1.0,8.0,12.0,9.666666666666666
+shuffle,4.0,char + stylometric,ttr,nested,fold2,0.1,1.0,12.0,10.0,7.666666666666666
+shuffle,4.0,char + stylometric,ttr,nested,fold3,0.1,0.5,6.0,4.0,1.8000000000000003
+shuffle,4.0,char + stylometric,ttr,nested,fold4,10.0,1.0,8.0,10.0,7.333333333333333
+shuffle,4.0,stylometric only,mattr,nested,fold1,0.1,,10.0,16.0,12.333333333333332
+shuffle,4.0,stylometric only,mattr,nested,fold2,100.0,,18.0,12.0,10.333333333333332
+shuffle,4.0,stylometric only,mattr,nested,fold3,10.0,,12.0,12.0,9.666666666666666
+shuffle,4.0,stylometric only,mattr,nested,fold4,0.1,,8.0,16.0,11.8
+shuffle,4.0,char + stylometric,mattr,nested,fold1,0.1,1.0,10.0,14.000000000000002,11.333333333333332
+shuffle,4.0,char + stylometric,mattr,nested,fold2,100.0,1.0,12.0,8.0,6.333333333333332
+shuffle,4.0,char + stylometric,mattr,nested,fold3,1.0,1.0,8.0,8.0,5.333333333333333
+shuffle,4.0,char + stylometric,mattr,nested,fold4,10.0,1.0,8.0,12.0,9.333333333333332
+topic held out,,stylometric only,ttr,fixed,Lifestyle,1.0,,,4.0,4.0
+topic held out,,stylometric only,ttr,fixed,Olahraga,1.0,,,2.0,0.8
+topic held out,,stylometric only,ttr,fixed,Politik,1.0,,,6.0,4.8
+topic held out,,stylometric only,ttr,fixed,Teknologi,1.0,,,8.0,6.333333333333332
+topic held out,,char n-gram 2-4,-,fixed,Lifestyle,1.0,,,20.0,15.933333333333334
+topic held out,,char n-gram 2-4,-,fixed,Olahraga,1.0,,,32.0,24.133333333333333
+topic held out,,char n-gram 2-4,-,fixed,Politik,1.0,,,18.0,10.685470085470085
+topic held out,,char n-gram 2-4,-,fixed,Teknologi,1.0,,,26.0,19.71111111111111
+topic held out,,char + stylometric,ttr,fixed,Lifestyle,1.0,0.1,,20.0,15.933333333333334
+topic held out,,char + stylometric,ttr,fixed,Olahraga,1.0,0.1,,32.0,24.666666666666664
+topic held out,,char + stylometric,ttr,fixed,Politik,1.0,0.1,,18.0,10.71111111111111
+topic held out,,char + stylometric,ttr,fixed,Teknologi,1.0,0.1,,28.000000000000004,22.11111111111111
+topic held out,,stylometric only,mattr,fixed,Lifestyle,1.0,,,6.0,6.0
+topic held out,,stylometric only,mattr,fixed,Olahraga,1.0,,,2.0,0.8
+topic held out,,stylometric only,mattr,fixed,Politik,1.0,,,6.0,4.8
+topic held out,,stylometric only,mattr,fixed,Teknologi,1.0,,,8.0,6.333333333333332
+topic held out,,char + stylometric,mattr,fixed,Lifestyle,1.0,0.1,,20.0,15.933333333333334
+topic held out,,char + stylometric,mattr,fixed,Olahraga,1.0,0.1,,32.0,24.666666666666664
+topic held out,,char + stylometric,mattr,fixed,Politik,1.0,0.1,,18.0,10.71111111111111
+topic held out,,char + stylometric,mattr,fixed,Teknologi,1.0,0.1,,28.000000000000004,22.11111111111111
+topic held out,,stylometric only,ttr,nested,Lifestyle,0.1,,2.0,4.0,4.0
+topic held out,,stylometric only,ttr,nested,Olahraga,0.1,,4.0,2.0,1.0
+topic held out,,stylometric only,ttr,nested,Politik,0.1,,6.0,10.0,6.633333333333333
+topic held out,,stylometric only,ttr,nested,Teknologi,1.0,,8.0,8.0,6.333333333333332
+topic held out,,char n-gram 2-4,-,nested,Lifestyle,1.0,,20.0,20.0,15.933333333333334
+topic held out,,char n-gram 2-4,-,nested,Olahraga,10.0,,12.0,28.000000000000004,20.11111111111111
+topic held out,,char n-gram 2-4,-,nested,Politik,0.1,,20.0,18.0,10.724358974358974
+topic held out,,char n-gram 2-4,-,nested,Teknologi,10.0,,16.0,24.0,19.0
+topic held out,,char + stylometric,ttr,nested,Lifestyle,1.0,0.01,20.0,20.0,15.933333333333334
+topic held out,,char + stylometric,ttr,nested,Olahraga,10.0,0.01,12.0,28.000000000000004,20.11111111111111
+topic held out,,char + stylometric,ttr,nested,Politik,0.1,0.05,22.0,18.0,10.724358974358974
+topic held out,,char + stylometric,ttr,nested,Teknologi,10.0,0.05,18.0,24.0,19.0
+topic held out,,stylometric only,mattr,nested,Lifestyle,0.1,,2.0,4.0,4.0
+topic held out,,stylometric only,mattr,nested,Olahraga,0.1,,4.0,2.0,1.3333333333333333
+topic held out,,stylometric only,mattr,nested,Politik,0.1,,6.0,10.0,6.633333333333333
+topic held out,,stylometric only,mattr,nested,Teknologi,1.0,,8.0,8.0,6.333333333333332
+topic held out,,char + stylometric,mattr,nested,Lifestyle,1.0,0.01,20.0,20.0,15.933333333333334
+topic held out,,char + stylometric,mattr,nested,Olahraga,10.0,0.01,12.0,28.000000000000004,20.11111111111111
+topic held out,,char + stylometric,mattr,nested,Politik,0.1,0.05,22.0,18.0,10.724358974358974
+topic held out,,char + stylometric,mattr,nested,Teknologi,10.0,0.05,18.0,24.0,19.0
