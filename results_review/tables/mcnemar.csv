@@ -9,3 +9,21 @@ char vs char+stylo,question groups,3,"paper now (C=1, w=0.1, TTR)",200,34.0,33.5
 char vs char+stylo,question groups,3,"nested C/w, MATTR",200,33.0,30.0,54,12,6,128,True,6.0,0.237884521484375
 char vs char+stylo,question groups,4,"paper now (C=1, w=0.1, TTR)",200,29.5,31.0,59,0,3,138,True,0.0,0.25
 char vs char+stylo,question groups,4,"nested C/w, MATTR",200,29.5,27.500000000000004,53,6,2,139,True,2.0,0.2890625
+char vs IndoBERT,question groups,1,"char C=1, IndoBERT nested epochs",200,28.000000000000004,45.0,36,20,54,90,False,14.716216216216216,0.0001249668635887719
+char vs IndoBERT,question groups,1,"char nested C, IndoBERT nested epochs",200,28.000000000000004,45.0,34,22,56,88,False,13.961538461538462,0.00018658890717207472
+char vs IndoBERT,question groups,2,"char C=1, IndoBERT nested epochs",200,28.000000000000004,35.0,30,26,40,104,False,2.5606060606060606,0.10955657678268615
+char vs IndoBERT,question groups,2,"char nested C, IndoBERT nested epochs",200,28.000000000000004,35.0,29,27,41,103,False,2.485294117647059,0.11491486452557433
+char vs IndoBERT,question groups,42,"char C=1, IndoBERT nested epochs",200,28.000000000000004,42.0,37,19,47,97,False,11.045454545454545,0.00088904903065855
+char vs IndoBERT,question groups,42,"char nested C, IndoBERT nested epochs",200,28.000000000000004,42.0,36,20,48,96,False,10.720588235294118,0.0010594998426941237
+char vs IndoBERT,topic held out,1,"char C=1, IndoBERT nested epochs",200,24.0,13.0,14,34,12,140,False,9.58695652173913,0.0019596450541656198
+char vs IndoBERT,topic held out,1,"char nested C, IndoBERT nested epochs",200,22.5,13.0,13,32,13,142,False,7.2,0.0072903580915356595
+char vs IndoBERT,topic held out,2,"char C=1, IndoBERT nested epochs",200,24.0,16.0,17,31,15,137,False,4.891304347826087,0.026992286272402254
+char vs IndoBERT,topic held out,2,"char nested C, IndoBERT nested epochs",200,22.5,16.0,15,30,17,138,False,3.0638297872340425,0.08005278235757977
+char vs IndoBERT,topic held out,42,"char C=1, IndoBERT nested epochs",200,24.0,17.0,15,33,19,133,False,3.25,0.07142345772985215
+char vs IndoBERT,topic held out,42,"char nested C, IndoBERT nested epochs",200,22.5,17.0,15,30,19,136,False,2.0408163265306123,0.15312745101966538
+char vs IndoBERT,shuffle,1,"char C=1, IndoBERT nested epochs",200,3.0,17.5,4,2,31,163,False,23.757575757575758,1.0926445169555436e-06
+char vs IndoBERT,shuffle,1,"char nested C, IndoBERT nested epochs",200,2.5,17.5,3,2,32,163,False,24.735294117647058,6.576869920648128e-07
+char vs IndoBERT,shuffle,2,"char C=1, IndoBERT nested epochs",200,3.0,16.5,4,2,29,165,False,21.806451612903224,3.0158433514168103e-06
+char vs IndoBERT,shuffle,2,"char nested C, IndoBERT nested epochs",200,2.5,16.5,3,2,30,165,False,22.78125,1.8152814274403543e-06
+char vs IndoBERT,shuffle,42,"char C=1, IndoBERT nested epochs",200,3.0,18.0,4,2,32,162,False,24.735294117647058,6.576869920648128e-07
+char vs IndoBERT,shuffle,42,"char nested C, IndoBERT nested epochs",200,2.5,18.0,3,2,33,162,False,25.714285714285715,3.95885676595604e-07

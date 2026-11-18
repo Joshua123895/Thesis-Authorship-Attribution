@@ -1,0 +1,1801 @@
+condition,seed,doc,fold,y_true,y_pred
+question groups,42,0,grp1,siswa_10,siswa_10
+question groups,42,4,grp1,siswa_11,siswa_11
+question groups,42,8,grp1,siswa_12,siswa_22
+question groups,42,12,grp1,siswa_16,siswa_16
+question groups,42,16,grp1,siswa_17,siswa_19
+question groups,42,20,grp1,siswa_18,siswa_18
+question groups,42,24,grp1,siswa_19,siswa_19
+question groups,42,28,grp1,siswa_2,siswa_2
+question groups,42,32,grp1,siswa_20,siswa_58
+question groups,42,36,grp1,siswa_22,siswa_22
+question groups,42,40,grp1,siswa_24,siswa_60
+question groups,42,44,grp1,siswa_25,siswa_22
+question groups,42,48,grp1,siswa_26,siswa_26
+question groups,42,52,grp1,siswa_3,siswa_26
+question groups,42,56,grp1,siswa_33,siswa_41
+question groups,42,60,grp1,siswa_34,siswa_35
+question groups,42,64,grp1,siswa_35,siswa_34
+question groups,42,68,grp1,siswa_36,siswa_55
+question groups,42,72,grp1,siswa_37,siswa_37
+question groups,42,76,grp1,siswa_38,siswa_38
+question groups,42,80,grp1,siswa_39,siswa_39
+question groups,42,84,grp1,siswa_4,siswa_4
+question groups,42,88,grp1,siswa_40,siswa_40
+question groups,42,92,grp1,siswa_41,siswa_41
+question groups,42,96,grp1,siswa_42,siswa_42
+question groups,42,100,grp1,siswa_43,siswa_43
+question groups,42,104,grp1,siswa_44,siswa_35
+question groups,42,108,grp1,siswa_45,siswa_61
+question groups,42,112,grp1,siswa_46,siswa_35
+question groups,42,116,grp1,siswa_47,siswa_61
+question groups,42,120,grp1,siswa_49,siswa_61
+question groups,42,124,grp1,siswa_50,siswa_50
+question groups,42,128,grp1,siswa_51,siswa_49
+question groups,42,132,grp1,siswa_52,siswa_38
+question groups,42,136,grp1,siswa_53,siswa_6
+question groups,42,140,grp1,siswa_54,siswa_54
+question groups,42,144,grp1,siswa_55,siswa_55
+question groups,42,148,grp1,siswa_56,siswa_51
+question groups,42,152,grp1,siswa_57,siswa_42
+question groups,42,156,grp1,siswa_58,siswa_60
+question groups,42,160,grp1,siswa_59,siswa_59
+question groups,42,164,grp1,siswa_6,siswa_63
+question groups,42,168,grp1,siswa_60,siswa_55
+question groups,42,172,grp1,siswa_61,siswa_11
+question groups,42,176,grp1,siswa_62,siswa_62
+question groups,42,180,grp1,siswa_63,siswa_26
+question groups,42,184,grp1,siswa_64,siswa_64
+question groups,42,188,grp1,siswa_7,siswa_7
+question groups,42,192,grp1,siswa_8,siswa_55
+question groups,42,196,grp1,siswa_9,siswa_9
+question groups,1,0,grp1,siswa_10,siswa_10
+question groups,1,4,grp1,siswa_11,siswa_11
+question groups,1,8,grp1,siswa_12,siswa_61
+question groups,1,12,grp1,siswa_16,siswa_16
+question groups,1,16,grp1,siswa_17,siswa_17
+question groups,1,20,grp1,siswa_18,siswa_18
+question groups,1,24,grp1,siswa_19,siswa_19
+question groups,1,28,grp1,siswa_2,siswa_11
+question groups,1,32,grp1,siswa_20,siswa_36
+question groups,1,36,grp1,siswa_22,siswa_39
+question groups,1,40,grp1,siswa_24,siswa_60
+question groups,1,44,grp1,siswa_25,siswa_25
+question groups,1,48,grp1,siswa_26,siswa_26
+question groups,1,52,grp1,siswa_3,siswa_26
+question groups,1,56,grp1,siswa_33,siswa_64
+question groups,1,60,grp1,siswa_34,siswa_35
+question groups,1,64,grp1,siswa_35,siswa_34
+question groups,1,68,grp1,siswa_36,siswa_62
+question groups,1,72,grp1,siswa_37,siswa_37
+question groups,1,76,grp1,siswa_38,siswa_38
+question groups,1,80,grp1,siswa_39,siswa_20
+question groups,1,84,grp1,siswa_4,siswa_4
+question groups,1,88,grp1,siswa_40,siswa_40
+question groups,1,92,grp1,siswa_41,siswa_39
+question groups,1,96,grp1,siswa_42,siswa_40
+question groups,1,100,grp1,siswa_43,siswa_43
+question groups,1,104,grp1,siswa_44,siswa_44
+question groups,1,108,grp1,siswa_45,siswa_61
+question groups,1,112,grp1,siswa_46,siswa_34
+question groups,1,116,grp1,siswa_47,siswa_7
+question groups,1,120,grp1,siswa_49,siswa_61
+question groups,1,124,grp1,siswa_50,siswa_45
+question groups,1,128,grp1,siswa_51,siswa_50
+question groups,1,132,grp1,siswa_52,siswa_38
+question groups,1,136,grp1,siswa_53,siswa_36
+question groups,1,140,grp1,siswa_54,siswa_54
+question groups,1,144,grp1,siswa_55,siswa_36
+question groups,1,148,grp1,siswa_56,siswa_44
+question groups,1,152,grp1,siswa_57,siswa_40
+question groups,1,156,grp1,siswa_58,siswa_58
+question groups,1,160,grp1,siswa_59,siswa_59
+question groups,1,164,grp1,siswa_6,siswa_26
+question groups,1,168,grp1,siswa_60,siswa_46
+question groups,1,172,grp1,siswa_61,siswa_7
+question groups,1,176,grp1,siswa_62,siswa_62
+question groups,1,180,grp1,siswa_63,siswa_26
+question groups,1,184,grp1,siswa_64,siswa_64
+question groups,1,188,grp1,siswa_7,siswa_7
+question groups,1,192,grp1,siswa_8,siswa_8
+question groups,1,196,grp1,siswa_9,siswa_9
+question groups,2,0,grp1,siswa_10,siswa_44
+question groups,2,4,grp1,siswa_11,siswa_11
+question groups,2,8,grp1,siswa_12,siswa_7
+question groups,2,12,grp1,siswa_16,siswa_16
+question groups,2,16,grp1,siswa_17,siswa_17
+question groups,2,20,grp1,siswa_18,siswa_55
+question groups,2,24,grp1,siswa_19,siswa_6
+question groups,2,28,grp1,siswa_2,siswa_45
+question groups,2,32,grp1,siswa_20,siswa_43
+question groups,2,36,grp1,siswa_22,siswa_39
+question groups,2,40,grp1,siswa_24,siswa_6
+question groups,2,44,grp1,siswa_25,siswa_35
+question groups,2,48,grp1,siswa_26,siswa_26
+question groups,2,52,grp1,siswa_3,siswa_26
+question groups,2,56,grp1,siswa_33,siswa_42
+question groups,2,60,grp1,siswa_34,siswa_34
+question groups,2,64,grp1,siswa_35,siswa_35
+question groups,2,68,grp1,siswa_36,siswa_6
+question groups,2,72,grp1,siswa_37,siswa_37
+question groups,2,76,grp1,siswa_38,siswa_38
+question groups,2,80,grp1,siswa_39,siswa_41
+question groups,2,84,grp1,siswa_4,siswa_4
+question groups,2,88,grp1,siswa_40,siswa_40
+question groups,2,92,grp1,siswa_41,siswa_39
+question groups,2,96,grp1,siswa_42,siswa_42
+question groups,2,100,grp1,siswa_43,siswa_43
+question groups,2,104,grp1,siswa_44,siswa_47
+question groups,2,108,grp1,siswa_45,siswa_61
+question groups,2,112,grp1,siswa_46,siswa_42
+question groups,2,116,grp1,siswa_47,siswa_12
+question groups,2,120,grp1,siswa_49,siswa_61
+question groups,2,124,grp1,siswa_50,siswa_44
+question groups,2,128,grp1,siswa_51,siswa_42
+question groups,2,132,grp1,siswa_52,siswa_37
+question groups,2,136,grp1,siswa_53,siswa_6
+question groups,2,140,grp1,siswa_54,siswa_37
+question groups,2,144,grp1,siswa_55,siswa_43
+question groups,2,148,grp1,siswa_56,siswa_37
+question groups,2,152,grp1,siswa_57,siswa_42
+question groups,2,156,grp1,siswa_58,siswa_58
+question groups,2,160,grp1,siswa_59,siswa_59
+question groups,2,164,grp1,siswa_6,siswa_26
+question groups,2,168,grp1,siswa_60,siswa_60
+question groups,2,172,grp1,siswa_61,siswa_12
+question groups,2,176,grp1,siswa_62,siswa_62
+question groups,2,180,grp1,siswa_63,siswa_26
+question groups,2,184,grp1,siswa_64,siswa_64
+question groups,2,188,grp1,siswa_7,siswa_7
+question groups,2,192,grp1,siswa_8,siswa_8
+question groups,2,196,grp1,siswa_9,siswa_9
+question groups,42,1,grp2,siswa_10,siswa_9
+question groups,42,5,grp2,siswa_11,siswa_9
+question groups,42,9,grp2,siswa_12,siswa_38
+question groups,42,13,grp2,siswa_16,siswa_16
+question groups,42,17,grp2,siswa_17,siswa_4
+question groups,42,21,grp2,siswa_18,siswa_4
+question groups,42,25,grp2,siswa_19,siswa_52
+question groups,42,29,grp2,siswa_2,siswa_2
+question groups,42,33,grp2,siswa_20,siswa_38
+question groups,42,37,grp2,siswa_22,siswa_38
+question groups,42,41,grp2,siswa_24,siswa_38
+question groups,42,45,grp2,siswa_25,siswa_25
+question groups,42,49,grp2,siswa_26,siswa_26
+question groups,42,53,grp2,siswa_3,siswa_3
+question groups,42,57,grp2,siswa_33,siswa_62
+question groups,42,61,grp2,siswa_34,siswa_34
+question groups,42,65,grp2,siswa_35,siswa_33
+question groups,42,69,grp2,siswa_36,siswa_38
+question groups,42,73,grp2,siswa_37,siswa_38
+question groups,42,77,grp2,siswa_38,siswa_38
+question groups,42,81,grp2,siswa_39,siswa_18
+question groups,42,85,grp2,siswa_4,siswa_4
+question groups,42,89,grp2,siswa_40,siswa_42
+question groups,42,93,grp2,siswa_41,siswa_50
+question groups,42,97,grp2,siswa_42,siswa_42
+question groups,42,101,grp2,siswa_43,siswa_52
+question groups,42,105,grp2,siswa_44,siswa_44
+question groups,42,109,grp2,siswa_45,siswa_45
+question groups,42,113,grp2,siswa_46,siswa_53
+question groups,42,117,grp2,siswa_47,siswa_12
+question groups,42,121,grp2,siswa_49,siswa_39
+question groups,42,125,grp2,siswa_50,siswa_44
+question groups,42,129,grp2,siswa_51,siswa_9
+question groups,42,133,grp2,siswa_52,siswa_52
+question groups,42,137,grp2,siswa_53,siswa_38
+question groups,42,141,grp2,siswa_54,siswa_38
+question groups,42,145,grp2,siswa_55,siswa_20
+question groups,42,149,grp2,siswa_56,siswa_4
+question groups,42,153,grp2,siswa_57,siswa_64
+question groups,42,157,grp2,siswa_58,siswa_20
+question groups,42,161,grp2,siswa_59,siswa_38
+question groups,42,165,grp2,siswa_6,siswa_52
+question groups,42,169,grp2,siswa_60,siswa_4
+question groups,42,173,grp2,siswa_61,siswa_7
+question groups,42,177,grp2,siswa_62,siswa_4
+question groups,42,181,grp2,siswa_63,siswa_63
+question groups,42,185,grp2,siswa_64,siswa_64
+question groups,42,189,grp2,siswa_7,siswa_7
+question groups,42,193,grp2,siswa_8,siswa_38
+question groups,42,197,grp2,siswa_9,siswa_9
+question groups,1,1,grp2,siswa_10,siswa_9
+question groups,1,5,grp2,siswa_11,siswa_11
+question groups,1,9,grp2,siswa_12,siswa_59
+question groups,1,13,grp2,siswa_16,siswa_16
+question groups,1,17,grp2,siswa_17,siswa_4
+question groups,1,21,grp2,siswa_18,siswa_4
+question groups,1,25,grp2,siswa_19,siswa_17
+question groups,1,29,grp2,siswa_2,siswa_2
+question groups,1,33,grp2,siswa_20,siswa_20
+question groups,1,37,grp2,siswa_22,siswa_44
+question groups,1,41,grp2,siswa_24,siswa_20
+question groups,1,45,grp2,siswa_25,siswa_25
+question groups,1,49,grp2,siswa_26,siswa_26
+question groups,1,53,grp2,siswa_3,siswa_3
+question groups,1,57,grp2,siswa_33,siswa_46
+question groups,1,61,grp2,siswa_34,siswa_34
+question groups,1,65,grp2,siswa_35,siswa_33
+question groups,1,69,grp2,siswa_36,siswa_53
+question groups,1,73,grp2,siswa_37,siswa_53
+question groups,1,77,grp2,siswa_38,siswa_38
+question groups,1,81,grp2,siswa_39,siswa_18
+question groups,1,85,grp2,siswa_4,siswa_4
+question groups,1,89,grp2,siswa_40,siswa_42
+question groups,1,93,grp2,siswa_41,siswa_16
+question groups,1,97,grp2,siswa_42,siswa_46
+question groups,1,101,grp2,siswa_43,siswa_20
+question groups,1,105,grp2,siswa_44,siswa_44
+question groups,1,109,grp2,siswa_45,siswa_45
+question groups,1,113,grp2,siswa_46,siswa_53
+question groups,1,117,grp2,siswa_47,siswa_12
+question groups,1,121,grp2,siswa_49,siswa_11
+question groups,1,125,grp2,siswa_50,siswa_49
+question groups,1,129,grp2,siswa_51,siswa_9
+question groups,1,133,grp2,siswa_52,siswa_52
+question groups,1,137,grp2,siswa_53,siswa_38
+question groups,1,141,grp2,siswa_54,siswa_38
+question groups,1,145,grp2,siswa_55,siswa_20
+question groups,1,149,grp2,siswa_56,siswa_4
+question groups,1,153,grp2,siswa_57,siswa_57
+question groups,1,157,grp2,siswa_58,siswa_58
+question groups,1,161,grp2,siswa_59,siswa_8
+question groups,1,165,grp2,siswa_6,siswa_52
+question groups,1,169,grp2,siswa_60,siswa_16
+question groups,1,173,grp2,siswa_61,siswa_11
+question groups,1,177,grp2,siswa_62,siswa_4
+question groups,1,181,grp2,siswa_63,siswa_63
+question groups,1,185,grp2,siswa_64,siswa_64
+question groups,1,189,grp2,siswa_7,siswa_11
+question groups,1,193,grp2,siswa_8,siswa_38
+question groups,1,197,grp2,siswa_9,siswa_9
+question groups,2,1,grp2,siswa_10,siswa_9
+question groups,2,5,grp2,siswa_11,siswa_18
+question groups,2,9,grp2,siswa_12,siswa_2
+question groups,2,13,grp2,siswa_16,siswa_16
+question groups,2,17,grp2,siswa_17,siswa_4
+question groups,2,21,grp2,siswa_18,siswa_4
+question groups,2,25,grp2,siswa_19,siswa_19
+question groups,2,29,grp2,siswa_2,siswa_4
+question groups,2,33,grp2,siswa_20,siswa_38
+question groups,2,37,grp2,siswa_22,siswa_20
+question groups,2,41,grp2,siswa_24,siswa_19
+question groups,2,45,grp2,siswa_25,siswa_25
+question groups,2,49,grp2,siswa_26,siswa_63
+question groups,2,53,grp2,siswa_3,siswa_3
+question groups,2,57,grp2,siswa_33,siswa_46
+question groups,2,61,grp2,siswa_34,siswa_34
+question groups,2,65,grp2,siswa_35,siswa_35
+question groups,2,69,grp2,siswa_36,siswa_52
+question groups,2,73,grp2,siswa_37,siswa_38
+question groups,2,77,grp2,siswa_38,siswa_38
+question groups,2,81,grp2,siswa_39,siswa_37
+question groups,2,85,grp2,siswa_4,siswa_4
+question groups,2,89,grp2,siswa_40,siswa_33
+question groups,2,93,grp2,siswa_41,siswa_49
+question groups,2,97,grp2,siswa_42,siswa_64
+question groups,2,101,grp2,siswa_43,siswa_38
+question groups,2,105,grp2,siswa_44,siswa_45
+question groups,2,109,grp2,siswa_45,siswa_45
+question groups,2,113,grp2,siswa_46,siswa_53
+question groups,2,117,grp2,siswa_47,siswa_44
+question groups,2,121,grp2,siswa_49,siswa_49
+question groups,2,125,grp2,siswa_50,siswa_33
+question groups,2,129,grp2,siswa_51,siswa_51
+question groups,2,133,grp2,siswa_52,siswa_54
+question groups,2,137,grp2,siswa_53,siswa_20
+question groups,2,141,grp2,siswa_54,siswa_54
+question groups,2,145,grp2,siswa_55,siswa_2
+question groups,2,149,grp2,siswa_56,siswa_4
+question groups,2,153,grp2,siswa_57,siswa_57
+question groups,2,157,grp2,siswa_58,siswa_2
+question groups,2,161,grp2,siswa_59,siswa_59
+question groups,2,165,grp2,siswa_6,siswa_24
+question groups,2,169,grp2,siswa_60,siswa_39
+question groups,2,173,grp2,siswa_61,siswa_37
+question groups,2,177,grp2,siswa_62,siswa_4
+question groups,2,181,grp2,siswa_63,siswa_63
+question groups,2,185,grp2,siswa_64,siswa_64
+question groups,2,189,grp2,siswa_7,siswa_10
+question groups,2,193,grp2,siswa_8,siswa_20
+question groups,2,197,grp2,siswa_9,siswa_9
+question groups,42,2,grp3,siswa_10,siswa_11
+question groups,42,6,grp3,siswa_11,siswa_11
+question groups,42,10,grp3,siswa_12,siswa_12
+question groups,42,14,grp3,siswa_16,siswa_16
+question groups,42,18,grp3,siswa_17,siswa_37
+question groups,42,22,grp3,siswa_18,siswa_18
+question groups,42,26,grp3,siswa_19,siswa_3
+question groups,42,30,grp3,siswa_2,siswa_2
+question groups,42,34,grp3,siswa_20,siswa_58
+question groups,42,38,grp3,siswa_22,siswa_22
+question groups,42,42,grp3,siswa_24,siswa_20
+question groups,42,46,grp3,siswa_25,siswa_25
+question groups,42,50,grp3,siswa_26,siswa_63
+question groups,42,54,grp3,siswa_3,siswa_3
+question groups,42,58,grp3,siswa_33,siswa_33
+question groups,42,62,grp3,siswa_34,siswa_34
+question groups,42,66,grp3,siswa_35,siswa_34
+question groups,42,70,grp3,siswa_36,siswa_36
+question groups,42,74,grp3,siswa_37,siswa_37
+question groups,42,78,grp3,siswa_38,siswa_38
+question groups,42,82,grp3,siswa_39,siswa_45
+question groups,42,86,grp3,siswa_4,siswa_4
+question groups,42,90,grp3,siswa_40,siswa_40
+question groups,42,94,grp3,siswa_41,siswa_41
+question groups,42,98,grp3,siswa_42,siswa_42
+question groups,42,102,grp3,siswa_43,siswa_22
+question groups,42,106,grp3,siswa_44,siswa_44
+question groups,42,110,grp3,siswa_45,siswa_10
+question groups,42,114,grp3,siswa_46,siswa_45
+question groups,42,118,grp3,siswa_47,siswa_44
+question groups,42,122,grp3,siswa_49,siswa_44
+question groups,42,126,grp3,siswa_50,siswa_11
+question groups,42,130,grp3,siswa_51,siswa_41
+question groups,42,134,grp3,siswa_52,siswa_19
+question groups,42,138,grp3,siswa_53,siswa_53
+question groups,42,142,grp3,siswa_54,siswa_54
+question groups,42,146,grp3,siswa_55,siswa_8
+question groups,42,150,grp3,siswa_56,siswa_45
+question groups,42,154,grp3,siswa_57,siswa_57
+question groups,42,158,grp3,siswa_58,siswa_38
+question groups,42,162,grp3,siswa_59,siswa_59
+question groups,42,166,grp3,siswa_6,siswa_58
+question groups,42,170,grp3,siswa_60,siswa_58
+question groups,42,174,grp3,siswa_61,siswa_49
+question groups,42,178,grp3,siswa_62,siswa_62
+question groups,42,182,grp3,siswa_63,siswa_63
+question groups,42,186,grp3,siswa_64,siswa_64
+question groups,42,190,grp3,siswa_7,siswa_45
+question groups,42,194,grp3,siswa_8,siswa_3
+question groups,42,198,grp3,siswa_9,siswa_11
+question groups,1,2,grp3,siswa_10,siswa_11
+question groups,1,6,grp3,siswa_11,siswa_11
+question groups,1,10,grp3,siswa_12,siswa_12
+question groups,1,14,grp3,siswa_16,siswa_16
+question groups,1,18,grp3,siswa_17,siswa_54
+question groups,1,22,grp3,siswa_18,siswa_18
+question groups,1,26,grp3,siswa_19,siswa_3
+question groups,1,30,grp3,siswa_2,siswa_2
+question groups,1,34,grp3,siswa_20,siswa_8
+question groups,1,38,grp3,siswa_22,siswa_22
+question groups,1,42,grp3,siswa_24,siswa_20
+question groups,1,46,grp3,siswa_25,siswa_2
+question groups,1,50,grp3,siswa_26,siswa_3
+question groups,1,54,grp3,siswa_3,siswa_3
+question groups,1,58,grp3,siswa_33,siswa_33
+question groups,1,62,grp3,siswa_34,siswa_34
+question groups,1,66,grp3,siswa_35,siswa_22
+question groups,1,70,grp3,siswa_36,siswa_58
+question groups,1,74,grp3,siswa_37,siswa_37
+question groups,1,78,grp3,siswa_38,siswa_38
+question groups,1,82,grp3,siswa_39,siswa_39
+question groups,1,86,grp3,siswa_4,siswa_4
+question groups,1,90,grp3,siswa_40,siswa_40
+question groups,1,94,grp3,siswa_41,siswa_41
+question groups,1,98,grp3,siswa_42,siswa_42
+question groups,1,102,grp3,siswa_43,siswa_51
+question groups,1,106,grp3,siswa_44,siswa_44
+question groups,1,110,grp3,siswa_45,siswa_22
+question groups,1,114,grp3,siswa_46,siswa_33
+question groups,1,118,grp3,siswa_47,siswa_9
+question groups,1,122,grp3,siswa_49,siswa_44
+question groups,1,126,grp3,siswa_50,siswa_50
+question groups,1,130,grp3,siswa_51,siswa_50
+question groups,1,134,grp3,siswa_52,siswa_52
+question groups,1,138,grp3,siswa_53,siswa_53
+question groups,1,142,grp3,siswa_54,siswa_38
+question groups,1,146,grp3,siswa_55,siswa_37
+question groups,1,150,grp3,siswa_56,siswa_33
+question groups,1,154,grp3,siswa_57,siswa_57
+question groups,1,158,grp3,siswa_58,siswa_38
+question groups,1,162,grp3,siswa_59,siswa_59
+question groups,1,166,grp3,siswa_6,siswa_20
+question groups,1,170,grp3,siswa_60,siswa_58
+question groups,1,174,grp3,siswa_61,siswa_49
+question groups,1,178,grp3,siswa_62,siswa_39
+question groups,1,182,grp3,siswa_63,siswa_63
+question groups,1,186,grp3,siswa_64,siswa_64
+question groups,1,190,grp3,siswa_7,siswa_7
+question groups,1,194,grp3,siswa_8,siswa_3
+question groups,1,198,grp3,siswa_9,siswa_10
+question groups,2,2,grp3,siswa_10,siswa_11
+question groups,2,6,grp3,siswa_11,siswa_11
+question groups,2,10,grp3,siswa_12,siswa_12
+question groups,2,14,grp3,siswa_16,siswa_16
+question groups,2,18,grp3,siswa_17,siswa_38
+question groups,2,22,grp3,siswa_18,siswa_11
+question groups,2,26,grp3,siswa_19,siswa_3
+question groups,2,30,grp3,siswa_2,siswa_9
+question groups,2,34,grp3,siswa_20,siswa_54
+question groups,2,38,grp3,siswa_22,siswa_22
+question groups,2,42,grp3,siswa_24,siswa_19
+question groups,2,46,grp3,siswa_25,siswa_11
+question groups,2,50,grp3,siswa_26,siswa_63
+question groups,2,54,grp3,siswa_3,siswa_3
+question groups,2,58,grp3,siswa_33,siswa_33
+question groups,2,62,grp3,siswa_34,siswa_34
+question groups,2,66,grp3,siswa_35,siswa_50
+question groups,2,70,grp3,siswa_36,siswa_55
+question groups,2,74,grp3,siswa_37,siswa_8
+question groups,2,78,grp3,siswa_38,siswa_38
+question groups,2,82,grp3,siswa_39,siswa_25
+question groups,2,86,grp3,siswa_4,siswa_4
+question groups,2,90,grp3,siswa_40,siswa_40
+question groups,2,94,grp3,siswa_41,siswa_41
+question groups,2,98,grp3,siswa_42,siswa_33
+question groups,2,102,grp3,siswa_43,siswa_33
+question groups,2,106,grp3,siswa_44,siswa_10
+question groups,2,110,grp3,siswa_45,siswa_10
+question groups,2,114,grp3,siswa_46,siswa_33
+question groups,2,118,grp3,siswa_47,siswa_44
+question groups,2,122,grp3,siswa_49,siswa_45
+question groups,2,126,grp3,siswa_50,siswa_50
+question groups,2,130,grp3,siswa_51,siswa_50
+question groups,2,134,grp3,siswa_52,siswa_52
+question groups,2,138,grp3,siswa_53,siswa_64
+question groups,2,142,grp3,siswa_54,siswa_54
+question groups,2,146,grp3,siswa_55,siswa_2
+question groups,2,150,grp3,siswa_56,siswa_34
+question groups,2,154,grp3,siswa_57,siswa_64
+question groups,2,158,grp3,siswa_58,siswa_58
+question groups,2,162,grp3,siswa_59,siswa_59
+question groups,2,166,grp3,siswa_6,siswa_6
+question groups,2,170,grp3,siswa_60,siswa_38
+question groups,2,174,grp3,siswa_61,siswa_7
+question groups,2,178,grp3,siswa_62,siswa_62
+question groups,2,182,grp3,siswa_63,siswa_63
+question groups,2,186,grp3,siswa_64,siswa_64
+question groups,2,190,grp3,siswa_7,siswa_10
+question groups,2,194,grp3,siswa_8,siswa_3
+question groups,2,198,grp3,siswa_9,siswa_9
+question groups,42,3,grp4,siswa_10,siswa_10
+question groups,42,7,grp4,siswa_11,siswa_10
+question groups,42,11,grp4,siswa_12,siswa_16
+question groups,42,15,grp4,siswa_16,siswa_16
+question groups,42,19,grp4,siswa_17,siswa_59
+question groups,42,23,grp4,siswa_18,siswa_18
+question groups,42,27,grp4,siswa_19,siswa_19
+question groups,42,31,grp4,siswa_2,siswa_10
+question groups,42,35,grp4,siswa_20,siswa_55
+question groups,42,39,grp4,siswa_22,siswa_22
+question groups,42,43,grp4,siswa_24,siswa_43
+question groups,42,47,grp4,siswa_25,siswa_22
+question groups,42,51,grp4,siswa_26,siswa_26
+question groups,42,55,grp4,siswa_3,siswa_3
+question groups,42,59,grp4,siswa_33,siswa_35
+question groups,42,63,grp4,siswa_34,siswa_46
+question groups,42,67,grp4,siswa_35,siswa_35
+question groups,42,71,grp4,siswa_36,siswa_36
+question groups,42,75,grp4,siswa_37,siswa_10
+question groups,42,79,grp4,siswa_38,siswa_52
+question groups,42,83,grp4,siswa_39,siswa_62
+question groups,42,87,grp4,siswa_4,siswa_4
+question groups,42,91,grp4,siswa_40,siswa_40
+question groups,42,95,grp4,siswa_41,siswa_40
+question groups,42,99,grp4,siswa_42,siswa_22
+question groups,42,103,grp4,siswa_43,siswa_36
+question groups,42,107,grp4,siswa_44,siswa_44
+question groups,42,111,grp4,siswa_45,siswa_35
+question groups,42,115,grp4,siswa_46,siswa_34
+question groups,42,119,grp4,siswa_47,siswa_10
+question groups,42,123,grp4,siswa_49,siswa_45
+question groups,42,127,grp4,siswa_50,siswa_33
+question groups,42,131,grp4,siswa_51,siswa_40
+question groups,42,135,grp4,siswa_52,siswa_52
+question groups,42,139,grp4,siswa_53,siswa_46
+question groups,42,143,grp4,siswa_54,siswa_53
+question groups,42,147,grp4,siswa_55,siswa_52
+question groups,42,151,grp4,siswa_56,siswa_42
+question groups,42,155,grp4,siswa_57,siswa_57
+question groups,42,159,grp4,siswa_58,siswa_52
+question groups,42,163,grp4,siswa_59,siswa_59
+question groups,42,167,grp4,siswa_6,siswa_26
+question groups,42,171,grp4,siswa_60,siswa_10
+question groups,42,175,grp4,siswa_61,siswa_24
+question groups,42,179,grp4,siswa_62,siswa_62
+question groups,42,183,grp4,siswa_63,siswa_63
+question groups,42,187,grp4,siswa_64,siswa_64
+question groups,42,191,grp4,siswa_7,siswa_49
+question groups,42,195,grp4,siswa_8,siswa_52
+question groups,42,199,grp4,siswa_9,siswa_9
+question groups,1,3,grp4,siswa_10,siswa_10
+question groups,1,7,grp4,siswa_11,siswa_10
+question groups,1,11,grp4,siswa_12,siswa_47
+question groups,1,15,grp4,siswa_16,siswa_16
+question groups,1,19,grp4,siswa_17,siswa_17
+question groups,1,23,grp4,siswa_18,siswa_18
+question groups,1,27,grp4,siswa_19,siswa_58
+question groups,1,31,grp4,siswa_2,siswa_39
+question groups,1,35,grp4,siswa_20,siswa_55
+question groups,1,39,grp4,siswa_22,siswa_22
+question groups,1,43,grp4,siswa_24,siswa_43
+question groups,1,47,grp4,siswa_25,siswa_18
+question groups,1,51,grp4,siswa_26,siswa_26
+question groups,1,55,grp4,siswa_3,siswa_3
+question groups,1,59,grp4,siswa_33,siswa_35
+question groups,1,63,grp4,siswa_34,siswa_22
+question groups,1,67,grp4,siswa_35,siswa_34
+question groups,1,71,grp4,siswa_36,siswa_36
+question groups,1,75,grp4,siswa_37,siswa_37
+question groups,1,79,grp4,siswa_38,siswa_8
+question groups,1,83,grp4,siswa_39,siswa_62
+question groups,1,87,grp4,siswa_4,siswa_4
+question groups,1,91,grp4,siswa_40,siswa_40
+question groups,1,95,grp4,siswa_41,siswa_33
+question groups,1,99,grp4,siswa_42,siswa_42
+question groups,1,103,grp4,siswa_43,siswa_54
+question groups,1,107,grp4,siswa_44,siswa_44
+question groups,1,111,grp4,siswa_45,siswa_33
+question groups,1,115,grp4,siswa_46,siswa_46
+question groups,1,119,grp4,siswa_47,siswa_44
+question groups,1,123,grp4,siswa_49,siswa_49
+question groups,1,127,grp4,siswa_50,siswa_45
+question groups,1,131,grp4,siswa_51,siswa_33
+question groups,1,135,grp4,siswa_52,siswa_52
+question groups,1,139,grp4,siswa_53,siswa_53
+question groups,1,143,grp4,siswa_54,siswa_54
+question groups,1,147,grp4,siswa_55,siswa_55
+question groups,1,151,grp4,siswa_56,siswa_46
+question groups,1,155,grp4,siswa_57,siswa_57
+question groups,1,159,grp4,siswa_58,siswa_20
+question groups,1,163,grp4,siswa_59,siswa_59
+question groups,1,167,grp4,siswa_6,siswa_59
+question groups,1,171,grp4,siswa_60,siswa_59
+question groups,1,175,grp4,siswa_61,siswa_24
+question groups,1,179,grp4,siswa_62,siswa_62
+question groups,1,183,grp4,siswa_63,siswa_63
+question groups,1,187,grp4,siswa_64,siswa_64
+question groups,1,191,grp4,siswa_7,siswa_7
+question groups,1,195,grp4,siswa_8,siswa_55
+question groups,1,199,grp4,siswa_9,siswa_10
+question groups,2,3,grp4,siswa_10,siswa_22
+question groups,2,7,grp4,siswa_11,siswa_22
+question groups,2,11,grp4,siswa_12,siswa_16
+question groups,2,15,grp4,siswa_16,siswa_16
+question groups,2,19,grp4,siswa_17,siswa_16
+question groups,2,23,grp4,siswa_18,siswa_18
+question groups,2,27,grp4,siswa_19,siswa_58
+question groups,2,31,grp4,siswa_2,siswa_55
+question groups,2,35,grp4,siswa_20,siswa_55
+question groups,2,39,grp4,siswa_22,siswa_35
+question groups,2,43,grp4,siswa_24,siswa_53
+question groups,2,47,grp4,siswa_25,siswa_44
+question groups,2,51,grp4,siswa_26,siswa_63
+question groups,2,55,grp4,siswa_3,siswa_4
+question groups,2,59,grp4,siswa_33,siswa_35
+question groups,2,63,grp4,siswa_34,siswa_46
+question groups,2,67,grp4,siswa_35,siswa_35
+question groups,2,71,grp4,siswa_36,siswa_55
+question groups,2,75,grp4,siswa_37,siswa_18
+question groups,2,79,grp4,siswa_38,siswa_55
+question groups,2,83,grp4,siswa_39,siswa_35
+question groups,2,87,grp4,siswa_4,siswa_4
+question groups,2,91,grp4,siswa_40,siswa_40
+question groups,2,95,grp4,siswa_41,siswa_40
+question groups,2,99,grp4,siswa_42,siswa_64
+question groups,2,103,grp4,siswa_43,siswa_62
+question groups,2,107,grp4,siswa_44,siswa_35
+question groups,2,111,grp4,siswa_45,siswa_35
+question groups,2,115,grp4,siswa_46,siswa_46
+question groups,2,119,grp4,siswa_47,siswa_35
+question groups,2,123,grp4,siswa_49,siswa_33
+question groups,2,127,grp4,siswa_50,siswa_35
+question groups,2,131,grp4,siswa_51,siswa_35
+question groups,2,135,grp4,siswa_52,siswa_52
+question groups,2,139,grp4,siswa_53,siswa_46
+question groups,2,143,grp4,siswa_54,siswa_55
+question groups,2,147,grp4,siswa_55,siswa_55
+question groups,2,151,grp4,siswa_56,siswa_42
+question groups,2,155,grp4,siswa_57,siswa_42
+question groups,2,159,grp4,siswa_58,siswa_20
+question groups,2,163,grp4,siswa_59,siswa_62
+question groups,2,167,grp4,siswa_6,siswa_62
+question groups,2,171,grp4,siswa_60,siswa_62
+question groups,2,175,grp4,siswa_61,siswa_24
+question groups,2,179,grp4,siswa_62,siswa_62
+question groups,2,183,grp4,siswa_63,siswa_63
+question groups,2,187,grp4,siswa_64,siswa_64
+question groups,2,191,grp4,siswa_7,siswa_62
+question groups,2,195,grp4,siswa_8,siswa_55
+question groups,2,199,grp4,siswa_9,siswa_9
+topic held out,42,0,Lifestyle,siswa_10,siswa_24
+topic held out,42,4,Lifestyle,siswa_11,siswa_19
+topic held out,42,8,Lifestyle,siswa_12,siswa_25
+topic held out,42,12,Lifestyle,siswa_16,siswa_63
+topic held out,42,16,Lifestyle,siswa_17,siswa_6
+topic held out,42,20,Lifestyle,siswa_18,siswa_24
+topic held out,42,24,Lifestyle,siswa_19,siswa_6
+topic held out,42,28,Lifestyle,siswa_2,siswa_24
+topic held out,42,32,Lifestyle,siswa_20,siswa_24
+topic held out,42,36,Lifestyle,siswa_22,siswa_62
+topic held out,42,40,Lifestyle,siswa_24,siswa_6
+topic held out,42,44,Lifestyle,siswa_25,siswa_19
+topic held out,42,48,Lifestyle,siswa_26,siswa_18
+topic held out,42,52,Lifestyle,siswa_3,siswa_4
+topic held out,42,56,Lifestyle,siswa_33,siswa_33
+topic held out,42,60,Lifestyle,siswa_34,siswa_34
+topic held out,42,64,Lifestyle,siswa_35,siswa_34
+topic held out,42,68,Lifestyle,siswa_36,siswa_52
+topic held out,42,72,Lifestyle,siswa_37,siswa_37
+topic held out,42,76,Lifestyle,siswa_38,siswa_17
+topic held out,42,80,Lifestyle,siswa_39,siswa_37
+topic held out,42,84,Lifestyle,siswa_4,siswa_4
+topic held out,42,88,Lifestyle,siswa_40,siswa_40
+topic held out,42,92,Lifestyle,siswa_41,siswa_22
+topic held out,42,96,Lifestyle,siswa_42,siswa_40
+topic held out,42,100,Lifestyle,siswa_43,siswa_52
+topic held out,42,104,Lifestyle,siswa_44,siswa_25
+topic held out,42,108,Lifestyle,siswa_45,siswa_51
+topic held out,42,112,Lifestyle,siswa_46,siswa_34
+topic held out,42,116,Lifestyle,siswa_47,siswa_25
+topic held out,42,120,Lifestyle,siswa_49,siswa_22
+topic held out,42,124,Lifestyle,siswa_50,siswa_34
+topic held out,42,128,Lifestyle,siswa_51,siswa_34
+topic held out,42,132,Lifestyle,siswa_52,siswa_19
+topic held out,42,136,Lifestyle,siswa_53,siswa_19
+topic held out,42,140,Lifestyle,siswa_54,siswa_3
+topic held out,42,144,Lifestyle,siswa_55,siswa_19
+topic held out,42,148,Lifestyle,siswa_56,siswa_35
+topic held out,42,152,Lifestyle,siswa_57,siswa_57
+topic held out,42,156,Lifestyle,siswa_58,siswa_24
+topic held out,42,160,Lifestyle,siswa_59,siswa_62
+topic held out,42,164,Lifestyle,siswa_6,siswa_17
+topic held out,42,168,Lifestyle,siswa_60,siswa_3
+topic held out,42,172,Lifestyle,siswa_61,siswa_7
+topic held out,42,176,Lifestyle,siswa_62,siswa_62
+topic held out,42,180,Lifestyle,siswa_63,siswa_4
+topic held out,42,184,Lifestyle,siswa_64,siswa_34
+topic held out,42,188,Lifestyle,siswa_7,siswa_62
+topic held out,42,192,Lifestyle,siswa_8,siswa_24
+topic held out,42,196,Lifestyle,siswa_9,siswa_24
+topic held out,1,0,Lifestyle,siswa_10,siswa_17
+topic held out,1,4,Lifestyle,siswa_11,siswa_19
+topic held out,1,8,Lifestyle,siswa_12,siswa_47
+topic held out,1,12,Lifestyle,siswa_16,siswa_56
+topic held out,1,16,Lifestyle,siswa_17,siswa_26
+topic held out,1,20,Lifestyle,siswa_18,siswa_20
+topic held out,1,24,Lifestyle,siswa_19,siswa_26
+topic held out,1,28,Lifestyle,siswa_2,siswa_56
+topic held out,1,32,Lifestyle,siswa_20,siswa_19
+topic held out,1,36,Lifestyle,siswa_22,siswa_38
+topic held out,1,40,Lifestyle,siswa_24,siswa_26
+topic held out,1,44,Lifestyle,siswa_25,siswa_26
+topic held out,1,48,Lifestyle,siswa_26,siswa_4
+topic held out,1,52,Lifestyle,siswa_3,siswa_4
+topic held out,1,56,Lifestyle,siswa_33,siswa_22
+topic held out,1,60,Lifestyle,siswa_34,siswa_34
+topic held out,1,64,Lifestyle,siswa_35,siswa_35
+topic held out,1,68,Lifestyle,siswa_36,siswa_19
+topic held out,1,72,Lifestyle,siswa_37,siswa_38
+topic held out,1,76,Lifestyle,siswa_38,siswa_17
+topic held out,1,80,Lifestyle,siswa_39,siswa_20
+topic held out,1,84,Lifestyle,siswa_4,siswa_4
+topic held out,1,88,Lifestyle,siswa_40,siswa_40
+topic held out,1,92,Lifestyle,siswa_41,siswa_34
+topic held out,1,96,Lifestyle,siswa_42,siswa_40
+topic held out,1,100,Lifestyle,siswa_43,siswa_3
+topic held out,1,104,Lifestyle,siswa_44,siswa_34
+topic held out,1,108,Lifestyle,siswa_45,siswa_34
+topic held out,1,112,Lifestyle,siswa_46,siswa_34
+topic held out,1,116,Lifestyle,siswa_47,siswa_62
+topic held out,1,120,Lifestyle,siswa_49,siswa_45
+topic held out,1,124,Lifestyle,siswa_50,siswa_34
+topic held out,1,128,Lifestyle,siswa_51,siswa_34
+topic held out,1,132,Lifestyle,siswa_52,siswa_19
+topic held out,1,136,Lifestyle,siswa_53,siswa_19
+topic held out,1,140,Lifestyle,siswa_54,siswa_3
+topic held out,1,144,Lifestyle,siswa_55,siswa_19
+topic held out,1,148,Lifestyle,siswa_56,siswa_35
+topic held out,1,152,Lifestyle,siswa_57,siswa_57
+topic held out,1,156,Lifestyle,siswa_58,siswa_19
+topic held out,1,160,Lifestyle,siswa_59,siswa_60
+topic held out,1,164,Lifestyle,siswa_6,siswa_17
+topic held out,1,168,Lifestyle,siswa_60,siswa_19
+topic held out,1,172,Lifestyle,siswa_61,siswa_45
+topic held out,1,176,Lifestyle,siswa_62,siswa_4
+topic held out,1,180,Lifestyle,siswa_63,siswa_4
+topic held out,1,184,Lifestyle,siswa_64,siswa_35
+topic held out,1,188,Lifestyle,siswa_7,siswa_45
+topic held out,1,192,Lifestyle,siswa_8,siswa_61
+topic held out,1,196,Lifestyle,siswa_9,siswa_61
+topic held out,2,0,Lifestyle,siswa_10,siswa_19
+topic held out,2,4,Lifestyle,siswa_11,siswa_38
+topic held out,2,8,Lifestyle,siswa_12,siswa_9
+topic held out,2,12,Lifestyle,siswa_16,siswa_33
+topic held out,2,16,Lifestyle,siswa_17,siswa_6
+topic held out,2,20,Lifestyle,siswa_18,siswa_38
+topic held out,2,24,Lifestyle,siswa_19,siswa_6
+topic held out,2,28,Lifestyle,siswa_2,siswa_33
+topic held out,2,32,Lifestyle,siswa_20,siswa_17
+topic held out,2,36,Lifestyle,siswa_22,siswa_8
+topic held out,2,40,Lifestyle,siswa_24,siswa_6
+topic held out,2,44,Lifestyle,siswa_25,siswa_6
+topic held out,2,48,Lifestyle,siswa_26,siswa_18
+topic held out,2,52,Lifestyle,siswa_3,siswa_18
+topic held out,2,56,Lifestyle,siswa_33,siswa_64
+topic held out,2,60,Lifestyle,siswa_34,siswa_34
+topic held out,2,64,Lifestyle,siswa_35,siswa_34
+topic held out,2,68,Lifestyle,siswa_36,siswa_19
+topic held out,2,72,Lifestyle,siswa_37,siswa_38
+topic held out,2,76,Lifestyle,siswa_38,siswa_38
+topic held out,2,80,Lifestyle,siswa_39,siswa_39
+topic held out,2,84,Lifestyle,siswa_4,siswa_4
+topic held out,2,88,Lifestyle,siswa_40,siswa_40
+topic held out,2,92,Lifestyle,siswa_41,siswa_34
+topic held out,2,96,Lifestyle,siswa_42,siswa_40
+topic held out,2,100,Lifestyle,siswa_43,siswa_6
+topic held out,2,104,Lifestyle,siswa_44,siswa_34
+topic held out,2,108,Lifestyle,siswa_45,siswa_40
+topic held out,2,112,Lifestyle,siswa_46,siswa_34
+topic held out,2,116,Lifestyle,siswa_47,siswa_45
+topic held out,2,120,Lifestyle,siswa_49,siswa_22
+topic held out,2,124,Lifestyle,siswa_50,siswa_34
+topic held out,2,128,Lifestyle,siswa_51,siswa_34
+topic held out,2,132,Lifestyle,siswa_52,siswa_38
+topic held out,2,136,Lifestyle,siswa_53,siswa_20
+topic held out,2,140,Lifestyle,siswa_54,siswa_3
+topic held out,2,144,Lifestyle,siswa_55,siswa_38
+topic held out,2,148,Lifestyle,siswa_56,siswa_35
+topic held out,2,152,Lifestyle,siswa_57,siswa_64
+topic held out,2,156,Lifestyle,siswa_58,siswa_58
+topic held out,2,160,Lifestyle,siswa_59,siswa_59
+topic held out,2,164,Lifestyle,siswa_6,siswa_42
+topic held out,2,168,Lifestyle,siswa_60,siswa_6
+topic held out,2,172,Lifestyle,siswa_61,siswa_44
+topic held out,2,176,Lifestyle,siswa_62,siswa_4
+topic held out,2,180,Lifestyle,siswa_63,siswa_18
+topic held out,2,184,Lifestyle,siswa_64,siswa_64
+topic held out,2,188,Lifestyle,siswa_7,siswa_22
+topic held out,2,192,Lifestyle,siswa_8,siswa_38
+topic held out,2,196,Lifestyle,siswa_9,siswa_20
+topic held out,42,1,Olahraga,siswa_10,siswa_62
+topic held out,42,5,Olahraga,siswa_11,siswa_61
+topic held out,42,9,Olahraga,siswa_12,siswa_38
+topic held out,42,13,Olahraga,siswa_16,siswa_25
+topic held out,42,17,Olahraga,siswa_17,siswa_38
+topic held out,42,21,Olahraga,siswa_18,siswa_4
+topic held out,42,25,Olahraga,siswa_19,siswa_53
+topic held out,42,29,Olahraga,siswa_2,siswa_4
+topic held out,42,33,Olahraga,siswa_20,siswa_38
+topic held out,42,37,Olahraga,siswa_22,siswa_41
+topic held out,42,41,Olahraga,siswa_24,siswa_20
+topic held out,42,45,Olahraga,siswa_25,siswa_2
+topic held out,42,49,Olahraga,siswa_26,siswa_26
+topic held out,42,53,Olahraga,siswa_3,siswa_3
+topic held out,42,57,Olahraga,siswa_33,siswa_40
+topic held out,42,61,Olahraga,siswa_34,siswa_40
+topic held out,42,65,Olahraga,siswa_35,siswa_20
+topic held out,42,69,Olahraga,siswa_36,siswa_16
+topic held out,42,73,Olahraga,siswa_37,siswa_38
+topic held out,42,77,Olahraga,siswa_38,siswa_38
+topic held out,42,81,Olahraga,siswa_39,siswa_39
+topic held out,42,85,Olahraga,siswa_4,siswa_4
+topic held out,42,89,Olahraga,siswa_40,siswa_40
+topic held out,42,93,Olahraga,siswa_41,siswa_40
+topic held out,42,97,Olahraga,siswa_42,siswa_40
+topic held out,42,101,Olahraga,siswa_43,siswa_40
+topic held out,42,105,Olahraga,siswa_44,siswa_45
+topic held out,42,109,Olahraga,siswa_45,siswa_45
+topic held out,42,113,Olahraga,siswa_46,siswa_64
+topic held out,42,117,Olahraga,siswa_47,siswa_45
+topic held out,42,121,Olahraga,siswa_49,siswa_45
+topic held out,42,125,Olahraga,siswa_50,siswa_45
+topic held out,42,129,Olahraga,siswa_51,siswa_40
+topic held out,42,133,Olahraga,siswa_52,siswa_38
+topic held out,42,137,Olahraga,siswa_53,siswa_64
+topic held out,42,141,Olahraga,siswa_54,siswa_38
+topic held out,42,145,Olahraga,siswa_55,siswa_20
+topic held out,42,149,Olahraga,siswa_56,siswa_56
+topic held out,42,153,Olahraga,siswa_57,siswa_57
+topic held out,42,157,Olahraga,siswa_58,siswa_20
+topic held out,42,161,Olahraga,siswa_59,siswa_59
+topic held out,42,165,Olahraga,siswa_6,siswa_26
+topic held out,42,169,Olahraga,siswa_60,siswa_38
+topic held out,42,173,Olahraga,siswa_61,siswa_24
+topic held out,42,177,Olahraga,siswa_62,siswa_3
+topic held out,42,181,Olahraga,siswa_63,siswa_63
+topic held out,42,185,Olahraga,siswa_64,siswa_64
+topic held out,42,189,Olahraga,siswa_7,siswa_39
+topic held out,42,193,Olahraga,siswa_8,siswa_38
+topic held out,42,197,Olahraga,siswa_9,siswa_62
+topic held out,1,1,Olahraga,siswa_10,siswa_59
+topic held out,1,5,Olahraga,siswa_11,siswa_61
+topic held out,1,9,Olahraga,siswa_12,siswa_35
+topic held out,1,13,Olahraga,siswa_16,siswa_20
+topic held out,1,17,Olahraga,siswa_17,siswa_58
+topic held out,1,21,Olahraga,siswa_18,siswa_63
+topic held out,1,25,Olahraga,siswa_19,siswa_20
+topic held out,1,29,Olahraga,siswa_2,siswa_45
+topic held out,1,33,Olahraga,siswa_20,siswa_20
+topic held out,1,37,Olahraga,siswa_22,siswa_35
+topic held out,1,41,Olahraga,siswa_24,siswa_20
+topic held out,1,45,Olahraga,siswa_25,siswa_22
+topic held out,1,49,Olahraga,siswa_26,siswa_6
+topic held out,1,53,Olahraga,siswa_3,siswa_43
+topic held out,1,57,Olahraga,siswa_33,siswa_33
+topic held out,1,61,Olahraga,siswa_34,siswa_35
+topic held out,1,65,Olahraga,siswa_35,siswa_35
+topic held out,1,69,Olahraga,siswa_36,siswa_54
+topic held out,1,73,Olahraga,siswa_37,siswa_54
+topic held out,1,77,Olahraga,siswa_38,siswa_54
+topic held out,1,81,Olahraga,siswa_39,siswa_41
+topic held out,1,85,Olahraga,siswa_4,siswa_4
+topic held out,1,89,Olahraga,siswa_40,siswa_40
+topic held out,1,93,Olahraga,siswa_41,siswa_35
+topic held out,1,97,Olahraga,siswa_42,siswa_64
+topic held out,1,101,Olahraga,siswa_43,siswa_43
+topic held out,1,105,Olahraga,siswa_44,siswa_61
+topic held out,1,109,Olahraga,siswa_45,siswa_50
+topic held out,1,113,Olahraga,siswa_46,siswa_35
+topic held out,1,117,Olahraga,siswa_47,siswa_46
+topic held out,1,121,Olahraga,siswa_49,siswa_50
+topic held out,1,125,Olahraga,siswa_50,siswa_35
+topic held out,1,129,Olahraga,siswa_51,siswa_35
+topic held out,1,133,Olahraga,siswa_52,siswa_20
+topic held out,1,137,Olahraga,siswa_53,siswa_64
+topic held out,1,141,Olahraga,siswa_54,siswa_20
+topic held out,1,145,Olahraga,siswa_55,siswa_20
+topic held out,1,149,Olahraga,siswa_56,siswa_40
+topic held out,1,153,Olahraga,siswa_57,siswa_35
+topic held out,1,157,Olahraga,siswa_58,siswa_20
+topic held out,1,161,Olahraga,siswa_59,siswa_4
+topic held out,1,165,Olahraga,siswa_6,siswa_6
+topic held out,1,169,Olahraga,siswa_60,siswa_20
+topic held out,1,173,Olahraga,siswa_61,siswa_24
+topic held out,1,177,Olahraga,siswa_62,siswa_3
+topic held out,1,181,Olahraga,siswa_63,siswa_63
+topic held out,1,185,Olahraga,siswa_64,siswa_64
+topic held out,1,189,Olahraga,siswa_7,siswa_61
+topic held out,1,193,Olahraga,siswa_8,siswa_20
+topic held out,1,197,Olahraga,siswa_9,siswa_12
+topic held out,2,1,Olahraga,siswa_10,siswa_61
+topic held out,2,5,Olahraga,siswa_11,siswa_49
+topic held out,2,9,Olahraga,siswa_12,siswa_22
+topic held out,2,13,Olahraga,siswa_16,siswa_53
+topic held out,2,17,Olahraga,siswa_17,siswa_43
+topic held out,2,21,Olahraga,siswa_18,siswa_63
+topic held out,2,25,Olahraga,siswa_19,siswa_53
+topic held out,2,29,Olahraga,siswa_2,siswa_62
+topic held out,2,33,Olahraga,siswa_20,siswa_39
+topic held out,2,37,Olahraga,siswa_22,siswa_34
+topic held out,2,41,Olahraga,siswa_24,siswa_58
+topic held out,2,45,Olahraga,siswa_25,siswa_44
+topic held out,2,49,Olahraga,siswa_26,siswa_6
+topic held out,2,53,Olahraga,siswa_3,siswa_60
+topic held out,2,57,Olahraga,siswa_33,siswa_33
+topic held out,2,61,Olahraga,siswa_34,siswa_34
+topic held out,2,65,Olahraga,siswa_35,siswa_34
+topic held out,2,69,Olahraga,siswa_36,siswa_43
+topic held out,2,73,Olahraga,siswa_37,siswa_60
+topic held out,2,77,Olahraga,siswa_38,siswa_38
+topic held out,2,81,Olahraga,siswa_39,siswa_41
+topic held out,2,85,Olahraga,siswa_4,siswa_4
+topic held out,2,89,Olahraga,siswa_40,siswa_40
+topic held out,2,93,Olahraga,siswa_41,siswa_34
+topic held out,2,97,Olahraga,siswa_42,siswa_34
+topic held out,2,101,Olahraga,siswa_43,siswa_43
+topic held out,2,105,Olahraga,siswa_44,siswa_51
+topic held out,2,109,Olahraga,siswa_45,siswa_45
+topic held out,2,113,Olahraga,siswa_46,siswa_34
+topic held out,2,117,Olahraga,siswa_47,siswa_45
+topic held out,2,121,Olahraga,siswa_49,siswa_45
+topic held out,2,125,Olahraga,siswa_50,siswa_34
+topic held out,2,129,Olahraga,siswa_51,siswa_34
+topic held out,2,133,Olahraga,siswa_52,siswa_58
+topic held out,2,137,Olahraga,siswa_53,siswa_43
+topic held out,2,141,Olahraga,siswa_54,siswa_38
+topic held out,2,145,Olahraga,siswa_55,siswa_43
+topic held out,2,149,Olahraga,siswa_56,siswa_39
+topic held out,2,153,Olahraga,siswa_57,siswa_34
+topic held out,2,157,Olahraga,siswa_58,siswa_38
+topic held out,2,161,Olahraga,siswa_59,siswa_22
+topic held out,2,165,Olahraga,siswa_6,siswa_17
+topic held out,2,169,Olahraga,siswa_60,siswa_43
+topic held out,2,173,Olahraga,siswa_61,siswa_58
+topic held out,2,177,Olahraga,siswa_62,siswa_6
+topic held out,2,181,Olahraga,siswa_63,siswa_42
+topic held out,2,185,Olahraga,siswa_64,siswa_64
+topic held out,2,189,Olahraga,siswa_7,siswa_49
+topic held out,2,193,Olahraga,siswa_8,siswa_8
+topic held out,2,197,Olahraga,siswa_9,siswa_12
+topic held out,42,2,Politik,siswa_10,siswa_9
+topic held out,42,6,Politik,siswa_11,siswa_9
+topic held out,42,10,Politik,siswa_12,siswa_12
+topic held out,42,14,Politik,siswa_16,siswa_9
+topic held out,42,18,Politik,siswa_17,siswa_2
+topic held out,42,22,Politik,siswa_18,siswa_18
+topic held out,42,26,Politik,siswa_19,siswa_34
+topic held out,42,30,Politik,siswa_2,siswa_18
+topic held out,42,34,Politik,siswa_20,siswa_35
+topic held out,42,38,Politik,siswa_22,siswa_34
+topic held out,42,42,Politik,siswa_24,siswa_18
+topic held out,42,46,Politik,siswa_25,siswa_2
+topic held out,42,50,Politik,siswa_26,siswa_61
+topic held out,42,54,Politik,siswa_3,siswa_54
+topic held out,42,58,Politik,siswa_33,siswa_25
+topic held out,42,62,Politik,siswa_34,siswa_41
+topic held out,42,66,Politik,siswa_35,siswa_44
+topic held out,42,70,Politik,siswa_36,siswa_59
+topic held out,42,74,Politik,siswa_37,siswa_18
+topic held out,42,78,Politik,siswa_38,siswa_8
+topic held out,42,82,Politik,siswa_39,siswa_12
+topic held out,42,86,Politik,siswa_4,siswa_4
+topic held out,42,90,Politik,siswa_40,siswa_41
+topic held out,42,94,Politik,siswa_41,siswa_34
+topic held out,42,98,Politik,siswa_42,siswa_18
+topic held out,42,102,Politik,siswa_43,siswa_63
+topic held out,42,106,Politik,siswa_44,siswa_9
+topic held out,42,110,Politik,siswa_45,siswa_9
+topic held out,42,114,Politik,siswa_46,siswa_9
+topic held out,42,118,Politik,siswa_47,siswa_9
+topic held out,42,122,Politik,siswa_49,siswa_9
+topic held out,42,126,Politik,siswa_50,siswa_9
+topic held out,42,130,Politik,siswa_51,siswa_18
+topic held out,42,134,Politik,siswa_52,siswa_9
+topic held out,42,138,Politik,siswa_53,siswa_52
+topic held out,42,142,Politik,siswa_54,siswa_59
+topic held out,42,146,Politik,siswa_55,siswa_2
+topic held out,42,150,Politik,siswa_56,siswa_25
+topic held out,42,154,Politik,siswa_57,siswa_25
+topic held out,42,158,Politik,siswa_58,siswa_12
+topic held out,42,162,Politik,siswa_59,siswa_9
+topic held out,42,166,Politik,siswa_6,siswa_63
+topic held out,42,170,Politik,siswa_60,siswa_9
+topic held out,42,174,Politik,siswa_61,siswa_12
+topic held out,42,178,Politik,siswa_62,siswa_57
+topic held out,42,182,Politik,siswa_63,siswa_40
+topic held out,42,186,Politik,siswa_64,siswa_64
+topic held out,42,190,Politik,siswa_7,siswa_9
+topic held out,42,194,Politik,siswa_8,siswa_59
+topic held out,42,198,Politik,siswa_9,siswa_9
+topic held out,1,2,Politik,siswa_10,siswa_47
+topic held out,1,6,Politik,siswa_11,siswa_61
+topic held out,1,10,Politik,siswa_12,siswa_12
+topic held out,1,14,Politik,siswa_16,siswa_61
+topic held out,1,18,Politik,siswa_17,siswa_39
+topic held out,1,22,Politik,siswa_18,siswa_41
+topic held out,1,26,Politik,siswa_19,siswa_46
+topic held out,1,30,Politik,siswa_2,siswa_41
+topic held out,1,34,Politik,siswa_20,siswa_35
+topic held out,1,38,Politik,siswa_22,siswa_46
+topic held out,1,42,Politik,siswa_24,siswa_61
+topic held out,1,46,Politik,siswa_25,siswa_41
+topic held out,1,50,Politik,siswa_26,siswa_36
+topic held out,1,54,Politik,siswa_3,siswa_54
+topic held out,1,58,Politik,siswa_33,siswa_41
+topic held out,1,62,Politik,siswa_34,siswa_34
+topic held out,1,66,Politik,siswa_35,siswa_34
+topic held out,1,70,Politik,siswa_36,siswa_62
+topic held out,1,74,Politik,siswa_37,siswa_61
+topic held out,1,78,Politik,siswa_38,siswa_37
+topic held out,1,82,Politik,siswa_39,siswa_61
+topic held out,1,86,Politik,siswa_4,siswa_18
+topic held out,1,90,Politik,siswa_40,siswa_40
+topic held out,1,94,Politik,siswa_41,siswa_45
+topic held out,1,98,Politik,siswa_42,siswa_62
+topic held out,1,102,Politik,siswa_43,siswa_36
+topic held out,1,106,Politik,siswa_44,siswa_50
+topic held out,1,110,Politik,siswa_45,siswa_62
+topic held out,1,114,Politik,siswa_46,siswa_62
+topic held out,1,118,Politik,siswa_47,siswa_61
+topic held out,1,122,Politik,siswa_49,siswa_61
+topic held out,1,126,Politik,siswa_50,siswa_11
+topic held out,1,130,Politik,siswa_51,siswa_33
+topic held out,1,134,Politik,siswa_52,siswa_18
+topic held out,1,138,Politik,siswa_53,siswa_18
+topic held out,1,142,Politik,siswa_54,siswa_43
+topic held out,1,146,Politik,siswa_55,siswa_47
+topic held out,1,150,Politik,siswa_56,siswa_33
+topic held out,1,154,Politik,siswa_57,siswa_34
+topic held out,1,158,Politik,siswa_58,siswa_55
+topic held out,1,162,Politik,siswa_59,siswa_12
+topic held out,1,166,Politik,siswa_6,siswa_40
+topic held out,1,170,Politik,siswa_60,siswa_50
+topic held out,1,174,Politik,siswa_61,siswa_47
+topic held out,1,178,Politik,siswa_62,siswa_62
+topic held out,1,182,Politik,siswa_63,siswa_40
+topic held out,1,186,Politik,siswa_64,siswa_34
+topic held out,1,190,Politik,siswa_7,siswa_9
+topic held out,1,194,Politik,siswa_8,siswa_62
+topic held out,1,198,Politik,siswa_9,siswa_61
+topic held out,2,2,Politik,siswa_10,siswa_10
+topic held out,2,6,Politik,siswa_11,siswa_10
+topic held out,2,10,Politik,siswa_12,siswa_10
+topic held out,2,14,Politik,siswa_16,siswa_62
+topic held out,2,18,Politik,siswa_17,siswa_62
+topic held out,2,22,Politik,siswa_18,siswa_41
+topic held out,2,26,Politik,siswa_19,siswa_62
+topic held out,2,30,Politik,siswa_2,siswa_41
+topic held out,2,34,Politik,siswa_20,siswa_35
+topic held out,2,38,Politik,siswa_22,siswa_34
+topic held out,2,42,Politik,siswa_24,siswa_62
+topic held out,2,46,Politik,siswa_25,siswa_41
+topic held out,2,50,Politik,siswa_26,siswa_40
+topic held out,2,54,Politik,siswa_3,siswa_59
+topic held out,2,58,Politik,siswa_33,siswa_41
+topic held out,2,62,Politik,siswa_34,siswa_10
+topic held out,2,66,Politik,siswa_35,siswa_44
+topic held out,2,70,Politik,siswa_36,siswa_62
+topic held out,2,74,Politik,siswa_37,siswa_62
+topic held out,2,78,Politik,siswa_38,siswa_38
+topic held out,2,82,Politik,siswa_39,siswa_62
+topic held out,2,86,Politik,siswa_4,siswa_4
+topic held out,2,90,Politik,siswa_40,siswa_40
+topic held out,2,94,Politik,siswa_41,siswa_41
+topic held out,2,98,Politik,siswa_42,siswa_62
+topic held out,2,102,Politik,siswa_43,siswa_63
+topic held out,2,106,Politik,siswa_44,siswa_10
+topic held out,2,110,Politik,siswa_45,siswa_62
+topic held out,2,114,Politik,siswa_46,siswa_10
+topic held out,2,118,Politik,siswa_47,siswa_62
+topic held out,2,122,Politik,siswa_49,siswa_62
+topic held out,2,126,Politik,siswa_50,siswa_10
+topic held out,2,130,Politik,siswa_51,siswa_62
+topic held out,2,134,Politik,siswa_52,siswa_62
+topic held out,2,138,Politik,siswa_53,siswa_59
+topic held out,2,142,Politik,siswa_54,siswa_59
+topic held out,2,146,Politik,siswa_55,siswa_10
+topic held out,2,150,Politik,siswa_56,siswa_41
+topic held out,2,154,Politik,siswa_57,siswa_51
+topic held out,2,158,Politik,siswa_58,siswa_10
+topic held out,2,162,Politik,siswa_59,siswa_10
+topic held out,2,166,Politik,siswa_6,siswa_63
+topic held out,2,170,Politik,siswa_60,siswa_10
+topic held out,2,174,Politik,siswa_61,siswa_10
+topic held out,2,178,Politik,siswa_62,siswa_10
+topic held out,2,182,Politik,siswa_63,siswa_40
+topic held out,2,186,Politik,siswa_64,siswa_51
+topic held out,2,190,Politik,siswa_7,siswa_10
+topic held out,2,194,Politik,siswa_8,siswa_62
+topic held out,2,198,Politik,siswa_9,siswa_62
+topic held out,42,3,Teknologi,siswa_10,siswa_7
+topic held out,42,7,Teknologi,siswa_11,siswa_11
+topic held out,42,11,Teknologi,siswa_12,siswa_9
+topic held out,42,15,Teknologi,siswa_16,siswa_20
+topic held out,42,19,Teknologi,siswa_17,siswa_4
+topic held out,42,23,Teknologi,siswa_18,siswa_16
+topic held out,42,27,Teknologi,siswa_19,siswa_24
+topic held out,42,31,Teknologi,siswa_2,siswa_61
+topic held out,42,35,Teknologi,siswa_20,siswa_8
+topic held out,42,39,Teknologi,siswa_22,siswa_45
+topic held out,42,43,Teknologi,siswa_24,siswa_8
+topic held out,42,47,Teknologi,siswa_25,siswa_45
+topic held out,42,51,Teknologi,siswa_26,siswa_6
+topic held out,42,55,Teknologi,siswa_3,siswa_36
+topic held out,42,59,Teknologi,siswa_33,siswa_36
+topic held out,42,63,Teknologi,siswa_34,siswa_34
+topic held out,42,67,Teknologi,siswa_35,siswa_42
+topic held out,42,71,Teknologi,siswa_36,siswa_12
+topic held out,42,75,Teknologi,siswa_37,siswa_34
+topic held out,42,79,Teknologi,siswa_38,siswa_8
+topic held out,42,83,Teknologi,siswa_39,siswa_39
+topic held out,42,87,Teknologi,siswa_4,siswa_4
+topic held out,42,91,Teknologi,siswa_40,siswa_56
+topic held out,42,95,Teknologi,siswa_41,siswa_25
+topic held out,42,99,Teknologi,siswa_42,siswa_36
+topic held out,42,103,Teknologi,siswa_43,siswa_36
+topic held out,42,107,Teknologi,siswa_44,siswa_61
+topic held out,42,111,Teknologi,siswa_45,siswa_47
+topic held out,42,115,Teknologi,siswa_46,siswa_47
+topic held out,42,119,Teknologi,siswa_47,siswa_47
+topic held out,42,123,Teknologi,siswa_49,siswa_25
+topic held out,42,127,Teknologi,siswa_50,siswa_45
+topic held out,42,131,Teknologi,siswa_51,siswa_22
+topic held out,42,135,Teknologi,siswa_52,siswa_54
+topic held out,42,139,Teknologi,siswa_53,siswa_58
+topic held out,42,143,Teknologi,siswa_54,siswa_37
+topic held out,42,147,Teknologi,siswa_55,siswa_36
+topic held out,42,151,Teknologi,siswa_56,siswa_16
+topic held out,42,155,Teknologi,siswa_57,siswa_57
+topic held out,42,159,Teknologi,siswa_58,siswa_8
+topic held out,42,163,Teknologi,siswa_59,siswa_59
+topic held out,42,167,Teknologi,siswa_6,siswa_6
+topic held out,42,171,Teknologi,siswa_60,siswa_16
+topic held out,42,175,Teknologi,siswa_61,siswa_61
+topic held out,42,179,Teknologi,siswa_62,siswa_47
+topic held out,42,183,Teknologi,siswa_63,siswa_19
+topic held out,42,187,Teknologi,siswa_64,siswa_42
+topic held out,42,191,Teknologi,siswa_7,siswa_61
+topic held out,42,195,Teknologi,siswa_8,siswa_8
+topic held out,42,199,Teknologi,siswa_9,siswa_7
+topic held out,1,3,Teknologi,siswa_10,siswa_7
+topic held out,1,7,Teknologi,siswa_11,siswa_61
+topic held out,1,11,Teknologi,siswa_12,siswa_61
+topic held out,1,15,Teknologi,siswa_16,siswa_36
+topic held out,1,19,Teknologi,siswa_17,siswa_16
+topic held out,1,23,Teknologi,siswa_18,siswa_16
+topic held out,1,27,Teknologi,siswa_19,siswa_24
+topic held out,1,31,Teknologi,siswa_2,siswa_61
+topic held out,1,35,Teknologi,siswa_20,siswa_58
+topic held out,1,39,Teknologi,siswa_22,siswa_33
+topic held out,1,43,Teknologi,siswa_24,siswa_61
+topic held out,1,47,Teknologi,siswa_25,siswa_47
+topic held out,1,51,Teknologi,siswa_26,siswa_36
+topic held out,1,55,Teknologi,siswa_3,siswa_62
+topic held out,1,59,Teknologi,siswa_33,siswa_33
+topic held out,1,63,Teknologi,siswa_34,siswa_34
+topic held out,1,67,Teknologi,siswa_35,siswa_42
+topic held out,1,71,Teknologi,siswa_36,siswa_55
+topic held out,1,75,Teknologi,siswa_37,siswa_34
+topic held out,1,79,Teknologi,siswa_38,siswa_38
+topic held out,1,83,Teknologi,siswa_39,siswa_39
+topic held out,1,87,Teknologi,siswa_4,siswa_4
+topic held out,1,91,Teknologi,siswa_40,siswa_40
+topic held out,1,95,Teknologi,siswa_41,siswa_16
+topic held out,1,99,Teknologi,siswa_42,siswa_60
+topic held out,1,103,Teknologi,siswa_43,siswa_42
+topic held out,1,107,Teknologi,siswa_44,siswa_7
+topic held out,1,111,Teknologi,siswa_45,siswa_47
+topic held out,1,115,Teknologi,siswa_46,siswa_39
+topic held out,1,119,Teknologi,siswa_47,siswa_16
+topic held out,1,123,Teknologi,siswa_49,siswa_16
+topic held out,1,127,Teknologi,siswa_50,siswa_61
+topic held out,1,131,Teknologi,siswa_51,siswa_61
+topic held out,1,135,Teknologi,siswa_52,siswa_62
+topic held out,1,139,Teknologi,siswa_53,siswa_58
+topic held out,1,143,Teknologi,siswa_54,siswa_39
+topic held out,1,147,Teknologi,siswa_55,siswa_36
+topic held out,1,151,Teknologi,siswa_56,siswa_16
+topic held out,1,155,Teknologi,siswa_57,siswa_60
+topic held out,1,159,Teknologi,siswa_58,siswa_61
+topic held out,1,163,Teknologi,siswa_59,siswa_62
+topic held out,1,167,Teknologi,siswa_6,siswa_26
+topic held out,1,171,Teknologi,siswa_60,siswa_16
+topic held out,1,175,Teknologi,siswa_61,siswa_61
+topic held out,1,179,Teknologi,siswa_62,siswa_61
+topic held out,1,183,Teknologi,siswa_63,siswa_63
+topic held out,1,187,Teknologi,siswa_64,siswa_42
+topic held out,1,191,Teknologi,siswa_7,siswa_47
+topic held out,1,195,Teknologi,siswa_8,siswa_36
+topic held out,1,199,Teknologi,siswa_9,siswa_61
+topic held out,2,3,Teknologi,siswa_10,siswa_35
+topic held out,2,7,Teknologi,siswa_11,siswa_47
+topic held out,2,11,Teknologi,siswa_12,siswa_8
+topic held out,2,15,Teknologi,siswa_16,siswa_24
+topic held out,2,19,Teknologi,siswa_17,siswa_16
+topic held out,2,23,Teknologi,siswa_18,siswa_4
+topic held out,2,27,Teknologi,siswa_19,siswa_24
+topic held out,2,31,Teknologi,siswa_2,siswa_8
+topic held out,2,35,Teknologi,siswa_20,siswa_58
+topic held out,2,39,Teknologi,siswa_22,siswa_7
+topic held out,2,43,Teknologi,siswa_24,siswa_24
+topic held out,2,47,Teknologi,siswa_25,siswa_39
+topic held out,2,51,Teknologi,siswa_26,siswa_6
+topic held out,2,55,Teknologi,siswa_3,siswa_24
+topic held out,2,59,Teknologi,siswa_33,siswa_33
+topic held out,2,63,Teknologi,siswa_34,siswa_34
+topic held out,2,67,Teknologi,siswa_35,siswa_57
+topic held out,2,71,Teknologi,siswa_36,siswa_58
+topic held out,2,75,Teknologi,siswa_37,siswa_36
+topic held out,2,79,Teknologi,siswa_38,siswa_8
+topic held out,2,83,Teknologi,siswa_39,siswa_39
+topic held out,2,87,Teknologi,siswa_4,siswa_4
+topic held out,2,91,Teknologi,siswa_40,siswa_40
+topic held out,2,95,Teknologi,siswa_41,siswa_47
+topic held out,2,99,Teknologi,siswa_42,siswa_63
+topic held out,2,103,Teknologi,siswa_43,siswa_36
+topic held out,2,107,Teknologi,siswa_44,siswa_7
+topic held out,2,111,Teknologi,siswa_45,siswa_47
+topic held out,2,115,Teknologi,siswa_46,siswa_36
+topic held out,2,119,Teknologi,siswa_47,siswa_47
+topic held out,2,123,Teknologi,siswa_49,siswa_47
+topic held out,2,127,Teknologi,siswa_50,siswa_61
+topic held out,2,131,Teknologi,siswa_51,siswa_36
+topic held out,2,135,Teknologi,siswa_52,siswa_62
+topic held out,2,139,Teknologi,siswa_53,siswa_24
+topic held out,2,143,Teknologi,siswa_54,siswa_54
+topic held out,2,147,Teknologi,siswa_55,siswa_58
+topic held out,2,151,Teknologi,siswa_56,siswa_16
+topic held out,2,155,Teknologi,siswa_57,siswa_36
+topic held out,2,159,Teknologi,siswa_58,siswa_16
+topic held out,2,163,Teknologi,siswa_59,siswa_62
+topic held out,2,167,Teknologi,siswa_6,siswa_36
+topic held out,2,171,Teknologi,siswa_60,siswa_16
+topic held out,2,175,Teknologi,siswa_61,siswa_61
+topic held out,2,179,Teknologi,siswa_62,siswa_61
+topic held out,2,183,Teknologi,siswa_63,siswa_40
+topic held out,2,187,Teknologi,siswa_64,siswa_42
+topic held out,2,191,Teknologi,siswa_7,siswa_12
+topic held out,2,195,Teknologi,siswa_8,siswa_8
+topic held out,2,199,Teknologi,siswa_9,siswa_7
+shuffle,42,2,fold1,siswa_10,siswa_25
+shuffle,42,6,fold1,siswa_11,siswa_50
+shuffle,42,9,fold1,siswa_12,siswa_10
+shuffle,42,13,fold1,siswa_16,siswa_63
+shuffle,42,18,fold1,siswa_17,siswa_8
+shuffle,42,20,fold1,siswa_18,siswa_3
+shuffle,42,27,fold1,siswa_19,siswa_58
+shuffle,42,28,fold1,siswa_2,siswa_3
+shuffle,42,34,fold1,siswa_20,siswa_58
+shuffle,42,36,fold1,siswa_22,siswa_25
+shuffle,42,43,fold1,siswa_24,siswa_58
+shuffle,42,45,fold1,siswa_25,siswa_3
+shuffle,42,48,fold1,siswa_26,siswa_26
+shuffle,42,52,fold1,siswa_3,siswa_63
+shuffle,42,56,fold1,siswa_33,siswa_33
+shuffle,42,62,fold1,siswa_34,siswa_41
+shuffle,42,67,fold1,siswa_35,siswa_33
+shuffle,42,71,fold1,siswa_36,siswa_58
+shuffle,42,74,fold1,siswa_37,siswa_40
+shuffle,42,76,fold1,siswa_38,siswa_58
+shuffle,42,83,fold1,siswa_39,siswa_53
+shuffle,42,84,fold1,siswa_4,siswa_4
+shuffle,42,90,fold1,siswa_40,siswa_40
+shuffle,42,92,fold1,siswa_41,siswa_33
+shuffle,42,99,fold1,siswa_42,siswa_40
+shuffle,42,100,fold1,siswa_43,siswa_58
+shuffle,42,104,fold1,siswa_44,siswa_47
+shuffle,42,109,fold1,siswa_45,siswa_25
+shuffle,42,112,fold1,siswa_46,siswa_33
+shuffle,42,116,fold1,siswa_47,siswa_41
+shuffle,42,121,fold1,siswa_49,siswa_41
+shuffle,42,124,fold1,siswa_50,siswa_47
+shuffle,42,128,fold1,siswa_51,siswa_40
+shuffle,42,135,fold1,siswa_52,siswa_58
+shuffle,42,139,fold1,siswa_53,siswa_8
+shuffle,42,142,fold1,siswa_54,siswa_58
+shuffle,42,146,fold1,siswa_55,siswa_59
+shuffle,42,150,fold1,siswa_56,siswa_33
+shuffle,42,155,fold1,siswa_57,siswa_57
+shuffle,42,159,fold1,siswa_58,siswa_40
+shuffle,42,163,fold1,siswa_59,siswa_19
+shuffle,42,165,fold1,siswa_6,siswa_3
+shuffle,42,170,fold1,siswa_60,siswa_64
+shuffle,42,173,fold1,siswa_61,siswa_12
+shuffle,42,178,fold1,siswa_62,siswa_26
+shuffle,42,181,fold1,siswa_63,siswa_26
+shuffle,42,185,fold1,siswa_64,siswa_40
+shuffle,42,189,fold1,siswa_7,siswa_47
+shuffle,42,193,fold1,siswa_8,siswa_63
+shuffle,42,198,fold1,siswa_9,siswa_10
+shuffle,1,2,fold1,siswa_10,siswa_11
+shuffle,1,6,fold1,siswa_11,siswa_7
+shuffle,1,9,fold1,siswa_12,siswa_7
+shuffle,1,13,fold1,siswa_16,siswa_11
+shuffle,1,18,fold1,siswa_17,siswa_36
+shuffle,1,20,fold1,siswa_18,siswa_38
+shuffle,1,27,fold1,siswa_19,siswa_3
+shuffle,1,28,fold1,siswa_2,siswa_26
+shuffle,1,34,fold1,siswa_20,siswa_54
+shuffle,1,36,fold1,siswa_22,siswa_22
+shuffle,1,43,fold1,siswa_24,siswa_6
+shuffle,1,45,fold1,siswa_25,siswa_3
+shuffle,1,48,fold1,siswa_26,siswa_26
+shuffle,1,52,fold1,siswa_3,siswa_63
+shuffle,1,56,fold1,siswa_33,siswa_22
+shuffle,1,62,fold1,siswa_34,siswa_47
+shuffle,1,67,fold1,siswa_35,siswa_53
+shuffle,1,71,fold1,siswa_36,siswa_43
+shuffle,1,74,fold1,siswa_37,siswa_3
+shuffle,1,76,fold1,siswa_38,siswa_53
+shuffle,1,83,fold1,siswa_39,siswa_59
+shuffle,1,84,fold1,siswa_4,siswa_4
+shuffle,1,90,fold1,siswa_40,siswa_40
+shuffle,1,92,fold1,siswa_41,siswa_22
+shuffle,1,99,fold1,siswa_42,siswa_40
+shuffle,1,100,fold1,siswa_43,siswa_20
+shuffle,1,104,fold1,siswa_44,siswa_7
+shuffle,1,109,fold1,siswa_45,siswa_41
+shuffle,1,112,fold1,siswa_46,siswa_22
+shuffle,1,116,fold1,siswa_47,siswa_46
+shuffle,1,121,fold1,siswa_49,siswa_41
+shuffle,1,124,fold1,siswa_50,siswa_44
+shuffle,1,128,fold1,siswa_51,siswa_35
+shuffle,1,135,fold1,siswa_52,siswa_53
+shuffle,1,139,fold1,siswa_53,siswa_43
+shuffle,1,142,fold1,siswa_54,siswa_52
+shuffle,1,146,fold1,siswa_55,siswa_35
+shuffle,1,150,fold1,siswa_56,siswa_22
+shuffle,1,155,fold1,siswa_57,siswa_64
+shuffle,1,159,fold1,siswa_58,siswa_36
+shuffle,1,163,fold1,siswa_59,siswa_3
+shuffle,1,165,fold1,siswa_6,siswa_53
+shuffle,1,170,fold1,siswa_60,siswa_40
+shuffle,1,173,fold1,siswa_61,siswa_7
+shuffle,1,178,fold1,siswa_62,siswa_63
+shuffle,1,181,fold1,siswa_63,siswa_43
+shuffle,1,185,fold1,siswa_64,siswa_64
+shuffle,1,189,fold1,siswa_7,siswa_22
+shuffle,1,193,fold1,siswa_8,siswa_4
+shuffle,1,198,fold1,siswa_9,siswa_44
+shuffle,2,2,fold1,siswa_10,siswa_25
+shuffle,2,6,fold1,siswa_11,siswa_25
+shuffle,2,9,fold1,siswa_12,siswa_25
+shuffle,2,13,fold1,siswa_16,siswa_16
+shuffle,2,18,fold1,siswa_17,siswa_59
+shuffle,2,20,fold1,siswa_18,siswa_24
+shuffle,2,27,fold1,siswa_19,siswa_26
+shuffle,2,28,fold1,siswa_2,siswa_4
+shuffle,2,34,fold1,siswa_20,siswa_8
+shuffle,2,36,fold1,siswa_22,siswa_39
+shuffle,2,43,fold1,siswa_24,siswa_3
+shuffle,2,45,fold1,siswa_25,siswa_4
+shuffle,2,48,fold1,siswa_26,siswa_26
+shuffle,2,52,fold1,siswa_3,siswa_63
+shuffle,2,56,fold1,siswa_33,siswa_57
+shuffle,2,62,fold1,siswa_34,siswa_34
+shuffle,2,67,fold1,siswa_35,siswa_22
+shuffle,2,71,fold1,siswa_36,siswa_24
+shuffle,2,74,fold1,siswa_37,siswa_24
+shuffle,2,76,fold1,siswa_38,siswa_38
+shuffle,2,83,fold1,siswa_39,siswa_54
+shuffle,2,84,fold1,siswa_4,siswa_4
+shuffle,2,90,fold1,siswa_40,siswa_40
+shuffle,2,92,fold1,siswa_41,siswa_22
+shuffle,2,99,fold1,siswa_42,siswa_40
+shuffle,2,100,fold1,siswa_43,siswa_38
+shuffle,2,104,fold1,siswa_44,siswa_7
+shuffle,2,109,fold1,siswa_45,siswa_16
+shuffle,2,112,fold1,siswa_46,siswa_41
+shuffle,2,116,fold1,siswa_47,siswa_42
+shuffle,2,121,fold1,siswa_49,siswa_41
+shuffle,2,124,fold1,siswa_50,siswa_45
+shuffle,2,128,fold1,siswa_51,siswa_57
+shuffle,2,135,fold1,siswa_52,siswa_54
+shuffle,2,139,fold1,siswa_53,siswa_8
+shuffle,2,142,fold1,siswa_54,siswa_52
+shuffle,2,146,fold1,siswa_55,siswa_59
+shuffle,2,150,fold1,siswa_56,siswa_22
+shuffle,2,155,fold1,siswa_57,siswa_40
+shuffle,2,159,fold1,siswa_58,siswa_43
+shuffle,2,163,fold1,siswa_59,siswa_24
+shuffle,2,165,fold1,siswa_6,siswa_26
+shuffle,2,170,fold1,siswa_60,siswa_64
+shuffle,2,173,fold1,siswa_61,siswa_7
+shuffle,2,178,fold1,siswa_62,siswa_26
+shuffle,2,181,fold1,siswa_63,siswa_6
+shuffle,2,185,fold1,siswa_64,siswa_40
+shuffle,2,189,fold1,siswa_7,siswa_62
+shuffle,2,193,fold1,siswa_8,siswa_3
+shuffle,2,198,fold1,siswa_9,siswa_25
+shuffle,42,0,fold2,siswa_10,siswa_44
+shuffle,42,4,fold2,siswa_11,siswa_18
+shuffle,42,10,fold2,siswa_12,siswa_58
+shuffle,42,12,fold2,siswa_16,siswa_16
+shuffle,42,17,fold2,siswa_17,siswa_43
+shuffle,42,21,fold2,siswa_18,siswa_18
+shuffle,42,26,fold2,siswa_19,siswa_58
+shuffle,42,30,fold2,siswa_2,siswa_9
+shuffle,42,35,fold2,siswa_20,siswa_52
+shuffle,42,38,fold2,siswa_22,siswa_35
+shuffle,42,40,fold2,siswa_24,siswa_37
+shuffle,42,44,fold2,siswa_25,siswa_18
+shuffle,42,51,fold2,siswa_26,siswa_3
+shuffle,42,55,fold2,siswa_3,siswa_3
+shuffle,42,57,fold2,siswa_33,siswa_56
+shuffle,42,60,fold2,siswa_34,siswa_46
+shuffle,42,64,fold2,siswa_35,siswa_44
+shuffle,42,68,fold2,siswa_36,siswa_37
+shuffle,42,75,fold2,siswa_37,siswa_8
+shuffle,42,79,fold2,siswa_38,siswa_54
+shuffle,42,82,fold2,siswa_39,siswa_18
+shuffle,42,87,fold2,siswa_4,siswa_4
+shuffle,42,89,fold2,siswa_40,siswa_40
+shuffle,42,93,fold2,siswa_41,siswa_34
+shuffle,42,98,fold2,siswa_42,siswa_42
+shuffle,42,102,fold2,siswa_43,siswa_42
+shuffle,42,107,fold2,siswa_44,siswa_10
+shuffle,42,110,fold2,siswa_45,siswa_50
+shuffle,42,114,fold2,siswa_46,siswa_34
+shuffle,42,118,fold2,siswa_47,siswa_61
+shuffle,42,123,fold2,siswa_49,siswa_45
+shuffle,42,125,fold2,siswa_50,siswa_11
+shuffle,42,131,fold2,siswa_51,siswa_47
+shuffle,42,134,fold2,siswa_52,siswa_52
+shuffle,42,137,fold2,siswa_53,siswa_60
+shuffle,42,141,fold2,siswa_54,siswa_38
+shuffle,42,147,fold2,siswa_55,siswa_22
+shuffle,42,148,fold2,siswa_56,siswa_18
+shuffle,42,152,fold2,siswa_57,siswa_57
+shuffle,42,156,fold2,siswa_58,siswa_52
+shuffle,42,161,fold2,siswa_59,siswa_59
+shuffle,42,164,fold2,siswa_6,siswa_26
+shuffle,42,169,fold2,siswa_60,siswa_41
+shuffle,42,172,fold2,siswa_61,siswa_47
+shuffle,42,177,fold2,siswa_62,siswa_51
+shuffle,42,182,fold2,siswa_63,siswa_63
+shuffle,42,184,fold2,siswa_64,siswa_42
+shuffle,42,190,fold2,siswa_7,siswa_45
+shuffle,42,192,fold2,siswa_8,siswa_8
+shuffle,42,199,fold2,siswa_9,siswa_10
+shuffle,1,0,fold2,siswa_10,siswa_10
+shuffle,1,4,fold2,siswa_11,siswa_18
+shuffle,1,10,fold2,siswa_12,siswa_47
+shuffle,1,12,fold2,siswa_16,siswa_16
+shuffle,1,17,fold2,siswa_17,siswa_3
+shuffle,1,21,fold2,siswa_18,siswa_18
+shuffle,1,26,fold2,siswa_19,siswa_58
+shuffle,1,30,fold2,siswa_2,siswa_2
+shuffle,1,35,fold2,siswa_20,siswa_52
+shuffle,1,38,fold2,siswa_22,siswa_46
+shuffle,1,40,fold2,siswa_24,siswa_58
+shuffle,1,44,fold2,siswa_25,siswa_2
+shuffle,1,51,fold2,siswa_26,siswa_6
+shuffle,1,55,fold2,siswa_3,siswa_54
+shuffle,1,57,fold2,siswa_33,siswa_56
+shuffle,1,60,fold2,siswa_34,siswa_46
+shuffle,1,64,fold2,siswa_35,siswa_34
+shuffle,1,68,fold2,siswa_36,siswa_25
+shuffle,1,75,fold2,siswa_37,siswa_37
+shuffle,1,79,fold2,siswa_38,siswa_54
+shuffle,1,82,fold2,siswa_39,siswa_4
+shuffle,1,87,fold2,siswa_4,siswa_4
+shuffle,1,89,fold2,siswa_40,siswa_57
+shuffle,1,93,fold2,siswa_41,siswa_41
+shuffle,1,98,fold2,siswa_42,siswa_35
+shuffle,1,102,fold2,siswa_43,siswa_60
+shuffle,1,107,fold2,siswa_44,siswa_44
+shuffle,1,110,fold2,siswa_45,siswa_46
+shuffle,1,114,fold2,siswa_46,siswa_34
+shuffle,1,118,fold2,siswa_47,siswa_61
+shuffle,1,123,fold2,siswa_49,siswa_10
+shuffle,1,125,fold2,siswa_50,siswa_41
+shuffle,1,131,fold2,siswa_51,siswa_44
+shuffle,1,134,fold2,siswa_52,siswa_6
+shuffle,1,137,fold2,siswa_53,siswa_52
+shuffle,1,141,fold2,siswa_54,siswa_38
+shuffle,1,147,fold2,siswa_55,siswa_37
+shuffle,1,148,fold2,siswa_56,siswa_41
+shuffle,1,152,fold2,siswa_57,siswa_34
+shuffle,1,156,fold2,siswa_58,siswa_52
+shuffle,1,161,fold2,siswa_59,siswa_4
+shuffle,1,164,fold2,siswa_6,siswa_3
+shuffle,1,169,fold2,siswa_60,siswa_61
+shuffle,1,172,fold2,siswa_61,siswa_11
+shuffle,1,177,fold2,siswa_62,siswa_49
+shuffle,1,182,fold2,siswa_63,siswa_63
+shuffle,1,184,fold2,siswa_64,siswa_51
+shuffle,1,190,fold2,siswa_7,siswa_7
+shuffle,1,192,fold2,siswa_8,siswa_53
+shuffle,1,199,fold2,siswa_9,siswa_10
+shuffle,2,0,fold2,siswa_10,siswa_7
+shuffle,2,4,fold2,siswa_11,siswa_61
+shuffle,2,10,fold2,siswa_12,siswa_47
+shuffle,2,12,fold2,siswa_16,siswa_16
+shuffle,2,17,fold2,siswa_17,siswa_38
+shuffle,2,21,fold2,siswa_18,siswa_4
+shuffle,2,26,fold2,siswa_19,siswa_24
+shuffle,2,30,fold2,siswa_2,siswa_4
+shuffle,2,35,fold2,siswa_20,siswa_60
+shuffle,2,38,fold2,siswa_22,siswa_44
+shuffle,2,40,fold2,siswa_24,siswa_24
+shuffle,2,44,fold2,siswa_25,siswa_2
+shuffle,2,51,fold2,siswa_26,siswa_3
+shuffle,2,55,fold2,siswa_3,siswa_3
+shuffle,2,57,fold2,siswa_33,siswa_35
+shuffle,2,60,fold2,siswa_34,siswa_46
+shuffle,2,64,fold2,siswa_35,siswa_22
+shuffle,2,68,fold2,siswa_36,siswa_37
+shuffle,2,75,fold2,siswa_37,siswa_38
+shuffle,2,79,fold2,siswa_38,siswa_54
+shuffle,2,82,fold2,siswa_39,siswa_39
+shuffle,2,87,fold2,siswa_4,siswa_4
+shuffle,2,89,fold2,siswa_40,siswa_40
+shuffle,2,93,fold2,siswa_41,siswa_42
+shuffle,2,98,fold2,siswa_42,siswa_46
+shuffle,2,102,fold2,siswa_43,siswa_43
+shuffle,2,107,fold2,siswa_44,siswa_34
+shuffle,2,110,fold2,siswa_45,siswa_55
+shuffle,2,114,fold2,siswa_46,siswa_64
+shuffle,2,118,fold2,siswa_47,siswa_61
+shuffle,2,123,fold2,siswa_49,siswa_45
+shuffle,2,125,fold2,siswa_50,siswa_2
+shuffle,2,131,fold2,siswa_51,siswa_47
+shuffle,2,134,fold2,siswa_52,siswa_52
+shuffle,2,137,fold2,siswa_53,siswa_38
+shuffle,2,141,fold2,siswa_54,siswa_53
+shuffle,2,147,fold2,siswa_55,siswa_37
+shuffle,2,148,fold2,siswa_56,siswa_18
+shuffle,2,152,fold2,siswa_57,siswa_57
+shuffle,2,156,fold2,siswa_58,siswa_52
+shuffle,2,161,fold2,siswa_59,siswa_59
+shuffle,2,164,fold2,siswa_6,siswa_63
+shuffle,2,169,fold2,siswa_60,siswa_18
+shuffle,2,172,fold2,siswa_61,siswa_44
+shuffle,2,177,fold2,siswa_62,siswa_44
+shuffle,2,182,fold2,siswa_63,siswa_3
+shuffle,2,184,fold2,siswa_64,siswa_64
+shuffle,2,190,fold2,siswa_7,siswa_10
+shuffle,2,192,fold2,siswa_8,siswa_52
+shuffle,2,199,fold2,siswa_9,siswa_10
+shuffle,42,3,fold3,siswa_10,siswa_45
+shuffle,42,7,fold3,siswa_11,siswa_44
+shuffle,42,11,fold3,siswa_12,siswa_8
+shuffle,42,15,fold3,siswa_16,siswa_16
+shuffle,42,16,fold3,siswa_17,siswa_18
+shuffle,42,22,fold3,siswa_18,siswa_63
+shuffle,42,25,fold3,siswa_19,siswa_63
+shuffle,42,29,fold3,siswa_2,siswa_18
+shuffle,42,33,fold3,siswa_20,siswa_55
+shuffle,42,37,fold3,siswa_22,siswa_39
+shuffle,42,41,fold3,siswa_24,siswa_24
+shuffle,42,47,fold3,siswa_25,siswa_22
+shuffle,42,50,fold3,siswa_26,siswa_26
+shuffle,42,54,fold3,siswa_3,siswa_36
+shuffle,42,59,fold3,siswa_33,siswa_51
+shuffle,42,61,fold3,siswa_34,siswa_41
+shuffle,42,66,fold3,siswa_35,siswa_64
+shuffle,42,69,fold3,siswa_36,siswa_52
+shuffle,42,72,fold3,siswa_37,siswa_42
+shuffle,42,77,fold3,siswa_38,siswa_38
+shuffle,42,80,fold3,siswa_39,siswa_7
+shuffle,42,86,fold3,siswa_4,siswa_4
+shuffle,42,91,fold3,siswa_40,siswa_42
+shuffle,42,95,fold3,siswa_41,siswa_56
+shuffle,42,97,fold3,siswa_42,siswa_55
+shuffle,42,101,fold3,siswa_43,siswa_53
+shuffle,42,105,fold3,siswa_44,siswa_51
+shuffle,42,108,fold3,siswa_45,siswa_50
+shuffle,42,115,fold3,siswa_46,siswa_33
+shuffle,42,117,fold3,siswa_47,siswa_46
+shuffle,42,120,fold3,siswa_49,siswa_45
+shuffle,42,126,fold3,siswa_50,siswa_33
+shuffle,42,130,fold3,siswa_51,siswa_64
+shuffle,42,133,fold3,siswa_52,siswa_20
+shuffle,42,136,fold3,siswa_53,siswa_8
+shuffle,42,143,fold3,siswa_54,siswa_38
+shuffle,42,144,fold3,siswa_55,siswa_8
+shuffle,42,149,fold3,siswa_56,siswa_33
+shuffle,42,154,fold3,siswa_57,siswa_57
+shuffle,42,157,fold3,siswa_58,siswa_52
+shuffle,42,160,fold3,siswa_59,siswa_59
+shuffle,42,166,fold3,siswa_6,siswa_58
+shuffle,42,171,fold3,siswa_60,siswa_36
+shuffle,42,175,fold3,siswa_61,siswa_11
+shuffle,42,179,fold3,siswa_62,siswa_62
+shuffle,42,183,fold3,siswa_63,siswa_63
+shuffle,42,186,fold3,siswa_64,siswa_42
+shuffle,42,188,fold3,siswa_7,siswa_45
+shuffle,42,194,fold3,siswa_8,siswa_24
+shuffle,42,197,fold3,siswa_9,siswa_11
+shuffle,1,3,fold3,siswa_10,siswa_11
+shuffle,1,7,fold3,siswa_11,siswa_9
+shuffle,1,11,fold3,siswa_12,siswa_59
+shuffle,1,15,fold3,siswa_16,siswa_16
+shuffle,1,16,fold3,siswa_17,siswa_18
+shuffle,1,22,fold3,siswa_18,siswa_3
+shuffle,1,25,fold3,siswa_19,siswa_26
+shuffle,1,29,fold3,siswa_2,siswa_55
+shuffle,1,33,fold3,siswa_20,siswa_64
+shuffle,1,37,fold3,siswa_22,siswa_35
+shuffle,1,41,fold3,siswa_24,siswa_52
+shuffle,1,47,fold3,siswa_25,siswa_35
+shuffle,1,50,fold3,siswa_26,siswa_63
+shuffle,1,54,fold3,siswa_3,siswa_36
+shuffle,1,59,fold3,siswa_33,siswa_57
+shuffle,1,61,fold3,siswa_34,siswa_35
+shuffle,1,66,fold3,siswa_35,siswa_57
+shuffle,1,69,fold3,siswa_36,siswa_52
+shuffle,1,72,fold3,siswa_37,siswa_39
+shuffle,1,77,fold3,siswa_38,siswa_37
+shuffle,1,80,fold3,siswa_39,siswa_12
+shuffle,1,86,fold3,siswa_4,siswa_4
+shuffle,1,91,fold3,siswa_40,siswa_40
+shuffle,1,95,fold3,siswa_41,siswa_18
+shuffle,1,97,fold3,siswa_42,siswa_43
+shuffle,1,101,fold3,siswa_43,siswa_36
+shuffle,1,105,fold3,siswa_44,siswa_9
+shuffle,1,108,fold3,siswa_45,siswa_49
+shuffle,1,115,fold3,siswa_46,siswa_35
+shuffle,1,117,fold3,siswa_47,siswa_45
+shuffle,1,120,fold3,siswa_49,siswa_11
+shuffle,1,126,fold3,siswa_50,siswa_33
+shuffle,1,130,fold3,siswa_51,siswa_53
+shuffle,1,133,fold3,siswa_52,siswa_20
+shuffle,1,136,fold3,siswa_53,siswa_43
+shuffle,1,143,fold3,siswa_54,siswa_54
+shuffle,1,144,fold3,siswa_55,siswa_37
+shuffle,1,149,fold3,siswa_56,siswa_33
+shuffle,1,154,fold3,siswa_57,siswa_64
+shuffle,1,157,fold3,siswa_58,siswa_20
+shuffle,1,160,fold3,siswa_59,siswa_8
+shuffle,1,166,fold3,siswa_6,siswa_52
+shuffle,1,171,fold3,siswa_60,siswa_19
+shuffle,1,175,fold3,siswa_61,siswa_47
+shuffle,1,179,fold3,siswa_62,siswa_62
+shuffle,1,183,fold3,siswa_63,siswa_63
+shuffle,1,186,fold3,siswa_64,siswa_42
+shuffle,1,188,fold3,siswa_7,siswa_11
+shuffle,1,194,fold3,siswa_8,siswa_55
+shuffle,1,197,fold3,siswa_9,siswa_11
+shuffle,2,3,fold3,siswa_10,siswa_22
+shuffle,2,7,fold3,siswa_11,siswa_56
+shuffle,2,11,fold3,siswa_12,siswa_37
+shuffle,2,15,fold3,siswa_16,siswa_16
+shuffle,2,16,fold3,siswa_17,siswa_60
+shuffle,2,22,fold3,siswa_18,siswa_2
+shuffle,2,25,fold3,siswa_19,siswa_63
+shuffle,2,29,fold3,siswa_2,siswa_63
+shuffle,2,33,fold3,siswa_20,siswa_35
+shuffle,2,37,fold3,siswa_22,siswa_39
+shuffle,2,41,fold3,siswa_24,siswa_40
+shuffle,2,47,fold3,siswa_25,siswa_22
+shuffle,2,50,fold3,siswa_26,siswa_63
+shuffle,2,54,fold3,siswa_3,siswa_36
+shuffle,2,59,fold3,siswa_33,siswa_51
+shuffle,2,61,fold3,siswa_34,siswa_41
+shuffle,2,66,fold3,siswa_35,siswa_64
+shuffle,2,69,fold3,siswa_36,siswa_38
+shuffle,2,72,fold3,siswa_37,siswa_39
+shuffle,2,77,fold3,siswa_38,siswa_38
+shuffle,2,80,fold3,siswa_39,siswa_61
+shuffle,2,86,fold3,siswa_4,siswa_4
+shuffle,2,91,fold3,siswa_40,siswa_40
+shuffle,2,95,fold3,siswa_41,siswa_60
+shuffle,2,97,fold3,siswa_42,siswa_41
+shuffle,2,101,fold3,siswa_43,siswa_17
+shuffle,2,105,fold3,siswa_44,siswa_49
+shuffle,2,108,fold3,siswa_45,siswa_33
+shuffle,2,115,fold3,siswa_46,siswa_34
+shuffle,2,117,fold3,siswa_47,siswa_46
+shuffle,2,120,fold3,siswa_49,siswa_22
+shuffle,2,126,fold3,siswa_50,siswa_53
+shuffle,2,130,fold3,siswa_51,siswa_53
+shuffle,2,133,fold3,siswa_52,siswa_38
+shuffle,2,136,fold3,siswa_53,siswa_64
+shuffle,2,143,fold3,siswa_54,siswa_38
+shuffle,2,144,fold3,siswa_55,siswa_24
+shuffle,2,149,fold3,siswa_56,siswa_33
+shuffle,2,154,fold3,siswa_57,siswa_40
+shuffle,2,157,fold3,siswa_58,siswa_24
+shuffle,2,160,fold3,siswa_59,siswa_38
+shuffle,2,166,fold3,siswa_6,siswa_38
+shuffle,2,171,fold3,siswa_60,siswa_43
+shuffle,2,175,fold3,siswa_61,siswa_47
+shuffle,2,179,fold3,siswa_62,siswa_62
+shuffle,2,183,fold3,siswa_63,siswa_63
+shuffle,2,186,fold3,siswa_64,siswa_42
+shuffle,2,188,fold3,siswa_7,siswa_61
+shuffle,2,194,fold3,siswa_8,siswa_53
+shuffle,2,197,fold3,siswa_9,siswa_11
+shuffle,42,1,fold4,siswa_10,siswa_9
+shuffle,42,5,fold4,siswa_11,siswa_61
+shuffle,42,8,fold4,siswa_12,siswa_49
+shuffle,42,14,fold4,siswa_16,siswa_16
+shuffle,42,19,fold4,siswa_17,siswa_38
+shuffle,42,23,fold4,siswa_18,siswa_17
+shuffle,42,24,fold4,siswa_19,siswa_24
+shuffle,42,31,fold4,siswa_2,siswa_45
+shuffle,42,32,fold4,siswa_20,siswa_8
+shuffle,42,39,fold4,siswa_22,siswa_47
+shuffle,42,42,fold4,siswa_24,siswa_19
+shuffle,42,46,fold4,siswa_25,siswa_51
+shuffle,42,49,fold4,siswa_26,siswa_6
+shuffle,42,53,fold4,siswa_3,siswa_4
+shuffle,42,58,fold4,siswa_33,siswa_33
+shuffle,42,63,fold4,siswa_34,siswa_64
+shuffle,42,65,fold4,siswa_35,siswa_34
+shuffle,42,70,fold4,siswa_36,siswa_6
+shuffle,42,73,fold4,siswa_37,siswa_37
+shuffle,42,78,fold4,siswa_38,siswa_36
+shuffle,42,81,fold4,siswa_39,siswa_49
+shuffle,42,85,fold4,siswa_4,siswa_4
+shuffle,42,88,fold4,siswa_40,siswa_40
+shuffle,42,94,fold4,siswa_41,siswa_41
+shuffle,42,96,fold4,siswa_42,siswa_64
+shuffle,42,103,fold4,siswa_43,siswa_43
+shuffle,42,106,fold4,siswa_44,siswa_11
+shuffle,42,111,fold4,siswa_45,siswa_49
+shuffle,42,113,fold4,siswa_46,siswa_33
+shuffle,42,119,fold4,siswa_47,siswa_61
+shuffle,42,122,fold4,siswa_49,siswa_34
+shuffle,42,127,fold4,siswa_50,siswa_33
+shuffle,42,129,fold4,siswa_51,siswa_33
+shuffle,42,132,fold4,siswa_52,siswa_24
+shuffle,42,138,fold4,siswa_53,siswa_53
+shuffle,42,140,fold4,siswa_54,siswa_52
+shuffle,42,145,fold4,siswa_55,siswa_54
+shuffle,42,151,fold4,siswa_56,siswa_42
+shuffle,42,153,fold4,siswa_57,siswa_42
+shuffle,42,158,fold4,siswa_58,siswa_24
+shuffle,42,162,fold4,siswa_59,siswa_8
+shuffle,42,167,fold4,siswa_6,siswa_6
+shuffle,42,168,fold4,siswa_60,siswa_38
+shuffle,42,174,fold4,siswa_61,siswa_58
+shuffle,42,176,fold4,siswa_62,siswa_4
+shuffle,42,180,fold4,siswa_63,siswa_63
+shuffle,42,187,fold4,siswa_64,siswa_64
+shuffle,42,191,fold4,siswa_7,siswa_49
+shuffle,42,195,fold4,siswa_8,siswa_59
+shuffle,42,196,fold4,siswa_9,siswa_49
+shuffle,1,1,fold4,siswa_10,siswa_9
+shuffle,1,5,fold4,siswa_11,siswa_49
+shuffle,1,8,fold4,siswa_12,siswa_16
+shuffle,1,14,fold4,siswa_16,siswa_16
+shuffle,1,19,fold4,siswa_17,siswa_20
+shuffle,1,23,fold4,siswa_18,siswa_56
+shuffle,1,24,fold4,siswa_19,siswa_24
+shuffle,1,31,fold4,siswa_2,siswa_45
+shuffle,1,32,fold4,siswa_20,siswa_54
+shuffle,1,39,fold4,siswa_22,siswa_46
+shuffle,1,42,fold4,siswa_24,siswa_52
+shuffle,1,46,fold4,siswa_25,siswa_22
+shuffle,1,49,fold4,siswa_26,siswa_26
+shuffle,1,53,fold4,siswa_3,siswa_3
+shuffle,1,58,fold4,siswa_33,siswa_33
+shuffle,1,63,fold4,siswa_34,siswa_34
+shuffle,1,65,fold4,siswa_35,siswa_34
+shuffle,1,70,fold4,siswa_36,siswa_58
+shuffle,1,73,fold4,siswa_37,siswa_55
+shuffle,1,78,fold4,siswa_38,siswa_43
+shuffle,1,81,fold4,siswa_39,siswa_39
+shuffle,1,85,fold4,siswa_4,siswa_4
+shuffle,1,88,fold4,siswa_40,siswa_40
+shuffle,1,94,fold4,siswa_41,siswa_41
+shuffle,1,96,fold4,siswa_42,siswa_46
+shuffle,1,103,fold4,siswa_43,siswa_43
+shuffle,1,106,fold4,siswa_44,siswa_11
+shuffle,1,111,fold4,siswa_45,siswa_49
+shuffle,1,113,fold4,siswa_46,siswa_46
+shuffle,1,119,fold4,siswa_47,siswa_61
+shuffle,1,122,fold4,siswa_49,siswa_34
+shuffle,1,127,fold4,siswa_50,siswa_33
+shuffle,1,129,fold4,siswa_51,siswa_33
+shuffle,1,132,fold4,siswa_52,siswa_6
+shuffle,1,138,fold4,siswa_53,siswa_53
+shuffle,1,140,fold4,siswa_54,siswa_36
+shuffle,1,145,fold4,siswa_55,siswa_53
+shuffle,1,151,fold4,siswa_56,siswa_57
+shuffle,1,153,fold4,siswa_57,siswa_64
+shuffle,1,158,fold4,siswa_58,siswa_24
+shuffle,1,162,fold4,siswa_59,siswa_54
+shuffle,1,167,fold4,siswa_6,siswa_6
+shuffle,1,168,fold4,siswa_60,siswa_36
+shuffle,1,174,fold4,siswa_61,siswa_12
+shuffle,1,176,fold4,siswa_62,siswa_4
+shuffle,1,180,fold4,siswa_63,siswa_26
+shuffle,1,187,fold4,siswa_64,siswa_64
+shuffle,1,191,fold4,siswa_7,siswa_49
+shuffle,1,195,fold4,siswa_8,siswa_36
+shuffle,1,196,fold4,siswa_9,siswa_49
+shuffle,2,1,fold4,siswa_10,siswa_9
+shuffle,2,5,fold4,siswa_11,siswa_11
+shuffle,2,8,fold4,siswa_12,siswa_16
+shuffle,2,14,fold4,siswa_16,siswa_16
+shuffle,2,19,fold4,siswa_17,siswa_37
+shuffle,2,23,fold4,siswa_18,siswa_38
+shuffle,2,24,fold4,siswa_19,siswa_60
+shuffle,2,31,fold4,siswa_2,siswa_45
+shuffle,2,32,fold4,siswa_20,siswa_52
+shuffle,2,39,fold4,siswa_22,siswa_22
+shuffle,2,42,fold4,siswa_24,siswa_19
+shuffle,2,46,fold4,siswa_25,siswa_22
+shuffle,2,49,fold4,siswa_26,siswa_6
+shuffle,2,53,fold4,siswa_3,siswa_26
+shuffle,2,58,fold4,siswa_33,siswa_52
+shuffle,2,63,fold4,siswa_34,siswa_34
+shuffle,2,65,fold4,siswa_35,siswa_33
+shuffle,2,70,fold4,siswa_36,siswa_63
+shuffle,2,73,fold4,siswa_37,siswa_37
+shuffle,2,78,fold4,siswa_38,siswa_43
+shuffle,2,81,fold4,siswa_39,siswa_22
+shuffle,2,85,fold4,siswa_4,siswa_4
+shuffle,2,88,fold4,siswa_40,siswa_42
+shuffle,2,94,fold4,siswa_41,siswa_41
+shuffle,2,96,fold4,siswa_42,siswa_46
+shuffle,2,103,fold4,siswa_43,siswa_43
+shuffle,2,106,fold4,siswa_44,siswa_50
+shuffle,2,111,fold4,siswa_45,siswa_56
+shuffle,2,113,fold4,siswa_46,siswa_46
+shuffle,2,119,fold4,siswa_47,siswa_61
+shuffle,2,122,fold4,siswa_49,siswa_41
+shuffle,2,127,fold4,siswa_50,siswa_35
+shuffle,2,129,fold4,siswa_51,siswa_42
+shuffle,2,132,fold4,siswa_52,siswa_60
+shuffle,2,138,fold4,siswa_53,siswa_64
+shuffle,2,140,fold4,siswa_54,siswa_52
+shuffle,2,145,fold4,siswa_55,siswa_53
+shuffle,2,151,fold4,siswa_56,siswa_42
+shuffle,2,153,fold4,siswa_57,siswa_64
+shuffle,2,158,fold4,siswa_58,siswa_24
+shuffle,2,162,fold4,siswa_59,siswa_54
+shuffle,2,167,fold4,siswa_6,siswa_43
+shuffle,2,168,fold4,siswa_60,siswa_38
+shuffle,2,174,fold4,siswa_61,siswa_55
+shuffle,2,176,fold4,siswa_62,siswa_4
+shuffle,2,180,fold4,siswa_63,siswa_26
+shuffle,2,187,fold4,siswa_64,siswa_64
+shuffle,2,191,fold4,siswa_7,siswa_11
+shuffle,2,195,fold4,siswa_8,siswa_52
+shuffle,2,196,fold4,siswa_9,siswa_10

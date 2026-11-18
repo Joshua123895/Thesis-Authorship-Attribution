@@ -1,0 +1,231 @@
+START 17/11/2026 16:52:01,39 
+cuda True
+keep-awake on (closing the lid can still sleep the laptop)
+device: cuda
+[question groups] fold grp1: inner sweep (validation = grp2)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 10053.07it/s]
+      epoch  5  loss 3.0165  acc  16.0
+      epoch 10  loss 1.5882  acc  24.0
+      epoch 20  loss 0.3893  acc  28.0
+      epoch 30  loss 0.1806  acc  26.0
+      epoch 40  loss 0.1130  acc  28.0
+[question groups] fold grp1: epoch budget 20 (validation acc 28.0)
+[question groups] fold grp1: refit seed 42, 20 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 10223.87it/s]
+      epoch 20  loss 0.3068  acc  48.0
+[question groups] fold grp1: refit seed 1, 20 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 12544.96it/s]
+      epoch 20  loss 0.2655  acc  44.0
+[question groups] fold grp1: refit seed 2, 20 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 12524.63it/s]
+      epoch 20  loss 0.2593  acc  40.0
+[question groups] fold grp2: inner sweep (validation = grp3)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 7819.04it/s]
+      epoch  5  loss 3.0191  acc  20.0
+      epoch 10  loss 1.5960  acc  28.0
+      epoch 20  loss 0.4001  acc  32.0
+      epoch 30  loss 0.1855  acc  34.0
+      epoch 40  loss 0.1168  acc  32.0
+[question groups] fold grp2: epoch budget 30 (validation acc 34.0)
+[question groups] fold grp2: refit seed 42, 30 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 10793.99it/s]
+      epoch 30  loss 0.1266  acc  32.0
+[question groups] fold grp2: refit seed 1, 30 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 12692.62it/s]
+START 18/11/2026 12:45:09,35 
+cuda True
+keep-awake on (closing the lid can still sleep the laptop)
+device: cuda
+[question groups] fold grp1: epoch budget 20 (validation acc 28.0)
+[question groups] fold grp2: epoch budget 30 (validation acc 34.0)
+[question groups] fold grp2: refit seed 1, 30 epochs
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 22667.60it/s]
+      epoch 30  loss 0.1319  acc  36.0
+[question groups] fold grp2: refit seed 2, 30 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 20110.99it/s]
+      epoch 30  loss 0.1238  acc  34.0
+[question groups] fold grp3: inner sweep (validation = grp4)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 16292.85it/s]
+      epoch  5  loss 3.0061  acc  22.0
+      epoch 10  loss 1.6285  acc  28.0
+      epoch 20  loss 0.4087  acc  32.0
+      epoch 30  loss 0.1871  acc  30.0
+      epoch 40  loss 0.1179  acc  32.0
+[question groups] fold grp3: epoch budget 20 (validation acc 32.0)
+[question groups] fold grp3: refit seed 42, 20 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 24406.88it/s]
+      epoch 20  loss 0.2875  acc  50.0
+[question groups] fold grp3: refit seed 1, 20 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 22703.36it/s]
+      epoch 20  loss 0.3658  acc  50.0
+[question groups] fold grp3: refit seed 2, 20 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 16374.04it/s]
+      epoch 20  loss 0.2592  acc  42.0
+[question groups] fold grp4: inner sweep (validation = grp1)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 18032.81it/s]
+      epoch  5  loss 3.0053  acc  14.0
+      epoch 10  loss 1.5378  acc  24.0
+      epoch 20  loss 0.3845  acc  22.0
+      epoch 30  loss 0.1771  acc  28.0
+      epoch 40  loss 0.1136  acc  28.0
+[question groups] fold grp4: epoch budget 30 (validation acc 28.0)
+[question groups] fold grp4: refit seed 42, 30 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 15017.12it/s]
+      epoch 30  loss 0.1226  acc  38.0
+[question groups] fold grp4: refit seed 1, 30 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 20362.69it/s]
+      epoch 30  loss 0.1461  acc  50.0
+[question groups] fold grp4: refit seed 2, 30 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 17423.73it/s]
+      epoch 30  loss 0.1243  acc  24.0
+[question groups] finished in 1.4 h
+      condition  n_seed_fold                 epochs_per_fold  acc_mean  acc_std_seeds  acc_std_folds  f1_mean
+question groups           12 grp1:20 grp2:30 grp3:20 grp4:30      40.7            5.1            6.7     32.9
+[topic held out] fold Lifestyle: inner sweep (validation = Olahraga)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 18335.45it/s]
+      epoch  5  loss 3.2133  acc   8.0
+      epoch 10  loss 1.9484  acc  14.0
+      epoch 20  loss 0.4963  acc  16.0
+      epoch 30  loss 0.2140  acc  16.0
+      epoch 40  loss 0.1279  acc  16.0
+[topic held out] fold Lifestyle: epoch budget 20 (validation acc 16.0)
+[topic held out] fold Lifestyle: refit seed 42, 20 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 20166.38it/s]
+      epoch 20  loss 0.3742  acc  14.0
+[topic held out] fold Lifestyle: refit seed 1, 20 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 23299.74it/s]
+      epoch 20  loss 0.3066  acc  10.0
+[topic held out] fold Lifestyle: refit seed 2, 20 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 20105.18it/s]
+      epoch 20  loss 0.4412  acc  16.0
+[topic held out] fold Olahraga: inner sweep (validation = Politik)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 21306.10it/s]
+      epoch  5  loss 3.2134  acc   6.0
+      epoch 10  loss 2.0630  acc  14.0
+      epoch 20  loss 0.5373  acc  12.0
+      epoch 30  loss 0.2190  acc  12.0
+      epoch 40  loss 0.1284  acc  12.0
+[topic held out] fold Olahraga: epoch budget 10 (validation acc 14.0)
+[topic held out] fold Olahraga: refit seed 42, 10 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 23034.81it/s]
+      epoch 10  loss 1.9107  acc  24.0
+[topic held out] fold Olahraga: refit seed 1, 10 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 19542.19it/s]
+      epoch 10  loss 2.2113  acc  18.0
+[topic held out] fold Olahraga: refit seed 2, 10 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 19001.65it/s]
+      epoch 10  loss 2.5363  acc  18.0
+[topic held out] fold Politik: inner sweep (validation = Teknologi)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 19180.24it/s]
+      epoch  5  loss 3.2186  acc   8.0
+      epoch 10  loss 1.9425  acc  10.0
+      epoch 20  loss 0.4883  acc   8.0
+      epoch 30  loss 0.2049  acc  12.0
+      epoch 40  loss 0.1240  acc  10.0
+[topic held out] fold Politik: epoch budget 30 (validation acc 12.0)
+[topic held out] fold Politik: refit seed 42, 30 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 18928.82it/s]
+      epoch 30  loss 0.1381  acc  10.0
+[topic held out] fold Politik: refit seed 1, 30 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 20743.76it/s]
+      epoch 30  loss 0.1612  acc   8.0
+[topic held out] fold Politik: refit seed 2, 30 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 26592.75it/s]
+      epoch 30  loss 0.1575  acc  10.0
+[topic held out] fold Teknologi: inner sweep (validation = Lifestyle)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 17593.41it/s]
+      epoch  5  loss 3.3067  acc  10.0
+      epoch 10  loss 1.9081  acc   8.0
+      epoch 20  loss 0.4818  acc  12.0
+      epoch 30  loss 0.2056  acc  12.0
+      epoch 40  loss 0.1249  acc  12.0
+[topic held out] fold Teknologi: epoch budget 20 (validation acc 12.0)
+[topic held out] fold Teknologi: refit seed 42, 20 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 20458.52it/s]
+      epoch 20  loss 0.3628  acc  20.0
+[topic held out] fold Teknologi: refit seed 1, 20 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 21433.58it/s]
+      epoch 20  loss 0.5821  acc  16.0
+[topic held out] fold Teknologi: refit seed 2, 20 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 26049.14it/s]
+      epoch 20  loss 0.4529  acc  20.0
+[topic held out] finished in 1.8 h
+      condition  n_seed_fold                                  epochs_per_fold  acc_mean  acc_std_seeds  acc_std_folds  f1_mean
+question groups           12                  grp1:20 grp2:30 grp3:20 grp4:30      40.7            5.1            6.7     32.9
+ topic held out           12 Lifestyle:20 Olahraga:10 Politik:30 Teknologi:20      15.3            2.1            4.4      9.9
+[shuffle] fold fold1: inner sweep (validation = fold2)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 23349.27it/s]
+      epoch  5  loss 3.0453  acc  12.0
+      epoch 10  loss 1.5583  acc  12.0
+      epoch 20  loss 0.3620  acc  10.0
+      epoch 30  loss 0.1718  acc  10.0
+      epoch 40  loss 0.1085  acc  10.0
+[shuffle] fold fold1: epoch budget 5 (validation acc 12.0)
+[shuffle] fold fold1: refit seed 42, 5 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 23827.87it/s]
+      epoch  5  loss 2.9529  acc  10.0
+[shuffle] fold fold1: refit seed 1, 5 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 20259.39it/s]
+      epoch  5  loss 2.9445  acc  10.0
+[shuffle] fold fold1: refit seed 2, 5 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 24087.11it/s]
+      epoch  5  loss 2.9084  acc  12.0
+[shuffle] fold fold2: inner sweep (validation = fold3)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 20077.61it/s]
+      epoch  5  loss 2.9248  acc   8.0
+      epoch 10  loss 1.4754  acc  12.0
+      epoch 20  loss 0.3701  acc  14.0
+      epoch 30  loss 0.1724  acc  14.0
+      epoch 40  loss 0.1084  acc  16.0
+[shuffle] fold fold2: epoch budget 40 (validation acc 16.0)
+[shuffle] fold fold2: refit seed 42, 40 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 20209.35it/s]
+      epoch 40  loss 0.0766  acc  22.0
+[shuffle] fold fold2: refit seed 1, 40 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 23896.09it/s]
+      epoch 40  loss 0.0838  acc  20.0
+[shuffle] fold fold2: refit seed 2, 40 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 20057.83it/s]
+      epoch 40  loss 0.0776  acc  22.0
+[shuffle] fold fold3: inner sweep (validation = fold4)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 18556.39it/s]
+      epoch  5  loss 2.9374  acc   4.0
+      epoch 10  loss 1.4998  acc  18.0
+      epoch 20  loss 0.3694  acc  18.0
+      epoch 30  loss 0.1798  acc  16.0
+      epoch 40  loss 0.1127  acc  18.0
+[shuffle] fold fold3: epoch budget 10 (validation acc 18.0)
+[shuffle] fold fold3: refit seed 42, 10 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 19351.44it/s]
+      epoch 10  loss 1.4033  acc  18.0
+[shuffle] fold fold3: refit seed 1, 10 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 12425.81it/s]
+      epoch 10  loss 1.3827  acc  12.0
+[shuffle] fold fold3: refit seed 2, 10 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 14379.40it/s]
+      epoch 10  loss 1.1565  acc  12.0
+[shuffle] fold fold4: inner sweep (validation = fold1)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 17083.52it/s]
+      epoch  5  loss 3.0294  acc  10.0
+      epoch 10  loss 1.5987  acc  14.0
+      epoch 20  loss 0.3814  acc  14.0
+      epoch 30  loss 0.1813  acc  14.0
+      epoch 40  loss 0.1142  acc  12.0
+[shuffle] fold fold4: epoch budget 10 (validation acc 14.0)
+[shuffle] fold fold4: refit seed 42, 10 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 18059.34it/s]
+      epoch 10  loss 1.5219  acc  22.0
+[shuffle] fold fold4: refit seed 1, 10 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 13975.16it/s]
+      epoch 10  loss 1.3803  acc  28.0
+[shuffle] fold fold4: refit seed 2, 10 epochs
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 199/199 [00:00<00:00, 19394.16it/s]
+      epoch 10  loss 1.1486  acc  20.0
+[shuffle] finished in 1.6 h
+      condition  n_seed_fold                                  epochs_per_fold  acc_mean  acc_std_seeds  acc_std_folds  f1_mean
+question groups           12                  grp1:20 grp2:30 grp3:20 grp4:30      40.7            5.1            6.7     32.9
+        shuffle           12               fold1:5 fold2:40 fold3:10 fold4:10      17.3            0.8            5.5     12.9
+ topic held out           12 Lifestyle:20 Olahraga:10 Politik:30 Teknologi:20      15.3            2.1            4.4      9.9
+EXIT 0 18/11/2026 17:30:23,99 
